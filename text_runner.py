@@ -300,6 +300,9 @@ def render_game(stdscr):
             return index
 
         def choose_option(self, options, player):
+            # adding a line since choosing breaks stuff
+            from hearthbreaker.cards.base import Card
+
             self.window.addstr(0, 0, "Choose option")
             index = 0
             selected = 0

@@ -115,6 +115,34 @@ class FreezingTrap(SecretCard):
             attacker.card.add_buff(Buff(ManaChange(2)))
             super().reveal()
 
+# simulating Pressure Plate, let's see if it works
+# it works!
+class Pressure(SecretCard):
+    def __init__(self):
+        super().__init__("Pressure", 2, CHARACTER_CLASS.HUNTER, CARD_RARITY.RARE)
+
+    def use(self, player, game):
+        super().use(player, game)
+        targets = hearthbreaker.targeting.find_enemy_minion_battlecry_target(player.game, lambda x: True)
+        target = game.random_choice(targets)
+        target.die(None)
+        game.check_delayed()
+
+    # check to see that you can actually kill something
+    def can_use(self, player, game):
+        return super().can_use(player, game) and len(game.other_player.minions) >= 1
+
+    def _reveal(self, card, index):
+        if card.is_spell():
+            # card.cancel = True
+            # reveal should kill a minion
+            super().reveal()
+
+    def activate(self, player):
+        player.game.current_player.bind("card_played", self._reveal)
+
+    def deactivate(self, player):
+        player.game.current_player.unbind("card_played", self._reveal)
 
 class Misdirection(SecretCard):
     def __init__(self):

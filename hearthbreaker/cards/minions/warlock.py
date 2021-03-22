@@ -32,6 +32,13 @@ class PitLord(MinionCard):
     def create_minion(self, player):
         return Minion(5, 6)
 
+# creating custom minions is easy!
+class DickCheese(MinionCard):
+    def __init__(self):
+        super().__init__("DickCheese", 1, CHARACTER_CLASS.WARLOCK, CARD_RARITY.FREE, minion_type=MINION_TYPE.DEMON)
+
+    def create_minion(self, player):
+        return Minion(1, 3, taunt=True)
 
 class Voidwalker(MinionCard):
     def __init__(self):
