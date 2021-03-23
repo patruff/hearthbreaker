@@ -140,10 +140,19 @@ class TestReplay(unittest.TestCase):
 
     def test_recording_game(self):
         self.maxDiff = None
-        random.seed(9876)
+        # change random to a certain seed to reproduce the replay
+        #random.seed(9876)
 
-        deck1name = "pat_freeze_mage.hsdeck"
-        deck2name = "pat_midrange_druid.hsdeck"
+        random.seed()
+
+        deck1name = "pat_face_hunter.hsdeck"
+        deck2name = "pat_zoolock.hsdeck"
+
+        # below decks work, will try hunter v zoolock above
+        #deck1name = "pat_freeze_mage.hsdeck"
+        #deck2name = "pat_midrange_druid.hsdeck"
+
+
         # testing custom decks
         # need to convert card names to the actual functions
         deck1 = self.load_deck(deck1name)
@@ -196,8 +205,24 @@ class TestReplay(unittest.TestCase):
         # so get the move before
         last_move = replay_json['moves'][-2]
 
+        # above works fine, need to filter based on results
+        # will take a sample of 10 different replays
+
+        print("the last move is {}".format(last_move))
+
         # it depends on the last move, we need to check for different situations
-        # if last_move['character']:
+        # first situation is a minion killing a player
+
+        if last_move['character']:
+            print(last_move['character'])
+            # minion could be 0
+            if last_move['character']['minion'] is not None:
+                if last_move['target']['player']:
+                    dead_player = str(last_move['target']['player'])
+
+                    print("player {} died".format(dead_player))
+                    with open('pat_who_wins.txt', mode='a') as f:
+                        print(dead_player, file=f)
 
 
         # END OF 2021_3_15 new stuff
