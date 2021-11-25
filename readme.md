@@ -24,6 +24,10 @@ Usage
 Hearthbreaker is compatible with [Python](https://www.python.org/) 3.2+ and [PyPy3](http://pypy.org/) 2.3+ on any
 operating system that supports them.
 
+### Pat edits
+
+So you can grab your replays from HSReplays.net by going to the main page (My Replays) and then looking at the most recent 100 replays (I think this is all it stores). Grab those xml by first getting the list of XMLs (you can just COPY+PASTE the HTML and then scrape it). So for example, I'll COPY+PASTE the HTML and then I'll run the python script BLAH to scrape the replay IDs. Then with the replay IDs I can use Selenium to grab the XMLs. Then I can put these XML replays into the replay folder. From there I can convert these to Hearthsim replays (TBD).
+
 ### Console Application
 
 ![Console Screenshot](http://danielyule.github.io/hearthbreaker/_static/console_screenshot.png)
