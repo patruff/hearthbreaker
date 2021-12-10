@@ -26,7 +26,28 @@ operating system that supports them.
 
 ### Pat edits
 
-So you can grab your replays from HSReplays.net by going to the main page (My Replays) and then looking at the most recent 100 replays (I think this is all it stores). Grab those xml by first getting the list of XMLs (you can just COPY+PASTE the HTML and then scrape it). So for example, I'll COPY+PASTE the HTML and then I'll run the python script BLAH to scrape the replay IDs. Then with the replay IDs I can use Selenium to grab the XMLs. Then I can put these XML replays into the replay folder. From there I can convert these to Hearthsim replays (TBD).
+So you can grab your replays from HSReplays.net by going to the main page (My Replays) and then right click and "Inspect" the HTML so you're looking at the most recent 100 replays (I think this is all it stores). Grab those xml by first getting the list of XMLs (you can just COPY+PASTE the HTML and then scrape it).
+So for example, I'll COPY+PASTE the HTML (you can right click at the highest level and Edit HTML, then just copy all of that) and then copy that HTML with the 100 replays into the main project folder.
+From there you just run ```python download_latest_hsnet_replays.py``` to scrape the replay IDs. 
+Then with the replay IDs I can use Selenium to grab the XMLs by running ```python download_replay_selenium.py``` which works
+off of the file created by the other script. One troubleshooting step is that I was getting an error from my PyCharm IDE
+(something like a unicode error, so just go into File->Settings->Editor and make sure the Encodings for the Project 
+and globally are just UTF-8).
+
+### Pat edits 2
+
+So after fixing the bug that caused Selenium to crash, the scripts are getting the replays pretty well. The next step
+is to take the replays (in XML format) and to scrape the name of the opponent and add them to a database. I'm thinking of
+putting the database into a docker container (it might be easier to work with). So you can just create the database in a container
+and then from there see the most recent data (it'll just populate whenever the container is spun up).
+
+* need docker
+* need to get a simple database (can use MongoDB noSQL DB)
+* then need to scrape the XML and convert to JSON
+* then need to put the scraped XML into the database
+
+this looks promising https://ishmeet1995.medium.com/how-to-create-restful-crud-api-with-python-flask-mongodb-and-docker-8f6ccb73c5bc
+
 
 ### Console Application
 

@@ -1,6 +1,7 @@
 # import module
 from selenium import webdriver
 import time
+import os.path
 
 # Create the webdriver object. Here the
 # chromedriver is present in the driver
@@ -16,6 +17,11 @@ with open('replay_strings.txt') as file:
     for replay_name in file:
         stripped_replay = replay_name.rstrip()
         good_replay_name = "https://hsreplay.net/replay/" + replay_name.rstrip()
+
+        final_replay_path = "./hsreplays_xml/" + stripped_replay + ".xml"
+
+        if (os.path.exists(final_replay_path)):
+            continue
 
         driver.get(good_replay_name)
 
