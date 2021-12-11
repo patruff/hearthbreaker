@@ -48,6 +48,17 @@ and then from there see the most recent data (it'll just populate whenever the c
 
 this looks promising https://ishmeet1995.medium.com/how-to-create-restful-crud-api-with-python-flask-mongodb-and-docker-8f6ccb73c5bc
 
+so got their code and also got Docker
+the database is working (I downloaded that tool MongoDB Compass and I can use it in read-only mode)
+to connect use the address mongodb://localhost:5000
+
+So we have a database!
+
+Next need to scrap the XML and convert to JSON
+
+Something like
+
+
 
 ### Console Application
 
