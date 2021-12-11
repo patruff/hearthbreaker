@@ -1,10 +1,12 @@
 # Step 1 select default OS image
-FROM alpine
 
-
+FROM ubuntu:14.04.4
+FROM ubuntu:14.04.4
+RUN apt-get update && apt-get install -y apt-transport-https
+RUN apt-get install -y python3-pip
 # # Step 2 tell what you want to do
 
-RUN apk add --no-cache python3-dev && pip3 install --upgrade pip
+# RUN apk add --no-cache python3-dev && pip install --upgrade pip
 
 # # Step 3 Configure a software
 # # Defining working directory
