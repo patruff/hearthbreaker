@@ -58,7 +58,14 @@ Next need to scrap the XML and convert to JSON
 
 Something like
 
+Fixed those original Docker files (they had errors), but to get the API working, just run ```docker-compose build```
+And then ```docker-compose up``` from the /docker folder
 
+### Pat edits 3
+
+So got the XML parsing working to pick up my cards and the opponent's cards. Right now need to go ahead and get more
+replays since I only have 100 (well, should have 400 after this). So got the HTML (manually), ran download_latest_hsnet_replays.net,
+then will run download_replay_selenium.py until I have all 400 replays in the folder.
 
 ### Console Application
 

@@ -20,7 +20,7 @@ with open('replay_strings.txt') as file:
 
         final_replay_path = "./hsreplays_xml/" + stripped_replay + ".xml"
 
-        if (os.path.exists(final_replay_path)):
+        if os.path.exists(final_replay_path):
             continue
 
         driver.get(good_replay_name)
@@ -46,7 +46,7 @@ with open('replay_strings.txt') as file:
                 page_text = driver.find_element_by_tag_name('body').text
                 # print(page_text)
 
-                text_file = open("./hsreplays_xml/" + stripped_replay + ".xml", "w")
+                text_file = open("./hsreplays_xml/" + stripped_replay + ".xml", "w", encoding='utf-8')
                 n = text_file.write(page_text)
                 text_file.close()
 

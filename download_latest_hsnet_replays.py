@@ -4,7 +4,7 @@ import re
 count = 0
 id_string_list = []
 
-with open(os.path.join(os.path.dirname(__file__),"latest_replays.html"), 'r', encoding="utf8") as f:
+with open(os.path.join(os.path.dirname(__file__),"latest_replays4.html"), 'r', encoding="utf8") as f:
     html_text = f.read()
     html_split = html_text.split('a href="/replay/')
 
@@ -33,7 +33,9 @@ del id_string_list[0]
 print(id_string_list)
 print(str(len(id_string_list)))
 
-with open("replay_strings.txt", "w") as outfile:
-    outfile.write("\n".join(id_string_list))
+with open("replay_strings.txt", "a") as outfile:
+    strings = "\n".join(id_string_list)
+    good_strings = "\n" + strings
+    outfile.write(good_strings)
 
 # <a href="/replay/c58rH8jVsSAamnQnd8qnif" class=
