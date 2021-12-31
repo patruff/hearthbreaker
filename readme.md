@@ -67,6 +67,172 @@ So got the XML parsing working to pick up my cards and the opponent's cards. Rig
 replays since I only have 100 (well, should have 400 after this). So got the HTML (manually), ran download_latest_hsnet_replays.net,
 then will run download_replay_selenium.py until I have all 400 replays in the folder.
 
+### Pat edits 4
+
+Spent some more time looking into the XML parsing. There is a concept of turns, the XML basically loads up in chronological
+order and so you can know which player is which, which cards were the starting cards, and which cards were mulliganned
+(this will be a bit tricky, need to keep track of the original cards and the cards drawn and see the difference).
+
+My rough notes on this are below:
+
+Hearthstone XML notes (how replays work)
+
+Example matchup is me as Miracle Rogue V. Chris6 as a Druid
+Replay is: 
+https://hsreplay.net/replay/4EUDoPi8WskTsCDJGiLm6G
+
+XML seems to track the game turn by turn
+
+Me: 
+
+First 3 cards (mulligan choice)
+
+Shiv
+Backstab
+Preparation
+
+	I decided to put mulligan Backstab and Preparation
+
+Next card from the XML is…
+
+Deadly poison (so it’s still counting my deck, I mulliganed 2 cards and this is the first new card)
+
+Shadowstep (2nd new card from mulligan)
+
+Since I’m first, I draw…
+
+Gadgetzan Auctioneer (my first drawn card on turn 1 with 1 mana)
+
+
+Opponent: now it’s his turn and I see NOTHING in the XML (since has hasn’t played anything yet as a druid with 1 mana)
+
+
+Me (turn 2): The XML NOW has my first drawn card (when I have 2 mana)
+
+Azure Drake (card 7 in the XML)
+
+CS2_082_H1 is next, basically, the rogue hero power was used (my turn after he passes his 1 mana turn)
+
+Opponent (turn 2): So then he uses his own hero power as Druid, CS2_017o
+
+Me (turn 3): Then shadowstep is drawn
+	VAN_EX1_144
+
+I hit with the weapon (it doesn’t show up in the XML again)
+
+Then I see SI:7 agent in the XML
+
+VAN_EX1_134
+
+
+This is after I had played Shiv from my hand which doesn’t show up in the XML, just the card drawn (this is my turn 3, I have 1 mana after playing Shiv)
+
+Opponent (turn 3): His turn 3 he hero powers again (this shows up) as before CS2_017o
+
+
+Me (turn 4): I draw Leeroy on my turn 4
+
+VAN_EX1_116
+
+Then I use my hero power again
+
+CS2_082_H1
+
+(that ends my turn 4)
+
+Opponent (turn 4): Now his turn with 4 mana, he plays a Yeti
+
+VAN_CS2_182
+
+Me (turn 5): Now it’s my turn 5, I draw a cold blood
+
+VAN_CS2_073
+
+Then I play a Deadly Poison
+
+CS2_074e
+
+Then I play an SI:7 Agent 
+
+VAN_EX1_134
+
+
+ At this point I’m wondering if I can determine MY plays by looking to see…
+
+So I can’t see HIS mulligan (without some more digging) but I can infer MY mulligan pretty easily (basically
+
+
+So for specific cards it will first list which entity is playing them
+For example, in this replay, the Game is entity 1, I as a player am entity 2, and my opponent is entity 3
+
+<TagChange entity="2" tag="467" value="1"/>
+<ShowEntity entity="19" cardID="VAN_EX1_144">
+
+So you can see TagChange PRIOR to ShowEntity is showing entity 2 (meaning I was the one who drew the card)
+
+
+
+Similarly for the opponent when he plays the Yeti
+
+<TagChange entity="3" tag="25" value="4"/>
+<TagChange entity="3" tag="418" value="8"/>
+<TagChange entity="3" tag="269" value="1"/>
+<TagChange entity="3" tag="317" value="1"/>
+<TagChange entity="75" tag="263" value="0"/>
+<ShowEntity entity="75" cardID="VAN_CS2_182">
+
+
+You can see entity = 3 but not entity = 2 meaning he played the Yeti
+
+
+I checked another replay where I go 2nd and sure enough I am entity id=3 in that one and not entity id = 2
+
+https://hsreplay.net/replay/GPFAbQzkavyvmYtGJPDrbi
+
+
+So can put in if entity id = 2, they are the “first player”
+
+In the other replay when I go 2nd, and show up as entity id=3, you can see after all my mulliganing the coin
+
+<TagChange entity="3" tag="272" value="1"/>
+<FullEntity id="68" cardID="GAME_005">
+
+
+Interestingly in that game my starting hand is
+
+Coldblood, Preparation, Backstab, Preparation
+
+I mulliganed Coldblood and Backstab
+
+So the first card AFTER the coin (which I guess is given AFTER the mulligan) is…
+
+Eviscerate, the first card drawn after mulliganing
+
+
+This means that IF player id is 3 we can see the original 4 cards AND those that were mulliganed (well, we can see the cards that were drawn anyway AFTER the mulligan)
+
+So we can at least get a count of the cards mulliganed
+
+These new cards must replace old cards too so if you mulligan all 4 cards, you’d know that all 4 were mulliganed
+
+Might need more digging for mulligan choices
+
+OH I KNOW
+
+Could infer the mulliganed card
+
+Keep a list of
+
+	Drawn cards (can know this since each turn you draw a card)
+
+	Then look at “starting cards” (if player is second player, then starting cards are the first 4 cards)
+
+
+And EVENTUALLY we look at cards drawn V. cards played (
+
+	Entity
+	Turn?
+
 ### Console Application
 
 ![Console Screenshot](http://danielyule.github.io/hearthbreaker/_static/console_screenshot.png)

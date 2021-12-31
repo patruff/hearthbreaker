@@ -1,0 +1,4593 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<HSReplay version="1.7" build="127581">
+<Game id="191515" type="7" format="3" scenarioID="2" ts="2021-12-27T12:46:07.045930-05:00">
+<GameEntity id="1">
+<Tag tag="202" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="1"/>
+<Tag tag="937" value="2"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="2042" value="343389367"/>
+</GameEntity>
+<Player id="2" playerID="1" accountHi="144115193835963207" accountLo="42419858" name="burdening#6226" legendRank="38" cardback="157">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="2"/>
+<Tag tag="30" value="1"/>
+<Tag tag="27" value="84"/>
+<Tag tag="28" value="10"/>
+<Tag tag="29" value="4"/>
+<Tag tag="31" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="2"/>
+<Tag tag="176" value="10"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="2324" value="345"/>
+</Player>
+<Player id="3" playerID="2" accountHi="144115193835963207" accountLo="26876288" name="patruff#11779" legendRank="120" cardback="157">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="2"/>
+<Tag tag="30" value="2"/>
+<Tag tag="27" value="86"/>
+<Tag tag="28" value="10"/>
+<Tag tag="29" value="4"/>
+<Tag tag="31" value="2"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="3"/>
+<Tag tag="176" value="10"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="2324" value="332"/>
+<Deck>
+<Card id="VAN_EX1_166"/>
+<Card id="VAN_EX1_166"/>
+<Card id="VAN_CS2_012"/>
+<Card id="VAN_CS2_012"/>
+<Card id="VAN_EX1_165"/>
+<Card id="VAN_EX1_165"/>
+<Card id="VAN_EX1_161"/>
+<Card id="VAN_EX1_161"/>
+<Card id="VAN_NEW1_008"/>
+<Card id="VAN_NEW1_008"/>
+<Card id="VAN_EX1_154"/>
+<Card id="VAN_EX1_154"/>
+<Card id="VAN_NEW1_020"/>
+<Card id="VAN_EX1_012"/>
+<Card id="VAN_EX1_571"/>
+<Card id="VAN_EX1_571"/>
+<Card id="VAN_EX1_096"/>
+<Card id="VAN_EX1_096"/>
+<Card id="VAN_CS2_011"/>
+<Card id="VAN_CS2_011"/>
+<Card id="VAN_CS2_179"/>
+<Card id="VAN_CS2_179"/>
+<Card id="VAN_EX1_169"/>
+<Card id="VAN_EX1_169"/>
+<Card id="VAN_CS2_013"/>
+<Card id="VAN_CS2_013"/>
+<Card id="VAN_EX1_556"/>
+<Card id="VAN_EX1_556"/>
+<Card id="VAN_EX1_178"/>
+<Card id="VAN_EX1_178"/>
+</Deck>
+</Player>
+<FullEntity id="4">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="4"/>
+</FullEntity>
+<FullEntity id="5">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="5"/>
+</FullEntity>
+<FullEntity id="6">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="6"/>
+</FullEntity>
+<FullEntity id="7">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="7"/>
+</FullEntity>
+<FullEntity id="8">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="8"/>
+</FullEntity>
+<FullEntity id="9">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="9"/>
+</FullEntity>
+<FullEntity id="10">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="10"/>
+</FullEntity>
+<FullEntity id="11">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="11"/>
+</FullEntity>
+<FullEntity id="12">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="12"/>
+</FullEntity>
+<FullEntity id="13">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="13"/>
+</FullEntity>
+<FullEntity id="14">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="14"/>
+</FullEntity>
+<FullEntity id="15">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="15"/>
+</FullEntity>
+<FullEntity id="16">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="16"/>
+</FullEntity>
+<FullEntity id="17">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="17"/>
+</FullEntity>
+<FullEntity id="18">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="18"/>
+</FullEntity>
+<FullEntity id="19">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="19"/>
+</FullEntity>
+<FullEntity id="20">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="20"/>
+</FullEntity>
+<FullEntity id="21">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="21"/>
+</FullEntity>
+<FullEntity id="22">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="22"/>
+</FullEntity>
+<FullEntity id="23">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="23"/>
+</FullEntity>
+<FullEntity id="24">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="24"/>
+</FullEntity>
+<FullEntity id="25">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="25"/>
+</FullEntity>
+<FullEntity id="26">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="26"/>
+</FullEntity>
+<FullEntity id="27">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="27"/>
+</FullEntity>
+<FullEntity id="28">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="28"/>
+</FullEntity>
+<FullEntity id="29">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="29"/>
+</FullEntity>
+<FullEntity id="30">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="30"/>
+</FullEntity>
+<FullEntity id="31">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="31"/>
+</FullEntity>
+<FullEntity id="32">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="32"/>
+</FullEntity>
+<FullEntity id="33">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="33"/>
+</FullEntity>
+<FullEntity id="34">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="34"/>
+</FullEntity>
+<FullEntity id="35">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="35"/>
+</FullEntity>
+<FullEntity id="36" cardID="VAN_EX1_166a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="4"/>
+<Tag tag="48" value="4"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="36"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="35"/>
+<Tag tag="316" value="35"/>
+<Tag tag="1284" value="69873"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="37" cardID="VAN_EX1_166b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="4"/>
+<Tag tag="48" value="4"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="37"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="35"/>
+<Tag tag="316" value="35"/>
+<Tag tag="339" value="1"/>
+<Tag tag="1284" value="69873"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="38">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="38"/>
+</FullEntity>
+<FullEntity id="39">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="39"/>
+</FullEntity>
+<FullEntity id="40" cardID="VAN_EX1_178b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="7"/>
+<Tag tag="48" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="40"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="39"/>
+<Tag tag="316" value="39"/>
+<Tag tag="1284" value="69875"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="41" cardID="VAN_EX1_178a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="7"/>
+<Tag tag="48" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="41"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="39"/>
+<Tag tag="316" value="39"/>
+<Tag tag="1284" value="69875"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="42">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="42"/>
+</FullEntity>
+<FullEntity id="43" cardID="VAN_EX1_154a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="2"/>
+<Tag tag="48" value="2"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="43"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="42"/>
+<Tag tag="316" value="42"/>
+<Tag tag="1284" value="69865"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="44" cardID="VAN_EX1_154b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="2"/>
+<Tag tag="48" value="2"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="44"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="42"/>
+<Tag tag="316" value="42"/>
+<Tag tag="1284" value="69865"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="45">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="45"/>
+</FullEntity>
+<FullEntity id="46">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="46"/>
+</FullEntity>
+<FullEntity id="47">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="47"/>
+</FullEntity>
+<FullEntity id="48" cardID="VAN_EX1_165a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="48"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="313" value="47"/>
+<Tag tag="316" value="47"/>
+<Tag tag="1284" value="69872"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="49" cardID="VAN_EX1_165b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="49"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="313" value="47"/>
+<Tag tag="316" value="47"/>
+<Tag tag="1284" value="69872"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="50">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="50"/>
+</FullEntity>
+<FullEntity id="51" cardID="VAN_EX1_166a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="4"/>
+<Tag tag="48" value="4"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="51"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="50"/>
+<Tag tag="316" value="50"/>
+<Tag tag="1284" value="69873"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="52" cardID="VAN_EX1_166b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="4"/>
+<Tag tag="48" value="4"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="52"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="50"/>
+<Tag tag="316" value="50"/>
+<Tag tag="339" value="1"/>
+<Tag tag="1284" value="69873"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="53">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="53"/>
+</FullEntity>
+<FullEntity id="54">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="54"/>
+</FullEntity>
+<FullEntity id="55">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="55"/>
+</FullEntity>
+<FullEntity id="56">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="56"/>
+</FullEntity>
+<FullEntity id="57">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="57"/>
+</FullEntity>
+<FullEntity id="58">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="58"/>
+</FullEntity>
+<FullEntity id="59" cardID="VAN_EX1_178b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="7"/>
+<Tag tag="48" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="59"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="58"/>
+<Tag tag="316" value="58"/>
+<Tag tag="1284" value="69875"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="60" cardID="VAN_EX1_178a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="7"/>
+<Tag tag="48" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="60"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="58"/>
+<Tag tag="316" value="58"/>
+<Tag tag="1284" value="69875"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="61">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="61"/>
+</FullEntity>
+<FullEntity id="62" cardID="VAN_NEW1_008a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="7"/>
+<Tag tag="48" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="62"/>
+<Tag tag="313" value="61"/>
+<Tag tag="316" value="61"/>
+<Tag tag="858" value="313"/>
+<Tag tag="1284" value="70077"/>
+<Tag tag="1413" value="313"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="63" cardID="VAN_NEW1_008b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="7"/>
+<Tag tag="48" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="63"/>
+<Tag tag="313" value="61"/>
+<Tag tag="316" value="61"/>
+<Tag tag="1284" value="70077"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="64">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="64"/>
+</FullEntity>
+<FullEntity id="65" cardID="VAN_EX1_154a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="2"/>
+<Tag tag="48" value="2"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="65"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="64"/>
+<Tag tag="316" value="64"/>
+<Tag tag="1284" value="69865"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="66" cardID="VAN_EX1_154b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="2"/>
+<Tag tag="48" value="2"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="66"/>
+<Tag tag="201" value="3"/>
+<Tag tag="313" value="64"/>
+<Tag tag="316" value="64"/>
+<Tag tag="1284" value="69865"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="67">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="67"/>
+</FullEntity>
+<FullEntity id="68">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="68"/>
+</FullEntity>
+<FullEntity id="69">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="69"/>
+</FullEntity>
+<FullEntity id="70">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="70"/>
+</FullEntity>
+<FullEntity id="71">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="71"/>
+</FullEntity>
+<FullEntity id="72">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="72"/>
+</FullEntity>
+<FullEntity id="73" cardID="VAN_EX1_165a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="73"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="313" value="72"/>
+<Tag tag="316" value="72"/>
+<Tag tag="1284" value="69872"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="74" cardID="VAN_EX1_165b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="74"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="313" value="72"/>
+<Tag tag="316" value="72"/>
+<Tag tag="1284" value="69872"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="75">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="75"/>
+</FullEntity>
+<FullEntity id="76">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="76"/>
+</FullEntity>
+<FullEntity id="77">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="77"/>
+</FullEntity>
+<FullEntity id="78">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="78"/>
+</FullEntity>
+<FullEntity id="79">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="79"/>
+</FullEntity>
+<FullEntity id="80" cardID="VAN_NEW1_008a">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="7"/>
+<Tag tag="48" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="80"/>
+<Tag tag="313" value="79"/>
+<Tag tag="316" value="79"/>
+<Tag tag="858" value="313"/>
+<Tag tag="1284" value="70077"/>
+<Tag tag="1413" value="313"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="81" cardID="VAN_NEW1_008b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="7"/>
+<Tag tag="48" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="81"/>
+<Tag tag="313" value="79"/>
+<Tag tag="316" value="79"/>
+<Tag tag="1284" value="70077"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="82">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="82"/>
+</FullEntity>
+<FullEntity id="83">
+<Tag tag="49" value="2"/>
+<Tag tag="50" value="2"/>
+<Tag tag="53" value="83"/>
+</FullEntity>
+<FullEntity id="84" cardID="HERO_07">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="3"/>
+<Tag tag="45" value="30"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="84"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="2"/>
+<Tag tag="380" value="300"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="85" cardID="HERO_07bp">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="10"/>
+<Tag tag="466" value="2"/>
+<Tag tag="48" value="2"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="85"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="2"/>
+<Tag tag="313" value="84"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1086" value="2744"/>
+<Tag tag="1284" value="893"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="86" cardID="HERO_06f">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="3"/>
+<Tag tag="45" value="30"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="86"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="4"/>
+<Tag tag="380" value="69989"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<FullEntity id="87" cardID="HERO_06fbp">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="10"/>
+<Tag tag="466" value="2"/>
+<Tag tag="48" value="2"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="87"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="2"/>
+<Tag tag="313" value="86"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1086" value="69990"/>
+<Tag tag="1284" value="69988"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<TagChange entity="1" tag="204" value="2"/>
+<TagChange entity="2" tag="17" value="1"/>
+<TagChange entity="3" tag="17" value="1"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:46:07.045930-05:00">
+<TagChange entity="2" tag="23" value="1"/>
+<TagChange entity="2" tag="24" value="1"/>
+<TagChange entity="1" tag="20" value="1"/>
+<TagChange entity="2" tag="2323" value="1"/>
+<TagChange entity="2" tag="2166" value="30"/>
+<TagChange entity="2" tag="467" value="3"/>
+<TagChange entity="30" tag="49" value="3"/>
+<TagChange entity="30" tag="263" value="1"/>
+<TagChange entity="2" tag="2166" value="32"/>
+<TagChange entity="2" tag="467" value="2"/>
+<TagChange entity="32" tag="49" value="3"/>
+<TagChange entity="32" tag="263" value="2"/>
+<TagChange entity="2" tag="2166" value="19"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="19" tag="49" value="3"/>
+<TagChange entity="19" tag="263" value="3"/>
+<TagChange entity="2" tag="467" value="0"/>
+<TagChange entity="2" tag="272" value="1"/>
+<TagChange entity="3" tag="2323" value="2"/>
+<TagChange entity="3" tag="2166" value="76"/>
+<TagChange entity="3" tag="467" value="4"/>
+<ShowEntity entity="76" cardID="VAN_CS2_179">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="4"/>
+<Tag tag="479" value="3"/>
+<Tag tag="48" value="4"/>
+<Tag tag="47" value="3"/>
+<Tag tag="45" value="5"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="76"/>
+<Tag tag="190" value="1"/>
+<Tag tag="201" value="1"/>
+<Tag tag="203" value="2"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="635"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="635"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="76" tag="263" value="1"/>
+<TagChange entity="3" tag="2166" value="70"/>
+<TagChange entity="3" tag="467" value="3"/>
+<ShowEntity entity="70" cardID="VAN_EX1_012">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="2"/>
+<Tag tag="479" value="1"/>
+<Tag tag="48" value="2"/>
+<Tag tag="47" value="1"/>
+<Tag tag="45" value="1"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="70"/>
+<Tag tag="114" value="1"/>
+<Tag tag="192" value="1"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="5"/>
+<Tag tag="217" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="749"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="749"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="70" tag="263" value="2"/>
+<TagChange entity="3" tag="2166" value="69"/>
+<TagChange entity="3" tag="467" value="2"/>
+<ShowEntity entity="69" cardID="VAN_NEW1_020">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="2"/>
+<Tag tag="479" value="3"/>
+<Tag tag="48" value="2"/>
+<Tag tag="47" value="3"/>
+<Tag tag="45" value="2"/>
+<Tag tag="32" value="1"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="69"/>
+<Tag tag="203" value="3"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="1014"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="1014"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="69" tag="263" value="3"/>
+<TagChange entity="3" tag="2166" value="46"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="46" cardID="VAN_CS2_012">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="4"/>
+<Tag tag="48" value="4"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="46"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="2"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="64"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="64"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="46" tag="263" value="4"/>
+<TagChange entity="3" tag="467" value="0"/>
+<TagChange entity="3" tag="272" value="1"/>
+<FullEntity id="88" cardID="GAME_005">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="88"/>
+<Tag tag="263" value="5"/>
+<Tag tag="313" value="1"/>
+<Tag tag="1107" value="1"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="2088" value="1"/>
+</FullEntity>
+<TagChange entity="2" tag="7" value="45"/>
+<TagChange entity="3" tag="7" value="45"/>
+<TagChange entity="1" tag="10" value="85"/>
+<TagChange entity="1" tag="198" value="4"/>
+</Block>
+<TagChange entity="1" tag="19" value="4"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:46:07.325946-05:00">
+<TagChange entity="2" tag="305" value="1"/>
+<Choices entity="2" id="1" taskList="4" type="1" min="0" max="3" source="1" ts="2021-12-27T12:46:07.359945-05:00">
+<Choice index="0" entity="30"/>
+<Choice index="1" entity="32"/>
+<Choice index="2" entity="19"/>
+</Choices>
+<TagChange entity="3" tag="305" value="1"/>
+<Choices entity="3" id="2" taskList="5" type="1" min="0" max="5" source="1" ts="2021-12-27T12:46:07.427126-05:00">
+<Choice index="0" entity="76"/>
+<Choice index="1" entity="70"/>
+<Choice index="2" entity="69"/>
+<Choice index="3" entity="46"/>
+<Choice index="4" entity="88"/>
+</Choices>
+<SendChoices id="2" type="1" ts="2021-12-27T12:46:47.084668-05:00">
+<Choice index="0" entity="69"/>
+<Choice index="1" entity="46"/>
+</SendChoices>
+<ChosenEntities entity="3" id="2" ts="2021-12-27T12:46:47.318839-05:00">
+<Choice index="0" entity="69"/>
+<Choice index="1" entity="46"/>
+</ChosenEntities>
+</Block>
+<TagChange entity="3" tag="305" value="2"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="7" ts="2021-12-27T12:46:47.453215-05:00">
+<ShowEntity entity="47" cardID="VAN_EX1_165">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="5"/>
+<Tag tag="479" value="4"/>
+<Tag tag="48" value="5"/>
+<Tag tag="47" value="4"/>
+<Tag tag="45" value="4"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="47"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="443" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="692"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="692"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="47" tag="263" value="1"/>
+<TagChange entity="76" tag="1068" value="2"/>
+<TagChange entity="76" tag="1068" value="0"/>
+<TagChange entity="76" tag="1037" value="2"/>
+<TagChange entity="76" tag="263" value="0"/>
+<TagChange entity="76" tag="1043" value="0"/>
+<HideEntity entity="76" zone="2" ts="2021-12-27T12:46:47.453215-05:00"/>
+<TagChange entity="76" tag="49" value="2"/>
+<ShowEntity entity="82" cardID="VAN_EX1_096">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="2"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="2"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="1"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="82"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="217" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="251"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="251"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="82" tag="263" value="2"/>
+<TagChange entity="70" tag="1068" value="2"/>
+<TagChange entity="70" tag="1068" value="0"/>
+<TagChange entity="70" tag="1037" value="2"/>
+<TagChange entity="70" tag="263" value="0"/>
+<TagChange entity="70" tag="1043" value="0"/>
+<HideEntity entity="70" zone="2" ts="2021-12-27T12:46:47.453215-05:00"/>
+<TagChange entity="70" tag="49" value="2"/>
+<TagChange entity="3" tag="305" value="3"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="8" ts="2021-12-27T12:46:47.453215-05:00">
+<TagChange entity="3" tag="305" value="4"/>
+</Block>
+<ChosenEntities entity="2" id="1" ts="2021-12-27T12:46:53.195059-05:00"/>
+<TagChange entity="2" tag="305" value="2"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="7" ts="2021-12-27T12:46:53.594665-05:00">
+<TagChange entity="27" tag="49" value="3"/>
+<TagChange entity="27" tag="263" value="1"/>
+<TagChange entity="30" tag="263" value="0"/>
+<TagChange entity="30" tag="49" value="2"/>
+<TagChange entity="6" tag="49" value="3"/>
+<TagChange entity="6" tag="263" value="2"/>
+<TagChange entity="32" tag="263" value="0"/>
+<TagChange entity="32" tag="49" value="2"/>
+<TagChange entity="25" tag="49" value="3"/>
+<TagChange entity="25" tag="263" value="3"/>
+<TagChange entity="19" tag="263" value="0"/>
+<TagChange entity="19" tag="49" value="2"/>
+<TagChange entity="2" tag="305" value="3"/>
+</Block>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="8" ts="2021-12-27T12:46:53.594665-05:00">
+<TagChange entity="2" tag="305" value="4"/>
+<ShuffleDeck player_id="1"/>
+<ShuffleDeck player_id="2"/>
+<TagChange entity="2" tag="20" value="1"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:46:53.594665-05:00">
+<TagChange entity="1" tag="271" value="1"/>
+<TagChange entity="2" tag="271" value="1"/>
+<TagChange entity="3" tag="271" value="1"/>
+<TagChange entity="84" tag="271" value="1"/>
+<TagChange entity="85" tag="271" value="1"/>
+<TagChange entity="86" tag="271" value="1"/>
+<TagChange entity="87" tag="271" value="1"/>
+<TagChange entity="2" tag="26" value="1"/>
+<TagChange entity="1" tag="198" value="17"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:46:53.594665-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:46:53.594665-05:00">
+<TagChange entity="2" tag="2166" value="13"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="13" tag="49" value="3"/>
+<TagChange entity="13" tag="263" value="4"/>
+<TagChange entity="2" tag="399" value="1"/>
+<TagChange entity="2" tag="995" value="1"/>
+<TagChange entity="2" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:46:53.594665-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Block entity="25" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:06.874707-05:00">
+<TagChange entity="2" tag="2245" value="1"/>
+<TagChange entity="2" tag="25" value="1"/>
+<TagChange entity="2" tag="418" value="1"/>
+<TagChange entity="2" tag="269" value="1"/>
+<TagChange entity="2" tag="317" value="1"/>
+<TagChange entity="13" tag="263" value="3"/>
+<TagChange entity="25" tag="263" value="0"/>
+<ShowEntity entity="25" cardID="VAN_EX1_319">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="1"/>
+<Tag tag="479" value="3"/>
+<Tag tag="48" value="1"/>
+<Tag tag="47" value="3"/>
+<Tag tag="45" value="2"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="25"/>
+<Tag tag="200" value="15"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="218" value="1"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="1090"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="1090"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1965" value="1"/>
+</ShowEntity>
+<TagChange entity="25" tag="263" value="1"/>
+<TagChange entity="25" tag="1196" value="1"/>
+<TagChange entity="25" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="25"/>
+</MetaData>
+<Block entity="25" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:06.874707-05:00">
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="84"/>
+</MetaData>
+<TagChange entity="84" tag="2187" value="25"/>
+<TagChange entity="84" tag="318" value="3"/>
+<TagChange entity="84" tag="1173" value="84"/>
+<TagChange entity="84" tag="2187" value="0"/>
+<TagChange entity="84" tag="318" value="0"/>
+<TagChange entity="84" tag="1173" value="0"/>
+<TagChange entity="84" tag="318" value="3"/>
+<TagChange entity="84" tag="318" value="0"/>
+<MetaData meta="1" data="3" infoCount="1">
+<Info index="0" entity="84"/>
+</MetaData>
+<TagChange entity="84" tag="18" value="25"/>
+<TagChange entity="84" tag="44" value="3"/>
+<TagChange entity="2" tag="464" value="3"/>
+<TagChange entity="2" tag="1575" value="1"/>
+<TagChange entity="2" tag="1573" value="1"/>
+</Block>
+<TagChange entity="2" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="1"/>
+<TagChange entity="2" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="25"/>
+</MetaData>
+<TagChange entity="25" tag="1196" value="0"/>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:08.380534-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:47:08.380534-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:08.380534-05:00">
+<TagChange entity="2" tag="1853" value="3"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:47:08.380534-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:08.380534-05:00"/>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:47:08.380534-05:00">
+<TagChange entity="25" tag="261" value="0"/>
+<TagChange entity="2" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:08.380534-05:00">
+<TagChange entity="2" tag="1292" value="1"/>
+<TagChange entity="2" tag="1292" value="0"/>
+<TagChange entity="3" tag="1292" value="1"/>
+<TagChange entity="2" tag="7" value="55"/>
+<TagChange entity="2" tag="23" value="0"/>
+<TagChange entity="3" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="2"/>
+<TagChange entity="1" tag="1882" value="1"/>
+<TagChange entity="3" tag="20" value="1"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:08.380534-05:00">
+<TagChange entity="1" tag="271" value="2"/>
+<TagChange entity="2" tag="271" value="2"/>
+<TagChange entity="3" tag="271" value="2"/>
+<TagChange entity="84" tag="271" value="2"/>
+<TagChange entity="85" tag="271" value="2"/>
+<TagChange entity="86" tag="271" value="2"/>
+<TagChange entity="87" tag="271" value="2"/>
+<TagChange entity="25" tag="271" value="1"/>
+<TagChange entity="3" tag="26" value="1"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="2" tag="464" value="0"/>
+<TagChange entity="2" tag="1575" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:47:08.380534-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:08.380534-05:00">
+<TagChange entity="3" tag="2166" value="55"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="55" cardID="VAN_EX1_161">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="1"/>
+<Tag tag="48" value="1"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="55"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="233"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="233"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="55" tag="263" value="6"/>
+<TagChange entity="3" tag="399" value="1"/>
+<TagChange entity="3" tag="995" value="1"/>
+<TagChange entity="55" tag="1570" value="2"/>
+<TagChange entity="3" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:08.380534-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Options id="3" ts="2021-12-27T12:47:08.480534-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="88" type="3"/>
+<Option index="2" entity="55" type="3">
+<Target index="0" entity="25"/>
+<Target index="1" entity="84" error="1"/>
+<Target index="2" entity="86" error="1"/>
+</Option>
+<Option index="3" entity="69" error="14" type="3"/>
+<Option index="4" entity="46" error="14" type="3"/>
+<Option index="5" entity="47" error="14" type="3"/>
+<Option index="6" entity="82" error="14" type="3"/>
+<Option index="7" entity="84" error="15" type="3"/>
+<Option index="8" entity="85" error="15" type="3"/>
+<Option index="9" entity="86" error="31" type="3"/>
+<Option index="10" entity="87" error="14" type="3"/>
+<Option index="11" entity="25" error="15" type="3"/>
+</Options>
+<SendOption option="0" subOption="-1" target="0" position="0" ts="2021-12-27T12:47:17.395393-05:00"/>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:47:18.231535-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:18.231535-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:18.231535-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:47:18.231535-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:18.231535-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="1" ts="2021-12-27T12:47:18.231535-05:00">
+<TagChange entity="3" tag="1854" value="1"/>
+</Block>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:47:18.231535-05:00">
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:18.231535-05:00">
+<TagChange entity="3" tag="1292" value="0"/>
+<TagChange entity="2" tag="1292" value="1"/>
+<TagChange entity="3" tag="7" value="55"/>
+<TagChange entity="69" tag="273" value="1"/>
+<TagChange entity="46" tag="273" value="1"/>
+<TagChange entity="88" tag="273" value="1"/>
+<TagChange entity="47" tag="273" value="1"/>
+<TagChange entity="82" tag="273" value="1"/>
+<TagChange entity="55" tag="273" value="1"/>
+<TagChange entity="3" tag="23" value="0"/>
+<TagChange entity="2" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="3"/>
+<TagChange entity="1" tag="1882" value="2"/>
+<TagChange entity="2" tag="20" value="2"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:18.231535-05:00">
+<TagChange entity="1" tag="271" value="3"/>
+<TagChange entity="2" tag="271" value="3"/>
+<TagChange entity="3" tag="271" value="3"/>
+<TagChange entity="84" tag="271" value="3"/>
+<TagChange entity="85" tag="271" value="3"/>
+<TagChange entity="86" tag="271" value="3"/>
+<TagChange entity="87" tag="271" value="3"/>
+<TagChange entity="25" tag="271" value="2"/>
+<TagChange entity="2" tag="26" value="2"/>
+<TagChange entity="2" tag="25" value="0"/>
+<TagChange entity="2" tag="269" value="0"/>
+<TagChange entity="2" tag="317" value="0"/>
+<TagChange entity="2" tag="358" value="0"/>
+<TagChange entity="25" tag="43" value="0"/>
+<TagChange entity="2" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="2" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:47:18.231535-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:18.231535-05:00">
+<TagChange entity="2" tag="2166" value="20"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="20" tag="49" value="3"/>
+<TagChange entity="20" tag="263" value="4"/>
+<TagChange entity="2" tag="399" value="1"/>
+<TagChange entity="2" tag="995" value="2"/>
+<TagChange entity="2" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:18.231535-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Block entity="20" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:21.737622-05:00">
+<TagChange entity="2" tag="2245" value="2"/>
+<TagChange entity="2" tag="25" value="2"/>
+<TagChange entity="2" tag="418" value="3"/>
+<TagChange entity="2" tag="269" value="1"/>
+<TagChange entity="2" tag="317" value="1"/>
+<TagChange entity="20" tag="263" value="0"/>
+<ShowEntity entity="20" cardID="VAN_NEW1_019">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="2"/>
+<Tag tag="479" value="3"/>
+<Tag tag="48" value="2"/>
+<Tag tag="47" value="3"/>
+<Tag tag="45" value="2"/>
+<Tag tag="32" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="20"/>
+<Tag tag="203" value="3"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="1073"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="1073"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="3"/>
+</ShowEntity>
+<TagChange entity="20" tag="263" value="2"/>
+<TagChange entity="20" tag="1196" value="1"/>
+<TagChange entity="20" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="20"/>
+</MetaData>
+<Block entity="20" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:21.737622-05:00"/>
+<TagChange entity="2" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="2"/>
+<TagChange entity="2" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="20"/>
+</MetaData>
+<TagChange entity="20" tag="1196" value="0"/>
+<TagChange entity="25" tag="267" value="86"/>
+<Block entity="25" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:47:22.440684-05:00">
+<TagChange entity="25" tag="1715" value="25"/>
+<TagChange entity="86" tag="1715" value="25"/>
+<TagChange entity="2" tag="417" value="1"/>
+<TagChange entity="1" tag="39" value="25"/>
+<TagChange entity="1" tag="37" value="86"/>
+<TagChange entity="25" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="25"/>
+</MetaData>
+<TagChange entity="86" tag="36" value="1"/>
+<TagChange entity="25" tag="297" value="1"/>
+<TagChange entity="25" tag="43" value="1"/>
+<TagChange entity="86" tag="2187" value="25"/>
+<TagChange entity="86" tag="318" value="3"/>
+<TagChange entity="86" tag="1173" value="86"/>
+<TagChange entity="86" tag="2187" value="0"/>
+<TagChange entity="86" tag="318" value="0"/>
+<TagChange entity="86" tag="1173" value="0"/>
+<TagChange entity="86" tag="318" value="3"/>
+<TagChange entity="86" tag="318" value="0"/>
+<MetaData meta="1" data="3" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="18" value="25"/>
+<TagChange entity="86" tag="44" value="3"/>
+<TagChange entity="3" tag="464" value="3"/>
+<TagChange entity="3" tag="2349" value="3"/>
+<TagChange entity="3" tag="1575" value="1"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="25" tag="38" value="0"/>
+<TagChange entity="86" tag="36" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="3"/>
+<TagChange entity="2" tag="358" value="2"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="25"/>
+</MetaData>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:23.807317-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:47:23.807317-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:23.807317-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:47:23.807317-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:23.807317-05:00">
+<TagChange entity="3" tag="1853" value="3"/>
+</Block>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:47:23.807317-05:00">
+<TagChange entity="20" tag="261" value="0"/>
+<TagChange entity="2" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:23.807317-05:00">
+<TagChange entity="2" tag="1292" value="0"/>
+<TagChange entity="3" tag="1292" value="1"/>
+<TagChange entity="2" tag="7" value="75"/>
+<TagChange entity="2" tag="23" value="0"/>
+<TagChange entity="3" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="4"/>
+<TagChange entity="1" tag="1882" value="3"/>
+<TagChange entity="3" tag="20" value="2"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:23.807317-05:00">
+<TagChange entity="1" tag="271" value="4"/>
+<TagChange entity="2" tag="271" value="4"/>
+<TagChange entity="3" tag="271" value="4"/>
+<TagChange entity="84" tag="271" value="4"/>
+<TagChange entity="85" tag="271" value="4"/>
+<TagChange entity="86" tag="271" value="4"/>
+<TagChange entity="87" tag="271" value="4"/>
+<TagChange entity="25" tag="271" value="3"/>
+<TagChange entity="20" tag="271" value="1"/>
+<TagChange entity="3" tag="26" value="2"/>
+<TagChange entity="25" tag="297" value="0"/>
+<TagChange entity="3" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="3" tag="464" value="0"/>
+<TagChange entity="3" tag="1575" value="0"/>
+<TagChange entity="2" tag="417" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:47:23.807317-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:23.807317-05:00">
+<TagChange entity="3" tag="2166" value="79"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="79" cardID="VAN_NEW1_008">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="7"/>
+<Tag tag="479" value="5"/>
+<Tag tag="48" value="7"/>
+<Tag tag="47" value="5"/>
+<Tag tag="45" value="5"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="79"/>
+<Tag tag="203" value="4"/>
+<Tag tag="443" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="920"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="920"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="79" tag="263" value="7"/>
+<TagChange entity="3" tag="399" value="1"/>
+<TagChange entity="3" tag="995" value="2"/>
+<TagChange entity="79" tag="1570" value="4"/>
+<TagChange entity="3" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:23.807317-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Options id="7" ts="2021-12-27T12:47:23.941389-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="69" type="3"/>
+<Option index="2" entity="88" type="3"/>
+<Option index="3" entity="82" type="3"/>
+<Option index="4" entity="55" type="3">
+<Target index="0" entity="25"/>
+<Target index="1" entity="20"/>
+<Target index="2" entity="84" error="1"/>
+<Target index="3" entity="86" error="1"/>
+</Option>
+<Option index="5" entity="87" type="3"/>
+<Option index="6" entity="46" error="14" type="3"/>
+<Option index="7" entity="47" error="14" type="3"/>
+<Option index="8" entity="79" error="14" type="3"/>
+<Option index="9" entity="84" error="15" type="3"/>
+<Option index="10" entity="85" error="15" type="3"/>
+<Option index="11" entity="86" error="31" type="3"/>
+<Option index="12" entity="25" error="15" type="3"/>
+<Option index="13" entity="20" error="15" type="3"/>
+</Options>
+<SendOption option="3" subOption="-1" target="0" position="1" ts="2021-12-27T12:47:35.326831-05:00"/>
+<Block entity="82" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:35.829926-05:00">
+<TagChange entity="3" tag="2245" value="2"/>
+<TagChange entity="3" tag="25" value="2"/>
+<TagChange entity="3" tag="418" value="2"/>
+<TagChange entity="3" tag="269" value="1"/>
+<TagChange entity="3" tag="317" value="1"/>
+<TagChange entity="82" tag="261" value="1"/>
+<TagChange entity="82" tag="1068" value="1"/>
+<TagChange entity="82" tag="1068" value="0"/>
+<TagChange entity="79" tag="263" value="6"/>
+<TagChange entity="55" tag="263" value="5"/>
+<TagChange entity="88" tag="263" value="4"/>
+<TagChange entity="46" tag="263" value="3"/>
+<TagChange entity="69" tag="263" value="2"/>
+<TagChange entity="82" tag="1037" value="0"/>
+<TagChange entity="82" tag="263" value="0"/>
+<TagChange entity="82" tag="1556" value="0"/>
+<TagChange entity="82" tag="1556" value="1"/>
+<TagChange entity="82" tag="49" value="1"/>
+<TagChange entity="82" tag="263" value="1"/>
+<TagChange entity="82" tag="1196" value="1"/>
+<TagChange entity="82" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="82"/>
+</MetaData>
+<Block entity="82" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:35.829926-05:00"/>
+<TagChange entity="3" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="4"/>
+<TagChange entity="3" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="82"/>
+</MetaData>
+<Options id="8" ts="2021-12-27T12:47:35.862983-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="88" type="3"/>
+<Option index="2" entity="69" error="14" type="3"/>
+<Option index="3" entity="46" error="14" type="3"/>
+<Option index="4" entity="47" error="14" type="3"/>
+<Option index="5" entity="55" error="14" type="3"/>
+<Option index="6" entity="79" error="14" type="3"/>
+<Option index="7" entity="84" error="15" type="3"/>
+<Option index="8" entity="85" error="15" type="3"/>
+<Option index="9" entity="86" error="31" type="3"/>
+<Option index="10" entity="87" error="14" type="3"/>
+<Option index="11" entity="25" error="15" type="3"/>
+<Option index="12" entity="20" error="15" type="3"/>
+<Option index="13" entity="82" error="37" type="3"/>
+</Options>
+<SendOption option="0" subOption="-1" target="0" position="0" ts="2021-12-27T12:47:36.637103-05:00"/>
+<TagChange entity="82" tag="1196" value="0"/>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:47:37.474369-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:37.474369-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:37.474369-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:47:37.474369-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:47:37.474369-05:00"/>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:47:37.474369-05:00">
+<TagChange entity="82" tag="261" value="0"/>
+<TagChange entity="3" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:37.474369-05:00">
+<TagChange entity="3" tag="1292" value="0"/>
+<TagChange entity="2" tag="1292" value="1"/>
+<TagChange entity="3" tag="7" value="75"/>
+<TagChange entity="69" tag="273" value="2"/>
+<TagChange entity="46" tag="273" value="2"/>
+<TagChange entity="88" tag="273" value="2"/>
+<TagChange entity="47" tag="273" value="2"/>
+<TagChange entity="55" tag="273" value="2"/>
+<TagChange entity="79" tag="273" value="1"/>
+<TagChange entity="3" tag="23" value="0"/>
+<TagChange entity="2" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="5"/>
+<TagChange entity="1" tag="1882" value="4"/>
+<TagChange entity="2" tag="20" value="3"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:37.474369-05:00">
+<TagChange entity="1" tag="271" value="5"/>
+<TagChange entity="2" tag="271" value="5"/>
+<TagChange entity="3" tag="271" value="5"/>
+<TagChange entity="84" tag="271" value="5"/>
+<TagChange entity="85" tag="271" value="5"/>
+<TagChange entity="86" tag="271" value="5"/>
+<TagChange entity="87" tag="271" value="5"/>
+<TagChange entity="25" tag="271" value="4"/>
+<TagChange entity="20" tag="271" value="2"/>
+<TagChange entity="82" tag="271" value="1"/>
+<TagChange entity="2" tag="26" value="3"/>
+<TagChange entity="2" tag="25" value="0"/>
+<TagChange entity="2" tag="269" value="0"/>
+<TagChange entity="2" tag="317" value="0"/>
+<TagChange entity="2" tag="358" value="0"/>
+<TagChange entity="25" tag="43" value="0"/>
+<TagChange entity="20" tag="43" value="0"/>
+<TagChange entity="2" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="3" tag="2349" value="0"/>
+<TagChange entity="2" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:47:37.474369-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:37.474369-05:00">
+<TagChange entity="2" tag="2166" value="33"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="33" tag="49" value="3"/>
+<TagChange entity="33" tag="263" value="4"/>
+<TagChange entity="2" tag="399" value="1"/>
+<TagChange entity="2" tag="995" value="3"/>
+<TagChange entity="2" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:47:37.474369-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Block entity="33" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:03.694528-05:00">
+<TagChange entity="2" tag="2245" value="3"/>
+<TagChange entity="2" tag="25" value="3"/>
+<TagChange entity="2" tag="418" value="6"/>
+<TagChange entity="2" tag="269" value="1"/>
+<TagChange entity="2" tag="317" value="1"/>
+<TagChange entity="33" tag="263" value="0"/>
+<ShowEntity entity="33" cardID="VAN_EX1_020">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="3"/>
+<Tag tag="479" value="3"/>
+<Tag tag="48" value="3"/>
+<Tag tag="47" value="3"/>
+<Tag tag="45" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="33"/>
+<Tag tag="194" value="1"/>
+<Tag tag="201" value="2"/>
+<Tag tag="203" value="1"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="642"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="642"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="5"/>
+</ShowEntity>
+<TagChange entity="33" tag="263" value="3"/>
+<TagChange entity="33" tag="1196" value="1"/>
+<TagChange entity="33" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="33"/>
+</MetaData>
+<Block entity="33" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:03.694528-05:00"/>
+<Block entity="20" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" triggerKeyword="32" ts="2021-12-27T12:48:03.694528-05:00">
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="82"/>
+</MetaData>
+<TagChange entity="82" tag="2187" value="20"/>
+<TagChange entity="82" tag="318" value="1"/>
+<TagChange entity="82" tag="1173" value="82"/>
+<TagChange entity="82" tag="2187" value="0"/>
+<TagChange entity="82" tag="318" value="0"/>
+<TagChange entity="82" tag="1173" value="0"/>
+<TagChange entity="82" tag="318" value="1"/>
+<TagChange entity="82" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="82"/>
+</MetaData>
+<TagChange entity="82" tag="18" value="20"/>
+<TagChange entity="82" tag="44" value="1"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="20"/>
+</MetaData>
+</Block>
+<MetaData meta="20" data="200" infoCount="1">
+<Info index="0" entity="20"/>
+</MetaData>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:03.694528-05:00">
+<TagChange entity="3" tag="368" value="1"/>
+<TagChange entity="1" tag="369" value="1"/>
+<TagChange entity="82" tag="1068" value="4"/>
+<TagChange entity="82" tag="1068" value="0"/>
+<TagChange entity="82" tag="43" value="0"/>
+<TagChange entity="82" tag="263" value="0"/>
+<TagChange entity="82" tag="49" value="4"/>
+<TagChange entity="3" tag="398" value="1"/>
+<TagChange entity="3" tag="412" value="1"/>
+<TagChange entity="82" tag="44" value="0"/>
+</Block>
+<Block entity="82" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" triggerKeyword="217" ts="2021-12-27T12:48:03.694528-05:00">
+<TagChange entity="3" tag="2166" value="77"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="77" cardID="VAN_EX1_571">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="6"/>
+<Tag tag="48" value="6"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="77"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="4"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="493"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="493"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="77" tag="263" value="7"/>
+<TagChange entity="3" tag="399" value="2"/>
+<TagChange entity="3" tag="995" value="3"/>
+<TagChange entity="77" tag="1570" value="5"/>
+<TagChange entity="3" tag="467" value="0"/>
+</Block>
+<MetaData meta="20" data="200" infoCount="1">
+<Info index="0" entity="82"/>
+</MetaData>
+<TagChange entity="3" tag="1420" value="1"/>
+<TagChange entity="2" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="5"/>
+<TagChange entity="2" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="33"/>
+</MetaData>
+<TagChange entity="33" tag="1196" value="0"/>
+<TagChange entity="20" tag="267" value="86"/>
+<Block entity="20" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:48:07.014333-05:00">
+<TagChange entity="20" tag="1715" value="20"/>
+<TagChange entity="86" tag="1715" value="20"/>
+<TagChange entity="2" tag="417" value="1"/>
+<TagChange entity="1" tag="39" value="20"/>
+<TagChange entity="1" tag="37" value="86"/>
+<TagChange entity="20" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="20"/>
+</MetaData>
+<TagChange entity="86" tag="36" value="1"/>
+<TagChange entity="20" tag="297" value="1"/>
+<TagChange entity="20" tag="43" value="1"/>
+<TagChange entity="86" tag="2187" value="20"/>
+<TagChange entity="86" tag="318" value="3"/>
+<TagChange entity="86" tag="1173" value="86"/>
+<TagChange entity="86" tag="2187" value="0"/>
+<TagChange entity="86" tag="318" value="0"/>
+<TagChange entity="86" tag="1173" value="0"/>
+<TagChange entity="86" tag="318" value="3"/>
+<TagChange entity="86" tag="318" value="0"/>
+<MetaData meta="1" data="3" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="18" value="20"/>
+<TagChange entity="86" tag="44" value="6"/>
+<TagChange entity="3" tag="464" value="3"/>
+<TagChange entity="3" tag="2349" value="3"/>
+<TagChange entity="3" tag="1575" value="1"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="20" tag="38" value="0"/>
+<TagChange entity="86" tag="36" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="6"/>
+<TagChange entity="2" tag="358" value="2"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="20"/>
+</MetaData>
+<Block entity="25" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:48:07.984929-05:00">
+<TagChange entity="86" tag="1715" value="25"/>
+<TagChange entity="2" tag="417" value="2"/>
+<TagChange entity="1" tag="39" value="25"/>
+<TagChange entity="1" tag="37" value="86"/>
+<TagChange entity="25" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="25"/>
+</MetaData>
+<TagChange entity="86" tag="36" value="1"/>
+<TagChange entity="25" tag="297" value="1"/>
+<TagChange entity="25" tag="43" value="1"/>
+<TagChange entity="86" tag="2187" value="25"/>
+<TagChange entity="86" tag="318" value="3"/>
+<TagChange entity="86" tag="1173" value="86"/>
+<TagChange entity="86" tag="2187" value="0"/>
+<TagChange entity="86" tag="318" value="0"/>
+<TagChange entity="86" tag="1173" value="0"/>
+<TagChange entity="86" tag="318" value="3"/>
+<TagChange entity="86" tag="318" value="0"/>
+<MetaData meta="1" data="3" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="18" value="25"/>
+<TagChange entity="86" tag="44" value="9"/>
+<TagChange entity="3" tag="464" value="6"/>
+<TagChange entity="3" tag="2349" value="6"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="25" tag="38" value="0"/>
+<TagChange entity="86" tag="36" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="7"/>
+<TagChange entity="2" tag="358" value="3"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="25"/>
+</MetaData>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:10.064392-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:48:10.064392-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:10.064392-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:48:10.064392-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:10.064392-05:00">
+<TagChange entity="3" tag="1853" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:48:10.064392-05:00">
+<TagChange entity="33" tag="261" value="0"/>
+<TagChange entity="2" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:10.064392-05:00">
+<TagChange entity="2" tag="1292" value="0"/>
+<TagChange entity="3" tag="1292" value="1"/>
+<TagChange entity="2" tag="23" value="0"/>
+<TagChange entity="3" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="6"/>
+<TagChange entity="1" tag="1882" value="5"/>
+<TagChange entity="3" tag="20" value="3"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:10.064392-05:00">
+<TagChange entity="1" tag="271" value="6"/>
+<TagChange entity="2" tag="271" value="6"/>
+<TagChange entity="3" tag="271" value="6"/>
+<TagChange entity="84" tag="271" value="6"/>
+<TagChange entity="85" tag="271" value="6"/>
+<TagChange entity="86" tag="271" value="6"/>
+<TagChange entity="87" tag="271" value="6"/>
+<TagChange entity="25" tag="271" value="5"/>
+<TagChange entity="20" tag="271" value="3"/>
+<TagChange entity="33" tag="271" value="1"/>
+<TagChange entity="3" tag="26" value="3"/>
+<TagChange entity="3" tag="25" value="0"/>
+<TagChange entity="3" tag="1420" value="0"/>
+<TagChange entity="25" tag="297" value="0"/>
+<TagChange entity="20" tag="297" value="0"/>
+<TagChange entity="3" tag="269" value="0"/>
+<TagChange entity="3" tag="317" value="0"/>
+<TagChange entity="3" tag="358" value="0"/>
+<TagChange entity="3" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="3" tag="398" value="0"/>
+<TagChange entity="3" tag="464" value="0"/>
+<TagChange entity="3" tag="1575" value="0"/>
+<TagChange entity="3" tag="368" value="0"/>
+<TagChange entity="2" tag="417" value="0"/>
+<TagChange entity="1" tag="369" value="0"/>
+<TagChange entity="3" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:48:10.064392-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:10.064392-05:00">
+<TagChange entity="3" tag="2166" value="35"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="35" cardID="VAN_EX1_166">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="4"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="4"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="4"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="35"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="3"/>
+<Tag tag="339" value="1"/>
+<Tag tag="443" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="601"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="601"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="35" tag="263" value="8"/>
+<TagChange entity="3" tag="399" value="1"/>
+<TagChange entity="3" tag="995" value="4"/>
+<TagChange entity="35" tag="1570" value="6"/>
+<TagChange entity="3" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:10.064392-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Options id="13" ts="2021-12-27T12:48:10.197440-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="69" type="3"/>
+<Option index="2" entity="88" type="3"/>
+<Option index="3" entity="55" type="3">
+<Target index="0" entity="25"/>
+<Target index="1" entity="20"/>
+<Target index="2" entity="33"/>
+<Target index="3" entity="84" error="1"/>
+<Target index="4" entity="86" error="1"/>
+</Option>
+<Option index="4" entity="87" type="3"/>
+<Option index="5" entity="46" error="14" type="3"/>
+<Option index="6" entity="47" error="14" type="3"/>
+<Option index="7" entity="79" error="14" type="3"/>
+<Option index="8" entity="77" error="14" type="3"/>
+<Option index="9" entity="35" error="14" type="3"/>
+<Option index="10" entity="84" error="15" type="3"/>
+<Option index="11" entity="85" error="15" type="3"/>
+<Option index="12" entity="86" error="31" type="3"/>
+<Option index="13" entity="25" error="15" type="3"/>
+<Option index="14" entity="20" error="15" type="3"/>
+<Option index="15" entity="33" error="15" type="3"/>
+</Options>
+<SendOption option="1" subOption="-1" target="0" position="1" ts="2021-12-27T12:48:31.927617-05:00"/>
+<Block entity="69" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:32.194659-05:00">
+<TagChange entity="3" tag="2245" value="2"/>
+<TagChange entity="3" tag="25" value="2"/>
+<TagChange entity="3" tag="418" value="4"/>
+<TagChange entity="3" tag="269" value="1"/>
+<TagChange entity="3" tag="317" value="1"/>
+<TagChange entity="69" tag="261" value="1"/>
+<TagChange entity="69" tag="1068" value="1"/>
+<TagChange entity="69" tag="1068" value="0"/>
+<TagChange entity="35" tag="263" value="7"/>
+<TagChange entity="77" tag="263" value="6"/>
+<TagChange entity="79" tag="263" value="5"/>
+<TagChange entity="55" tag="263" value="4"/>
+<TagChange entity="88" tag="263" value="3"/>
+<TagChange entity="46" tag="263" value="2"/>
+<TagChange entity="69" tag="263" value="0"/>
+<TagChange entity="69" tag="1556" value="0"/>
+<TagChange entity="69" tag="1556" value="1"/>
+<TagChange entity="69" tag="49" value="1"/>
+<TagChange entity="69" tag="263" value="1"/>
+<TagChange entity="69" tag="1196" value="1"/>
+<TagChange entity="69" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="69"/>
+</MetaData>
+<Block entity="69" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:32.194659-05:00"/>
+<TagChange entity="3" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="8"/>
+<TagChange entity="3" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="69"/>
+</MetaData>
+<Options id="14" ts="2021-12-27T12:48:32.328927-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="88" type="3"/>
+<Option index="2" entity="55" type="3">
+<Target index="0" entity="25"/>
+<Target index="1" entity="20"/>
+<Target index="2" entity="33"/>
+<Target index="3" entity="69"/>
+<Target index="4" entity="84" error="1"/>
+<Target index="5" entity="86" error="1"/>
+</Option>
+<Option index="3" entity="46" error="14" type="3"/>
+<Option index="4" entity="47" error="14" type="3"/>
+<Option index="5" entity="79" error="14" type="3"/>
+<Option index="6" entity="77" error="14" type="3"/>
+<Option index="7" entity="35" error="14" type="3"/>
+<Option index="8" entity="84" error="15" type="3"/>
+<Option index="9" entity="85" error="15" type="3"/>
+<Option index="10" entity="86" error="31" type="3"/>
+<Option index="11" entity="87" error="14" type="3"/>
+<Option index="12" entity="25" error="15" type="3"/>
+<Option index="13" entity="20" error="15" type="3"/>
+<Option index="14" entity="33" error="15" type="3"/>
+<Option index="15" entity="69" error="37" type="3"/>
+</Options>
+<SendOption option="2" subOption="-1" target="33" position="0" ts="2021-12-27T12:48:48.519869-05:00"/>
+<TagChange entity="69" tag="1196" value="0"/>
+<Block entity="55" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="33" ts="2021-12-27T12:48:48.754610-05:00">
+<TagChange entity="3" tag="2245" value="3"/>
+<TagChange entity="3" tag="25" value="3"/>
+<TagChange entity="3" tag="418" value="5"/>
+<TagChange entity="3" tag="269" value="2"/>
+<TagChange entity="3" tag="430" value="1"/>
+<TagChange entity="55" tag="267" value="33"/>
+<TagChange entity="55" tag="261" value="1"/>
+<TagChange entity="55" tag="1068" value="1"/>
+<TagChange entity="55" tag="1068" value="0"/>
+<TagChange entity="35" tag="263" value="6"/>
+<TagChange entity="77" tag="263" value="5"/>
+<TagChange entity="79" tag="263" value="4"/>
+<TagChange entity="55" tag="1037" value="0"/>
+<TagChange entity="55" tag="263" value="0"/>
+<TagChange entity="55" tag="1556" value="0"/>
+<TagChange entity="55" tag="1556" value="1"/>
+<TagChange entity="55" tag="49" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="55"/>
+</MetaData>
+<TagChange entity="3" tag="1780" value="1"/>
+<Block entity="55" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="33" ts="2021-12-27T12:48:48.754610-05:00">
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="33"/>
+</MetaData>
+<TagChange entity="33" tag="360" value="1"/>
+<TagChange entity="33" tag="18" value="55"/>
+<TagChange entity="2" tag="2166" value="23"/>
+<TagChange entity="2" tag="467" value="2"/>
+<TagChange entity="23" tag="49" value="3"/>
+<TagChange entity="23" tag="263" value="4"/>
+<TagChange entity="2" tag="399" value="2"/>
+<TagChange entity="2" tag="995" value="4"/>
+<TagChange entity="2" tag="2166" value="5"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="5" tag="49" value="3"/>
+<TagChange entity="5" tag="263" value="5"/>
+<TagChange entity="2" tag="399" value="3"/>
+<TagChange entity="2" tag="995" value="5"/>
+<TagChange entity="2" tag="467" value="0"/>
+</Block>
+<TagChange entity="55" tag="1068" value="4"/>
+<TagChange entity="55" tag="1068" value="0"/>
+<TagChange entity="55" tag="49" value="4"/>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:48.754610-05:00">
+<TagChange entity="33" tag="360" value="0"/>
+<TagChange entity="2" tag="368" value="1"/>
+<TagChange entity="1" tag="369" value="1"/>
+<TagChange entity="33" tag="1068" value="4"/>
+<TagChange entity="33" tag="1068" value="0"/>
+<TagChange entity="33" tag="43" value="0"/>
+<TagChange entity="33" tag="263" value="0"/>
+<TagChange entity="33" tag="49" value="4"/>
+<TagChange entity="2" tag="398" value="1"/>
+<TagChange entity="2" tag="412" value="1"/>
+</Block>
+<Block entity="69" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" triggerKeyword="32" ts="2021-12-27T12:48:48.754610-05:00">
+<MetaData meta="0" data="0" infoCount="3">
+<Info index="0" entity="25"/>
+<Info index="1" entity="20"/>
+<Info index="2" entity="69"/>
+</MetaData>
+<TagChange entity="25" tag="2187" value="69"/>
+<TagChange entity="25" tag="318" value="1"/>
+<TagChange entity="25" tag="1173" value="25"/>
+<TagChange entity="25" tag="2187" value="0"/>
+<TagChange entity="25" tag="318" value="0"/>
+<TagChange entity="25" tag="1173" value="0"/>
+<TagChange entity="25" tag="318" value="1"/>
+<TagChange entity="25" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="25"/>
+</MetaData>
+<TagChange entity="25" tag="18" value="69"/>
+<TagChange entity="25" tag="44" value="1"/>
+<TagChange entity="20" tag="2187" value="69"/>
+<TagChange entity="20" tag="318" value="1"/>
+<TagChange entity="20" tag="1173" value="20"/>
+<TagChange entity="20" tag="2187" value="0"/>
+<TagChange entity="20" tag="318" value="0"/>
+<TagChange entity="20" tag="1173" value="0"/>
+<TagChange entity="20" tag="318" value="1"/>
+<TagChange entity="20" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="20"/>
+</MetaData>
+<TagChange entity="20" tag="18" value="69"/>
+<TagChange entity="20" tag="44" value="1"/>
+<TagChange entity="69" tag="2187" value="69"/>
+<TagChange entity="69" tag="318" value="1"/>
+<TagChange entity="69" tag="1173" value="69"/>
+<TagChange entity="69" tag="2187" value="0"/>
+<TagChange entity="69" tag="318" value="0"/>
+<TagChange entity="69" tag="1173" value="0"/>
+<TagChange entity="69" tag="318" value="1"/>
+<TagChange entity="69" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="69"/>
+</MetaData>
+<TagChange entity="69" tag="18" value="69"/>
+<TagChange entity="69" tag="44" value="1"/>
+</Block>
+<MetaData meta="20" data="200" infoCount="1">
+<Info index="0" entity="69"/>
+</MetaData>
+<TagChange entity="1" tag="1323" value="9"/>
+<TagChange entity="3" tag="358" value="2"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="55"/>
+</MetaData>
+<Options id="15" ts="2021-12-27T12:48:48.887609-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="88" type="3"/>
+<Option index="2" entity="46" error="14" type="3"/>
+<Option index="3" entity="47" error="14" type="3"/>
+<Option index="4" entity="79" error="14" type="3"/>
+<Option index="5" entity="77" error="14" type="3"/>
+<Option index="6" entity="35" error="14" type="3"/>
+<Option index="7" entity="84" error="15" type="3"/>
+<Option index="8" entity="85" error="15" type="3"/>
+<Option index="9" entity="86" error="31" type="3"/>
+<Option index="10" entity="87" error="14" type="3"/>
+<Option index="11" entity="25" error="15" type="3"/>
+<Option index="12" entity="20" error="15" type="3"/>
+<Option index="13" entity="69" error="37" type="3"/>
+</Options>
+<SendOption option="1" subOption="-1" target="0" position="0" ts="2021-12-27T12:48:55.587181-05:00"/>
+<Block entity="88" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:55.821187-05:00">
+<TagChange entity="3" tag="269" value="3"/>
+<TagChange entity="3" tag="430" value="2"/>
+<TagChange entity="88" tag="261" value="1"/>
+<TagChange entity="88" tag="1068" value="1"/>
+<TagChange entity="88" tag="1068" value="0"/>
+<TagChange entity="35" tag="263" value="5"/>
+<TagChange entity="77" tag="263" value="4"/>
+<TagChange entity="79" tag="263" value="3"/>
+<TagChange entity="88" tag="263" value="0"/>
+<TagChange entity="88" tag="1556" value="0"/>
+<TagChange entity="88" tag="1556" value="1"/>
+<TagChange entity="88" tag="49" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="88"/>
+</MetaData>
+<TagChange entity="3" tag="1780" value="2"/>
+<Block entity="88" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:55.821187-05:00">
+<TagChange entity="3" tag="295" value="1"/>
+</Block>
+<TagChange entity="88" tag="1068" value="4"/>
+<TagChange entity="88" tag="1068" value="0"/>
+<TagChange entity="88" tag="49" value="4"/>
+<Block entity="69" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" triggerKeyword="32" ts="2021-12-27T12:48:55.821187-05:00">
+<MetaData meta="0" data="0" infoCount="3">
+<Info index="0" entity="25"/>
+<Info index="1" entity="20"/>
+<Info index="2" entity="69"/>
+</MetaData>
+<TagChange entity="25" tag="2187" value="69"/>
+<TagChange entity="25" tag="318" value="1"/>
+<TagChange entity="25" tag="1173" value="25"/>
+<TagChange entity="25" tag="2187" value="0"/>
+<TagChange entity="25" tag="318" value="0"/>
+<TagChange entity="25" tag="1173" value="0"/>
+<TagChange entity="25" tag="318" value="1"/>
+<TagChange entity="25" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="25"/>
+</MetaData>
+<TagChange entity="25" tag="44" value="2"/>
+<TagChange entity="20" tag="2187" value="69"/>
+<TagChange entity="20" tag="318" value="1"/>
+<TagChange entity="20" tag="1173" value="20"/>
+<TagChange entity="20" tag="2187" value="0"/>
+<TagChange entity="20" tag="318" value="0"/>
+<TagChange entity="20" tag="1173" value="0"/>
+<TagChange entity="20" tag="318" value="1"/>
+<TagChange entity="20" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="20"/>
+</MetaData>
+<TagChange entity="20" tag="44" value="2"/>
+<TagChange entity="69" tag="2187" value="69"/>
+<TagChange entity="69" tag="318" value="1"/>
+<TagChange entity="69" tag="1173" value="69"/>
+<TagChange entity="69" tag="2187" value="0"/>
+<TagChange entity="69" tag="318" value="0"/>
+<TagChange entity="69" tag="1173" value="0"/>
+<TagChange entity="69" tag="318" value="1"/>
+<TagChange entity="69" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="69"/>
+</MetaData>
+<TagChange entity="69" tag="44" value="2"/>
+</Block>
+<MetaData meta="20" data="200" infoCount="1">
+<Info index="0" entity="69"/>
+</MetaData>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:55.821187-05:00">
+<TagChange entity="2" tag="368" value="2"/>
+<TagChange entity="1" tag="369" value="2"/>
+<TagChange entity="25" tag="1068" value="4"/>
+<TagChange entity="25" tag="1068" value="0"/>
+<TagChange entity="25" tag="43" value="0"/>
+<TagChange entity="20" tag="263" value="1"/>
+<TagChange entity="25" tag="263" value="0"/>
+<TagChange entity="25" tag="49" value="4"/>
+<TagChange entity="2" tag="398" value="2"/>
+<TagChange entity="2" tag="412" value="2"/>
+<TagChange entity="25" tag="44" value="0"/>
+<TagChange entity="2" tag="368" value="3"/>
+<TagChange entity="1" tag="369" value="3"/>
+<TagChange entity="20" tag="1068" value="4"/>
+<TagChange entity="20" tag="1068" value="0"/>
+<TagChange entity="20" tag="43" value="0"/>
+<TagChange entity="20" tag="263" value="0"/>
+<TagChange entity="20" tag="49" value="4"/>
+<TagChange entity="2" tag="398" value="3"/>
+<TagChange entity="2" tag="412" value="3"/>
+<TagChange entity="20" tag="44" value="0"/>
+<TagChange entity="3" tag="368" value="1"/>
+<TagChange entity="1" tag="369" value="4"/>
+<TagChange entity="69" tag="1068" value="4"/>
+<TagChange entity="69" tag="1068" value="0"/>
+<TagChange entity="69" tag="43" value="0"/>
+<TagChange entity="69" tag="263" value="0"/>
+<TagChange entity="69" tag="49" value="4"/>
+<TagChange entity="3" tag="398" value="1"/>
+<TagChange entity="3" tag="412" value="2"/>
+<TagChange entity="69" tag="44" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="10"/>
+<TagChange entity="3" tag="358" value="3"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="88"/>
+</MetaData>
+<Options id="16" ts="2021-12-27T12:48:55.954628-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="46" error="14" type="3"/>
+<Option index="2" entity="47" error="14" type="3"/>
+<Option index="3" entity="79" error="14" type="3"/>
+<Option index="4" entity="77" error="14" type="3"/>
+<Option index="5" entity="35" error="14" type="3"/>
+<Option index="6" entity="84" error="15" type="3"/>
+<Option index="7" entity="85" error="15" type="3"/>
+<Option index="8" entity="86" error="31" type="3"/>
+<Option index="9" entity="87" error="14" type="3"/>
+</Options>
+<SendOption option="0" subOption="-1" target="0" position="0" ts="2021-12-27T12:48:58.285412-05:00"/>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:48:59.120617-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:59.120617-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:59.120617-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:48:59.120617-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:48:59.120617-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="1" ts="2021-12-27T12:48:59.120617-05:00">
+<TagChange entity="3" tag="1854" value="2"/>
+</Block>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:48:59.120617-05:00">
+<TagChange entity="3" tag="295" value="0"/>
+<TagChange entity="3" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:59.120617-05:00">
+<TagChange entity="3" tag="1292" value="0"/>
+<TagChange entity="2" tag="1292" value="1"/>
+<TagChange entity="46" tag="273" value="3"/>
+<TagChange entity="47" tag="273" value="3"/>
+<TagChange entity="79" tag="273" value="2"/>
+<TagChange entity="77" tag="273" value="1"/>
+<TagChange entity="35" tag="273" value="1"/>
+<TagChange entity="3" tag="23" value="0"/>
+<TagChange entity="2" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="7"/>
+<TagChange entity="1" tag="1882" value="6"/>
+<TagChange entity="2" tag="20" value="4"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:59.120617-05:00">
+<TagChange entity="1" tag="271" value="7"/>
+<TagChange entity="2" tag="271" value="7"/>
+<TagChange entity="3" tag="271" value="7"/>
+<TagChange entity="84" tag="271" value="7"/>
+<TagChange entity="85" tag="271" value="7"/>
+<TagChange entity="86" tag="271" value="7"/>
+<TagChange entity="87" tag="271" value="7"/>
+<TagChange entity="2" tag="26" value="4"/>
+<TagChange entity="2" tag="25" value="0"/>
+<TagChange entity="2" tag="269" value="0"/>
+<TagChange entity="2" tag="317" value="0"/>
+<TagChange entity="2" tag="358" value="0"/>
+<TagChange entity="2" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="2" tag="398" value="0"/>
+<TagChange entity="3" tag="398" value="0"/>
+<TagChange entity="3" tag="2349" value="0"/>
+<TagChange entity="2" tag="368" value="0"/>
+<TagChange entity="3" tag="368" value="0"/>
+<TagChange entity="1" tag="369" value="0"/>
+<TagChange entity="2" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:48:59.120617-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:59.120617-05:00">
+<TagChange entity="2" tag="2166" value="31"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="31" tag="49" value="3"/>
+<TagChange entity="31" tag="263" value="6"/>
+<TagChange entity="2" tag="399" value="1"/>
+<TagChange entity="2" tag="995" value="6"/>
+<TagChange entity="2" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:48:59.120617-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Block entity="31" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:49:18.277085-05:00">
+<TagChange entity="2" tag="2245" value="3"/>
+<TagChange entity="2" tag="25" value="3"/>
+<TagChange entity="2" tag="418" value="9"/>
+<TagChange entity="2" tag="269" value="1"/>
+<TagChange entity="2" tag="317" value="1"/>
+<TagChange entity="31" tag="263" value="0"/>
+<ShowEntity entity="31" cardID="VAN_EX1_556">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="3"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="3"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="3"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="31"/>
+<Tag tag="200" value="17"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="217" value="1"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="778"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="778"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="7"/>
+</ShowEntity>
+<TagChange entity="31" tag="263" value="1"/>
+<TagChange entity="31" tag="1196" value="1"/>
+<TagChange entity="31" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="31"/>
+</MetaData>
+<Block entity="31" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:49:18.277085-05:00"/>
+<TagChange entity="2" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="11"/>
+<TagChange entity="2" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="31"/>
+</MetaData>
+<TagChange entity="31" tag="1196" value="0"/>
+<Block entity="6" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="31" ts="2021-12-27T12:49:20.243594-05:00">
+<TagChange entity="2" tag="2245" value="4"/>
+<TagChange entity="2" tag="25" value="4"/>
+<TagChange entity="2" tag="418" value="10"/>
+<TagChange entity="2" tag="269" value="2"/>
+<TagChange entity="2" tag="317" value="2"/>
+<TagChange entity="5" tag="263" value="4"/>
+<TagChange entity="23" tag="263" value="3"/>
+<TagChange entity="13" tag="263" value="2"/>
+<TagChange entity="6" tag="263" value="0"/>
+<ShowEntity entity="6" cardID="VAN_CS2_188">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="1"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="1"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="6"/>
+<Tag tag="201" value="2"/>
+<Tag tag="203" value="1"/>
+<Tag tag="218" value="1"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="267" value="31"/>
+<Tag tag="273" value="3"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="242"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="242"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="6" tag="263" value="1"/>
+<TagChange entity="31" tag="263" value="2"/>
+<TagChange entity="6" tag="1196" value="1"/>
+<TagChange entity="6" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="6"/>
+</MetaData>
+<Block entity="6" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="31" ts="2021-12-27T12:49:20.243594-05:00">
+<FullEntity id="108">
+<Tag tag="49" value="6"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="108"/>
+</FullEntity>
+<ShowEntity entity="108" cardID="CS2_188o">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="6"/>
+<Tag tag="40" value="31"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="108"/>
+<Tag tag="313" value="6"/>
+<Tag tag="338" value="1"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1284" value="69761"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="31" tag="338" value="1"/>
+<TagChange entity="108" tag="1068" value="1"/>
+<TagChange entity="108" tag="1068" value="0"/>
+<TagChange entity="108" tag="49" value="1"/>
+<TagChange entity="31" tag="479" value="4"/>
+<TagChange entity="31" tag="47" value="4"/>
+</Block>
+<TagChange entity="1" tag="1323" value="12"/>
+<TagChange entity="2" tag="358" value="2"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="6"/>
+</MetaData>
+<TagChange entity="6" tag="1196" value="0"/>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:22.824211-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:49:22.824211-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:49:22.824211-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:49:22.824211-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:49:22.824211-05:00"/>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:49:22.824211-05:00">
+<TagChange entity="31" tag="261" value="0"/>
+<TagChange entity="6" tag="261" value="0"/>
+<TagChange entity="2" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<Block entity="108" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" triggerKeyword="338" ts="2021-12-27T12:49:22.824211-05:00">
+<TagChange entity="108" tag="18" value="108"/>
+<TagChange entity="108" tag="1068" value="4"/>
+<TagChange entity="108" tag="1068" value="0"/>
+<TagChange entity="108" tag="49" value="4"/>
+<TagChange entity="31" tag="338" value="0"/>
+<TagChange entity="108" tag="1234" value="31"/>
+<HideEntity entity="108" zone="4" ts="2021-12-27T12:49:22.824211-05:00"/>
+<TagChange entity="31" tag="479" value="2"/>
+<TagChange entity="31" tag="47" value="2"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:22.824211-05:00">
+<TagChange entity="2" tag="1292" value="0"/>
+<TagChange entity="3" tag="1292" value="1"/>
+<TagChange entity="2" tag="23" value="0"/>
+<TagChange entity="3" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="8"/>
+<TagChange entity="1" tag="1882" value="7"/>
+<TagChange entity="3" tag="20" value="4"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:22.824211-05:00">
+<TagChange entity="1" tag="271" value="8"/>
+<TagChange entity="2" tag="271" value="8"/>
+<TagChange entity="3" tag="271" value="8"/>
+<TagChange entity="84" tag="271" value="8"/>
+<TagChange entity="85" tag="271" value="8"/>
+<TagChange entity="86" tag="271" value="8"/>
+<TagChange entity="87" tag="271" value="8"/>
+<TagChange entity="31" tag="271" value="1"/>
+<TagChange entity="6" tag="271" value="1"/>
+<TagChange entity="3" tag="26" value="4"/>
+<TagChange entity="3" tag="25" value="0"/>
+<TagChange entity="3" tag="269" value="0"/>
+<TagChange entity="3" tag="317" value="0"/>
+<TagChange entity="3" tag="358" value="0"/>
+<TagChange entity="3" tag="430" value="0"/>
+<TagChange entity="3" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="3" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:49:22.824211-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:22.824211-05:00">
+<TagChange entity="3" tag="2166" value="64"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="64" cardID="VAN_EX1_154">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="2"/>
+<Tag tag="48" value="2"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="64"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="1"/>
+<Tag tag="443" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="836"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="836"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="64" tag="263" value="6"/>
+<TagChange entity="3" tag="399" value="1"/>
+<TagChange entity="3" tag="995" value="5"/>
+<TagChange entity="64" tag="1570" value="8"/>
+<TagChange entity="3" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:22.824211-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Options id="20" ts="2021-12-27T12:49:22.957223-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="46" type="3">
+<Target index="0" entity="84"/>
+<Target index="1" entity="31"/>
+<Target index="2" entity="6"/>
+<Target index="3" entity="86" error="3"/>
+</Option>
+<Option index="2" entity="35" type="3">
+<SubOption index="0" entity="36">
+<Target index="0" entity="84"/>
+<Target index="1" entity="86"/>
+<Target index="2" entity="31"/>
+<Target index="3" entity="6"/>
+</SubOption>
+<SubOption index="1" entity="37">
+<Target index="0" entity="31"/>
+<Target index="1" entity="6"/>
+<Target index="2" entity="84" error="1"/>
+<Target index="3" entity="86" error="1"/>
+</SubOption>
+</Option>
+<Option index="3" entity="64" type="3">
+<SubOption index="0" entity="65">
+<Target index="0" entity="31"/>
+<Target index="1" entity="6"/>
+<Target index="2" entity="84" error="1"/>
+<Target index="3" entity="86" error="1"/>
+</SubOption>
+<SubOption index="1" entity="66">
+<Target index="0" entity="31"/>
+<Target index="1" entity="6"/>
+<Target index="2" entity="84" error="1"/>
+<Target index="3" entity="86" error="1"/>
+</SubOption>
+</Option>
+<Option index="4" entity="87" type="3"/>
+<Option index="5" entity="47" error="14" type="3"/>
+<Option index="6" entity="79" error="14" type="3"/>
+<Option index="7" entity="77" error="14" type="3"/>
+<Option index="8" entity="84" error="15" type="3"/>
+<Option index="9" entity="85" error="15" type="3"/>
+<Option index="10" entity="86" error="31" type="3"/>
+<Option index="11" entity="31" error="15" type="3"/>
+<Option index="12" entity="6" error="15" type="3"/>
+</Options>
+<SendOption option="1" subOption="-1" target="31" position="0" ts="2021-12-27T12:49:35.609085-05:00"/>
+<Block entity="46" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="31" ts="2021-12-27T12:49:35.908890-05:00">
+<TagChange entity="3" tag="2245" value="4"/>
+<TagChange entity="3" tag="25" value="4"/>
+<TagChange entity="3" tag="418" value="9"/>
+<TagChange entity="3" tag="269" value="1"/>
+<TagChange entity="3" tag="430" value="1"/>
+<TagChange entity="46" tag="267" value="31"/>
+<TagChange entity="46" tag="261" value="1"/>
+<TagChange entity="46" tag="1068" value="1"/>
+<TagChange entity="46" tag="1068" value="0"/>
+<TagChange entity="64" tag="263" value="5"/>
+<TagChange entity="35" tag="263" value="4"/>
+<TagChange entity="77" tag="263" value="3"/>
+<TagChange entity="79" tag="263" value="2"/>
+<TagChange entity="46" tag="263" value="0"/>
+<TagChange entity="46" tag="1556" value="0"/>
+<TagChange entity="46" tag="1556" value="1"/>
+<TagChange entity="46" tag="49" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="46"/>
+</MetaData>
+<TagChange entity="3" tag="1780" value="3"/>
+<Block entity="46" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="31" ts="2021-12-27T12:49:35.908890-05:00">
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="31"/>
+</MetaData>
+<TagChange entity="31" tag="2187" value="46"/>
+<TagChange entity="31" tag="318" value="4"/>
+<TagChange entity="31" tag="1173" value="31"/>
+<TagChange entity="31" tag="2187" value="0"/>
+<TagChange entity="31" tag="318" value="0"/>
+<TagChange entity="31" tag="1173" value="0"/>
+<TagChange entity="31" tag="318" value="4"/>
+<TagChange entity="31" tag="318" value="0"/>
+<MetaData meta="1" data="4" infoCount="1">
+<Info index="0" entity="31"/>
+</MetaData>
+<TagChange entity="31" tag="18" value="46"/>
+<TagChange entity="31" tag="44" value="4"/>
+<TagChange entity="84" tag="2187" value="46"/>
+<TagChange entity="84" tag="318" value="1"/>
+<TagChange entity="84" tag="1173" value="84"/>
+<TagChange entity="84" tag="2187" value="0"/>
+<TagChange entity="84" tag="318" value="0"/>
+<TagChange entity="84" tag="1173" value="0"/>
+<TagChange entity="84" tag="318" value="1"/>
+<TagChange entity="84" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="84"/>
+</MetaData>
+<TagChange entity="84" tag="18" value="46"/>
+<TagChange entity="84" tag="44" value="4"/>
+<TagChange entity="2" tag="464" value="1"/>
+<TagChange entity="2" tag="2349" value="1"/>
+<TagChange entity="2" tag="1575" value="1"/>
+<TagChange entity="6" tag="2187" value="46"/>
+<TagChange entity="6" tag="318" value="1"/>
+<TagChange entity="6" tag="1173" value="6"/>
+<TagChange entity="6" tag="2187" value="0"/>
+<TagChange entity="6" tag="318" value="0"/>
+<TagChange entity="6" tag="1173" value="0"/>
+<TagChange entity="6" tag="318" value="1"/>
+<TagChange entity="6" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="6"/>
+</MetaData>
+<TagChange entity="6" tag="18" value="46"/>
+<TagChange entity="6" tag="44" value="1"/>
+</Block>
+<TagChange entity="46" tag="1068" value="4"/>
+<TagChange entity="46" tag="1068" value="0"/>
+<TagChange entity="46" tag="49" value="4"/>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:49:35.908890-05:00">
+<TagChange entity="2" tag="368" value="1"/>
+<TagChange entity="1" tag="369" value="1"/>
+<TagChange entity="31" tag="1068" value="4"/>
+<TagChange entity="31" tag="1068" value="0"/>
+<TagChange entity="31" tag="43" value="0"/>
+<TagChange entity="31" tag="263" value="0"/>
+<TagChange entity="31" tag="49" value="4"/>
+<TagChange entity="2" tag="398" value="1"/>
+<TagChange entity="2" tag="412" value="4"/>
+<TagChange entity="31" tag="44" value="0"/>
+<TagChange entity="2" tag="368" value="2"/>
+<TagChange entity="1" tag="369" value="2"/>
+<TagChange entity="6" tag="1068" value="4"/>
+<TagChange entity="6" tag="1068" value="0"/>
+<TagChange entity="6" tag="43" value="0"/>
+<TagChange entity="6" tag="263" value="0"/>
+<TagChange entity="6" tag="49" value="4"/>
+<TagChange entity="2" tag="398" value="2"/>
+<TagChange entity="2" tag="412" value="5"/>
+<TagChange entity="6" tag="44" value="0"/>
+</Block>
+<Block entity="31" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" triggerKeyword="217" ts="2021-12-27T12:49:35.908890-05:00">
+<FullEntity id="111" cardID="skele21">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="1196" value="1"/>
+<Tag tag="466" value="1"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="1"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="1"/>
+<Tag tag="43" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="111"/>
+<Tag tag="200" value="17"/>
+<Tag tag="201" value="3"/>
+<Tag tag="263" value="1"/>
+<Tag tag="313" value="31"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1254" value="31"/>
+<Tag tag="1284" value="69972"/>
+<Tag tag="1440" value="1"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<TagChange entity="111" tag="1517" value="1646"/>
+</Block>
+<MetaData meta="20" data="200" infoCount="1">
+<Info index="0" entity="31"/>
+</MetaData>
+<TagChange entity="2" tag="1420" value="1"/>
+<TagChange entity="3" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="13"/>
+<TagChange entity="3" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="46"/>
+</MetaData>
+<Options id="21" ts="2021-12-27T12:49:36.008941-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="47" error="14" type="3"/>
+<Option index="2" entity="79" error="14" type="3"/>
+<Option index="3" entity="77" error="14" type="3"/>
+<Option index="4" entity="35" error="14" type="3"/>
+<Option index="5" entity="64" error="14" type="3"/>
+<Option index="6" entity="84" error="15" type="3"/>
+<Option index="7" entity="85" error="15" type="3"/>
+<Option index="8" entity="86" error="31" type="3"/>
+<Option index="9" entity="87" error="14" type="3"/>
+<Option index="10" entity="111" error="15" type="3"/>
+</Options>
+<SendOption option="0" subOption="-1" target="0" position="0" ts="2021-12-27T12:49:39.088279-05:00"/>
+<TagChange entity="111" tag="1196" value="0"/>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:49:39.992341-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:49:39.992341-05:00">
+<TagChange entity="2" tag="1853" value="4"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:39.992341-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:49:39.992341-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:49:39.992341-05:00"/>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:49:39.992341-05:00">
+<TagChange entity="3" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:39.992341-05:00">
+<TagChange entity="3" tag="1292" value="0"/>
+<TagChange entity="2" tag="1292" value="1"/>
+<TagChange entity="47" tag="273" value="4"/>
+<TagChange entity="79" tag="273" value="3"/>
+<TagChange entity="77" tag="273" value="2"/>
+<TagChange entity="35" tag="273" value="2"/>
+<TagChange entity="64" tag="273" value="1"/>
+<TagChange entity="3" tag="23" value="0"/>
+<TagChange entity="2" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="9"/>
+<TagChange entity="1" tag="1882" value="8"/>
+<TagChange entity="2" tag="20" value="5"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:39.992341-05:00">
+<TagChange entity="1" tag="271" value="9"/>
+<TagChange entity="2" tag="271" value="9"/>
+<TagChange entity="3" tag="271" value="9"/>
+<TagChange entity="84" tag="271" value="9"/>
+<TagChange entity="85" tag="271" value="9"/>
+<TagChange entity="86" tag="271" value="9"/>
+<TagChange entity="87" tag="271" value="9"/>
+<TagChange entity="111" tag="271" value="1"/>
+<TagChange entity="2" tag="26" value="5"/>
+<TagChange entity="2" tag="25" value="0"/>
+<TagChange entity="2" tag="1420" value="0"/>
+<TagChange entity="2" tag="269" value="0"/>
+<TagChange entity="2" tag="317" value="0"/>
+<TagChange entity="2" tag="358" value="0"/>
+<TagChange entity="111" tag="43" value="0"/>
+<TagChange entity="2" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="2" tag="398" value="0"/>
+<TagChange entity="2" tag="464" value="0"/>
+<TagChange entity="2" tag="1575" value="0"/>
+<TagChange entity="2" tag="368" value="0"/>
+<TagChange entity="1" tag="369" value="0"/>
+<TagChange entity="2" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:49:39.992341-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:39.992341-05:00">
+<TagChange entity="2" tag="2166" value="7"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="7" tag="49" value="3"/>
+<TagChange entity="7" tag="263" value="5"/>
+<TagChange entity="2" tag="399" value="1"/>
+<TagChange entity="2" tag="995" value="7"/>
+<TagChange entity="2" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:49:39.992341-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Block entity="7" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="111" ts="2021-12-27T12:50:01.889417-05:00">
+<TagChange entity="2" tag="2245" value="1"/>
+<TagChange entity="2" tag="25" value="1"/>
+<TagChange entity="2" tag="418" value="11"/>
+<TagChange entity="2" tag="269" value="1"/>
+<TagChange entity="2" tag="317" value="1"/>
+<TagChange entity="7" tag="263" value="0"/>
+<ShowEntity entity="7" cardID="VAN_CS2_188">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="1"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="1"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="7"/>
+<Tag tag="201" value="2"/>
+<Tag tag="203" value="1"/>
+<Tag tag="218" value="1"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="267" value="111"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="242"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="242"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="9"/>
+</ShowEntity>
+<TagChange entity="7" tag="263" value="2"/>
+<TagChange entity="7" tag="1196" value="1"/>
+<TagChange entity="7" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="7"/>
+</MetaData>
+<Block entity="7" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="111" ts="2021-12-27T12:50:01.889417-05:00">
+<FullEntity id="113">
+<Tag tag="49" value="6"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="113"/>
+</FullEntity>
+<ShowEntity entity="113" cardID="CS2_188o">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="6"/>
+<Tag tag="40" value="111"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="113"/>
+<Tag tag="313" value="7"/>
+<Tag tag="338" value="1"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1284" value="69761"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="111" tag="338" value="1"/>
+<TagChange entity="113" tag="1068" value="1"/>
+<TagChange entity="113" tag="1068" value="0"/>
+<TagChange entity="113" tag="49" value="1"/>
+<TagChange entity="111" tag="479" value="4"/>
+<TagChange entity="111" tag="47" value="4"/>
+</Block>
+<TagChange entity="2" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="14"/>
+<TagChange entity="2" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="7"/>
+</MetaData>
+<TagChange entity="7" tag="1196" value="0"/>
+<Block entity="27" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:03.329183-05:00">
+<TagChange entity="2" tag="2245" value="5"/>
+<TagChange entity="2" tag="25" value="5"/>
+<TagChange entity="2" tag="418" value="15"/>
+<TagChange entity="2" tag="269" value="2"/>
+<TagChange entity="2" tag="317" value="2"/>
+<TagChange entity="5" tag="263" value="3"/>
+<TagChange entity="23" tag="263" value="2"/>
+<TagChange entity="13" tag="263" value="1"/>
+<TagChange entity="27" tag="263" value="0"/>
+<ShowEntity entity="27" cardID="VAN_EX1_093">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="4"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="4"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="3"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="27"/>
+<Tag tag="201" value="2"/>
+<Tag tag="203" value="3"/>
+<Tag tag="218" value="1"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="273" value="4"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="763"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="763"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1576" value="1"/>
+</ShowEntity>
+<TagChange entity="27" tag="263" value="2"/>
+<TagChange entity="7" tag="263" value="3"/>
+<TagChange entity="27" tag="1196" value="1"/>
+<TagChange entity="27" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="27"/>
+</MetaData>
+<Block entity="27" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:03.329183-05:00">
+<MetaData meta="0" data="0" infoCount="2">
+<Info index="0" entity="111"/>
+<Info index="1" entity="7"/>
+</MetaData>
+<FullEntity id="115">
+<Tag tag="49" value="6"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="115"/>
+</FullEntity>
+<ShowEntity entity="115" cardID="EX1_093e">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="6"/>
+<Tag tag="40" value="111"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="115"/>
+<Tag tag="313" value="27"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1284" value="69843"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="115" tag="1068" value="1"/>
+<TagChange entity="115" tag="1068" value="0"/>
+<TagChange entity="115" tag="49" value="1"/>
+<TagChange entity="111" tag="479" value="5"/>
+<TagChange entity="111" tag="45" value="2"/>
+<TagChange entity="111" tag="47" value="5"/>
+<TagChange entity="111" tag="190" value="1"/>
+<FullEntity id="116">
+<Tag tag="49" value="6"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="116"/>
+</FullEntity>
+<ShowEntity entity="116" cardID="EX1_093e">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="6"/>
+<Tag tag="40" value="7"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="116"/>
+<Tag tag="313" value="27"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1284" value="69843"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="116" tag="1068" value="1"/>
+<TagChange entity="116" tag="1068" value="0"/>
+<TagChange entity="116" tag="49" value="1"/>
+<TagChange entity="7" tag="479" value="3"/>
+<TagChange entity="7" tag="45" value="2"/>
+<TagChange entity="7" tag="47" value="3"/>
+<TagChange entity="7" tag="190" value="1"/>
+</Block>
+<TagChange entity="1" tag="1323" value="15"/>
+<TagChange entity="2" tag="358" value="2"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="27"/>
+</MetaData>
+<TagChange entity="27" tag="1196" value="0"/>
+<TagChange entity="111" tag="267" value="86"/>
+<Block entity="111" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:50:04.101092-05:00">
+<TagChange entity="111" tag="1715" value="111"/>
+<TagChange entity="86" tag="1715" value="111"/>
+<TagChange entity="2" tag="417" value="1"/>
+<TagChange entity="1" tag="39" value="111"/>
+<TagChange entity="1" tag="37" value="86"/>
+<TagChange entity="111" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="111"/>
+</MetaData>
+<TagChange entity="86" tag="36" value="1"/>
+<TagChange entity="111" tag="297" value="1"/>
+<TagChange entity="111" tag="43" value="1"/>
+<TagChange entity="86" tag="2187" value="111"/>
+<TagChange entity="86" tag="318" value="5"/>
+<TagChange entity="86" tag="1173" value="86"/>
+<TagChange entity="86" tag="2187" value="0"/>
+<TagChange entity="86" tag="318" value="0"/>
+<TagChange entity="86" tag="1173" value="0"/>
+<TagChange entity="86" tag="318" value="5"/>
+<TagChange entity="86" tag="318" value="0"/>
+<MetaData meta="1" data="5" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="18" value="111"/>
+<TagChange entity="86" tag="44" value="14"/>
+<TagChange entity="3" tag="464" value="5"/>
+<TagChange entity="3" tag="2349" value="5"/>
+<TagChange entity="3" tag="1575" value="1"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="111" tag="38" value="0"/>
+<TagChange entity="86" tag="36" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="16"/>
+<TagChange entity="2" tag="358" value="3"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="111"/>
+</MetaData>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:50:06.073850-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:06.073850-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:50:06.073850-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="3" tag="1853" value="14"/>
+</Block>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="7" tag="261" value="0"/>
+<TagChange entity="27" tag="261" value="0"/>
+<TagChange entity="2" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<Block entity="113" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" triggerKeyword="338" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="113" tag="18" value="113"/>
+<TagChange entity="113" tag="1068" value="4"/>
+<TagChange entity="113" tag="1068" value="0"/>
+<TagChange entity="113" tag="49" value="4"/>
+<TagChange entity="111" tag="338" value="0"/>
+<TagChange entity="113" tag="1234" value="111"/>
+<HideEntity entity="113" zone="4" ts="2021-12-27T12:50:06.073850-05:00"/>
+<TagChange entity="111" tag="479" value="3"/>
+<TagChange entity="111" tag="47" value="3"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="2" tag="1292" value="0"/>
+<TagChange entity="3" tag="1292" value="1"/>
+<TagChange entity="2" tag="23" value="0"/>
+<TagChange entity="3" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="10"/>
+<TagChange entity="1" tag="1882" value="9"/>
+<TagChange entity="3" tag="20" value="5"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="1" tag="271" value="10"/>
+<TagChange entity="2" tag="271" value="10"/>
+<TagChange entity="3" tag="271" value="10"/>
+<TagChange entity="84" tag="271" value="10"/>
+<TagChange entity="85" tag="271" value="10"/>
+<TagChange entity="86" tag="271" value="10"/>
+<TagChange entity="87" tag="271" value="10"/>
+<TagChange entity="111" tag="271" value="2"/>
+<TagChange entity="7" tag="271" value="1"/>
+<TagChange entity="27" tag="271" value="1"/>
+<TagChange entity="3" tag="26" value="5"/>
+<TagChange entity="3" tag="25" value="0"/>
+<TagChange entity="111" tag="297" value="0"/>
+<TagChange entity="3" tag="269" value="0"/>
+<TagChange entity="3" tag="358" value="0"/>
+<TagChange entity="3" tag="430" value="0"/>
+<TagChange entity="3" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="3" tag="464" value="0"/>
+<TagChange entity="3" tag="1575" value="0"/>
+<TagChange entity="2" tag="2349" value="0"/>
+<TagChange entity="2" tag="417" value="0"/>
+<TagChange entity="3" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="3" tag="2166" value="70"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="70" cardID="VAN_EX1_012">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="2"/>
+<Tag tag="479" value="1"/>
+<Tag tag="48" value="2"/>
+<Tag tag="47" value="1"/>
+<Tag tag="45" value="1"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="70"/>
+<Tag tag="114" value="1"/>
+<Tag tag="192" value="1"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="5"/>
+<Tag tag="217" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="749"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1380" value="1"/>
+<Tag tag="1413" value="749"/>
+<Tag tag="1556" value="0"/>
+</ShowEntity>
+<TagChange entity="70" tag="263" value="6"/>
+<TagChange entity="3" tag="399" value="1"/>
+<TagChange entity="3" tag="995" value="6"/>
+<TagChange entity="70" tag="1570" value="10"/>
+<TagChange entity="3" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:06.073850-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Options id="26" ts="2021-12-27T12:50:06.207068-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="47" type="3">
+<SubOption index="0" entity="48"/>
+<SubOption index="1" entity="49"/>
+</Option>
+<Option index="2" entity="35" type="3">
+<SubOption index="0" entity="36">
+<Target index="0" entity="84"/>
+<Target index="1" entity="86"/>
+<Target index="2" entity="111"/>
+<Target index="3" entity="7"/>
+<Target index="4" entity="27"/>
+</SubOption>
+<SubOption index="1" entity="37">
+<Target index="0" entity="111"/>
+<Target index="1" entity="7"/>
+<Target index="2" entity="27"/>
+<Target index="3" entity="84" error="1"/>
+<Target index="4" entity="86" error="1"/>
+</SubOption>
+</Option>
+<Option index="3" entity="64" type="3">
+<SubOption index="0" entity="65">
+<Target index="0" entity="111"/>
+<Target index="1" entity="7"/>
+<Target index="2" entity="27"/>
+<Target index="3" entity="84" error="1"/>
+<Target index="4" entity="86" error="1"/>
+</SubOption>
+<SubOption index="1" entity="66">
+<Target index="0" entity="111"/>
+<Target index="1" entity="7"/>
+<Target index="2" entity="27"/>
+<Target index="3" entity="84" error="1"/>
+<Target index="4" entity="86" error="1"/>
+</SubOption>
+</Option>
+<Option index="4" entity="70" type="3"/>
+<Option index="5" entity="87" type="3"/>
+<Option index="6" entity="79" error="14" type="3"/>
+<Option index="7" entity="77" error="14" type="3"/>
+<Option index="8" entity="84" error="15" type="3"/>
+<Option index="9" entity="85" error="15" type="3"/>
+<Option index="10" entity="86" error="31" type="3"/>
+<Option index="11" entity="111" error="15" type="3"/>
+<Option index="12" entity="7" error="15" type="3"/>
+<Option index="13" entity="27" error="15" type="3"/>
+</Options>
+<SendOption option="4" subOption="-1" target="0" position="1" ts="2021-12-27T12:50:14.451877-05:00"/>
+<Block entity="70" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:15.189639-05:00">
+<TagChange entity="3" tag="2245" value="2"/>
+<TagChange entity="3" tag="25" value="2"/>
+<TagChange entity="3" tag="418" value="11"/>
+<TagChange entity="3" tag="269" value="1"/>
+<TagChange entity="3" tag="317" value="1"/>
+<TagChange entity="70" tag="261" value="1"/>
+<TagChange entity="70" tag="1068" value="1"/>
+<TagChange entity="70" tag="1068" value="0"/>
+<TagChange entity="70" tag="1037" value="0"/>
+<TagChange entity="70" tag="263" value="0"/>
+<TagChange entity="70" tag="1556" value="1"/>
+<TagChange entity="70" tag="49" value="1"/>
+<TagChange entity="70" tag="263" value="1"/>
+<TagChange entity="70" tag="1196" value="1"/>
+<TagChange entity="70" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="70"/>
+</MetaData>
+<TagChange entity="3" tag="291" value="1"/>
+<Block entity="70" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:15.189639-05:00"/>
+<TagChange entity="3" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="17"/>
+<TagChange entity="3" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="70"/>
+</MetaData>
+<Options id="27" ts="2021-12-27T12:50:15.222795-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="64" type="3">
+<SubOption index="0" entity="65">
+<Target index="0" entity="111"/>
+<Target index="1" entity="7"/>
+<Target index="2" entity="27"/>
+<Target index="3" entity="70"/>
+<Target index="4" entity="84" error="1"/>
+<Target index="5" entity="86" error="1"/>
+</SubOption>
+<SubOption index="1" entity="66">
+<Target index="0" entity="111"/>
+<Target index="1" entity="7"/>
+<Target index="2" entity="27"/>
+<Target index="3" entity="70"/>
+<Target index="4" entity="84" error="1"/>
+<Target index="5" entity="86" error="1"/>
+</SubOption>
+</Option>
+<Option index="2" entity="87" type="3"/>
+<Option index="3" entity="47" error="14" type="3"/>
+<Option index="4" entity="79" error="14" type="3"/>
+<Option index="5" entity="77" error="14" type="3"/>
+<Option index="6" entity="35" error="14" type="3"/>
+<Option index="7" entity="84" error="15" type="3"/>
+<Option index="8" entity="85" error="15" type="3"/>
+<Option index="9" entity="86" error="31" type="3"/>
+<Option index="10" entity="111" error="15" type="3"/>
+<Option index="11" entity="7" error="15" type="3"/>
+<Option index="12" entity="27" error="15" type="3"/>
+<Option index="13" entity="70" error="37" type="3"/>
+</Options>
+<SendOption option="1" subOption="1" target="7" position="0" ts="2021-12-27T12:50:20.301461-05:00"/>
+<TagChange entity="70" tag="1196" value="0"/>
+<Block entity="64" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="7" subOption="1" ts="2021-12-27T12:50:20.836824-05:00">
+<TagChange entity="3" tag="2245" value="4"/>
+<TagChange entity="3" tag="25" value="4"/>
+<TagChange entity="3" tag="418" value="13"/>
+<TagChange entity="3" tag="269" value="2"/>
+<TagChange entity="3" tag="430" value="1"/>
+<TagChange entity="64" tag="267" value="7"/>
+<TagChange entity="64" tag="261" value="1"/>
+<TagChange entity="64" tag="1068" value="1"/>
+<TagChange entity="64" tag="1068" value="0"/>
+<TagChange entity="64" tag="1037" value="0"/>
+<TagChange entity="64" tag="263" value="0"/>
+<TagChange entity="64" tag="1556" value="0"/>
+<TagChange entity="64" tag="1556" value="1"/>
+<TagChange entity="64" tag="49" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="64"/>
+</MetaData>
+<TagChange entity="3" tag="1780" value="4"/>
+<TagChange entity="66" tag="267" value="7"/>
+<Block entity="64" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="7" subOption="1" ts="2021-12-27T12:50:20.836824-05:00">
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="7"/>
+</MetaData>
+<TagChange entity="7" tag="2187" value="64"/>
+<TagChange entity="7" tag="318" value="2"/>
+<TagChange entity="7" tag="1173" value="7"/>
+<TagChange entity="7" tag="2187" value="0"/>
+<TagChange entity="7" tag="318" value="0"/>
+<TagChange entity="7" tag="1173" value="0"/>
+<TagChange entity="7" tag="318" value="2"/>
+<TagChange entity="7" tag="318" value="0"/>
+<MetaData meta="1" data="2" infoCount="1">
+<Info index="0" entity="7"/>
+</MetaData>
+<TagChange entity="7" tag="18" value="64"/>
+<TagChange entity="7" tag="44" value="2"/>
+<TagChange entity="3" tag="2166" value="61"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="61" cardID="VAN_NEW1_008">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="7"/>
+<Tag tag="479" value="5"/>
+<Tag tag="48" value="7"/>
+<Tag tag="47" value="5"/>
+<Tag tag="45" value="5"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="61"/>
+<Tag tag="203" value="4"/>
+<Tag tag="443" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="920"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="920"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="61" tag="263" value="5"/>
+<TagChange entity="3" tag="399" value="2"/>
+<TagChange entity="3" tag="995" value="7"/>
+<TagChange entity="61" tag="1570" value="10"/>
+<TagChange entity="3" tag="467" value="0"/>
+</Block>
+<TagChange entity="64" tag="1068" value="4"/>
+<TagChange entity="64" tag="1068" value="0"/>
+<TagChange entity="64" tag="49" value="4"/>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:20.836824-05:00">
+<TagChange entity="2" tag="368" value="1"/>
+<TagChange entity="1" tag="369" value="1"/>
+<TagChange entity="7" tag="1068" value="4"/>
+<TagChange entity="7" tag="1068" value="0"/>
+<TagChange entity="7" tag="43" value="0"/>
+<TagChange entity="7" tag="263" value="0"/>
+<TagChange entity="7" tag="49" value="4"/>
+<TagChange entity="2" tag="398" value="1"/>
+<TagChange entity="2" tag="412" value="6"/>
+<TagChange entity="116" tag="1234" value="7"/>
+<HideEntity entity="116" zone="1" ts="2021-12-27T12:50:20.836824-05:00"/>
+<TagChange entity="116" tag="49" value="5"/>
+<TagChange entity="7" tag="44" value="0"/>
+</Block>
+<TagChange entity="7" tag="45" value="1"/>
+<TagChange entity="7" tag="47" value="2"/>
+<TagChange entity="1" tag="1323" value="18"/>
+<TagChange entity="3" tag="358" value="2"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="64"/>
+</MetaData>
+<Options id="28" ts="2021-12-27T12:50:20.869825-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="47" error="14" type="3"/>
+<Option index="2" entity="79" error="14" type="3"/>
+<Option index="3" entity="77" error="14" type="3"/>
+<Option index="4" entity="35" error="14" type="3"/>
+<Option index="5" entity="61" error="14" type="3"/>
+<Option index="6" entity="84" error="15" type="3"/>
+<Option index="7" entity="85" error="15" type="3"/>
+<Option index="8" entity="86" error="31" type="3"/>
+<Option index="9" entity="87" error="14" type="3"/>
+<Option index="10" entity="111" error="15" type="3"/>
+<Option index="11" entity="27" error="15" type="3"/>
+<Option index="12" entity="70" error="37" type="3"/>
+</Options>
+<SendOption option="0" subOption="-1" target="0" position="0" ts="2021-12-27T12:50:24.828205-05:00"/>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:50:25.732096-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:25.732096-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:25.732096-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:50:25.732096-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:25.732096-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="1" ts="2021-12-27T12:50:25.732096-05:00">
+<TagChange entity="3" tag="1854" value="3"/>
+</Block>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:50:25.732096-05:00">
+<TagChange entity="70" tag="261" value="0"/>
+<TagChange entity="3" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:25.732096-05:00">
+<TagChange entity="3" tag="1292" value="0"/>
+<TagChange entity="2" tag="1292" value="1"/>
+<TagChange entity="47" tag="273" value="5"/>
+<TagChange entity="79" tag="273" value="4"/>
+<TagChange entity="77" tag="273" value="3"/>
+<TagChange entity="35" tag="273" value="3"/>
+<TagChange entity="61" tag="273" value="1"/>
+<TagChange entity="3" tag="23" value="0"/>
+<TagChange entity="2" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="11"/>
+<TagChange entity="1" tag="1882" value="10"/>
+<TagChange entity="2" tag="20" value="6"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:25.732096-05:00">
+<TagChange entity="1" tag="271" value="11"/>
+<TagChange entity="2" tag="271" value="11"/>
+<TagChange entity="3" tag="271" value="11"/>
+<TagChange entity="84" tag="271" value="11"/>
+<TagChange entity="85" tag="271" value="11"/>
+<TagChange entity="86" tag="271" value="11"/>
+<TagChange entity="87" tag="271" value="11"/>
+<TagChange entity="111" tag="271" value="3"/>
+<TagChange entity="27" tag="271" value="2"/>
+<TagChange entity="70" tag="271" value="1"/>
+<TagChange entity="2" tag="26" value="6"/>
+<TagChange entity="2" tag="25" value="0"/>
+<TagChange entity="2" tag="269" value="0"/>
+<TagChange entity="2" tag="317" value="0"/>
+<TagChange entity="2" tag="358" value="0"/>
+<TagChange entity="111" tag="43" value="0"/>
+<TagChange entity="27" tag="43" value="0"/>
+<TagChange entity="2" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="2" tag="398" value="0"/>
+<TagChange entity="3" tag="2349" value="0"/>
+<TagChange entity="2" tag="368" value="0"/>
+<TagChange entity="1" tag="369" value="0"/>
+<TagChange entity="2" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:50:25.732096-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:25.732096-05:00">
+<TagChange entity="2" tag="2166" value="15"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="15" tag="49" value="3"/>
+<TagChange entity="15" tag="263" value="4"/>
+<TagChange entity="2" tag="399" value="1"/>
+<TagChange entity="2" tag="995" value="8"/>
+<TagChange entity="2" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:50:25.732096-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Block entity="85" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:48.872328-05:00">
+<TagChange entity="2" tag="2245" value="2"/>
+<TagChange entity="2" tag="25" value="2"/>
+<TagChange entity="2" tag="418" value="17"/>
+<MetaData meta="20" data="2000" infoCount="1">
+<Info index="0" entity="85"/>
+</MetaData>
+<Block entity="85" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:48.872328-05:00">
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="84"/>
+</MetaData>
+<TagChange entity="84" tag="2187" value="85"/>
+<TagChange entity="84" tag="318" value="2"/>
+<TagChange entity="84" tag="1173" value="84"/>
+<TagChange entity="84" tag="2187" value="0"/>
+<TagChange entity="84" tag="318" value="0"/>
+<TagChange entity="84" tag="1173" value="0"/>
+<TagChange entity="84" tag="318" value="2"/>
+<TagChange entity="84" tag="318" value="0"/>
+<MetaData meta="1" data="2" infoCount="1">
+<Info index="0" entity="84"/>
+</MetaData>
+<TagChange entity="84" tag="18" value="85"/>
+<TagChange entity="84" tag="44" value="6"/>
+<TagChange entity="2" tag="1025" value="2"/>
+<TagChange entity="2" tag="464" value="2"/>
+<TagChange entity="2" tag="1575" value="1"/>
+<TagChange entity="2" tag="1573" value="2"/>
+<TagChange entity="2" tag="2166" value="9"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="9" tag="49" value="3"/>
+<TagChange entity="9" tag="263" value="5"/>
+<TagChange entity="2" tag="399" value="2"/>
+<TagChange entity="2" tag="995" value="9"/>
+<TagChange entity="2" tag="467" value="0"/>
+</Block>
+<TagChange entity="2" tag="406" value="1"/>
+<TagChange entity="2" tag="1739" value="1"/>
+<TagChange entity="85" tag="43" value="1"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:48.872328-05:00">
+<TagChange entity="2" tag="394" value="1"/>
+</Block>
+<TagChange entity="1" tag="1323" value="19"/>
+<TagChange entity="2" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="85"/>
+</MetaData>
+<TagChange entity="27" tag="267" value="70"/>
+<Block entity="27" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="70" ts="2021-12-27T12:50:55.074155-05:00">
+<TagChange entity="27" tag="1715" value="27"/>
+<TagChange entity="70" tag="1715" value="27"/>
+<TagChange entity="2" tag="417" value="1"/>
+<TagChange entity="1" tag="39" value="27"/>
+<TagChange entity="1" tag="37" value="70"/>
+<TagChange entity="27" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="27"/>
+</MetaData>
+<TagChange entity="70" tag="36" value="1"/>
+<TagChange entity="27" tag="297" value="1"/>
+<TagChange entity="27" tag="43" value="1"/>
+<TagChange entity="70" tag="2187" value="27"/>
+<TagChange entity="70" tag="318" value="2"/>
+<TagChange entity="70" tag="1173" value="70"/>
+<TagChange entity="70" tag="2187" value="0"/>
+<TagChange entity="70" tag="318" value="0"/>
+<TagChange entity="70" tag="1173" value="0"/>
+<TagChange entity="70" tag="318" value="2"/>
+<TagChange entity="70" tag="318" value="0"/>
+<MetaData meta="1" data="2" infoCount="1">
+<Info index="0" entity="70"/>
+</MetaData>
+<TagChange entity="70" tag="18" value="27"/>
+<TagChange entity="70" tag="44" value="2"/>
+<TagChange entity="27" tag="2187" value="70"/>
+<TagChange entity="27" tag="318" value="1"/>
+<TagChange entity="27" tag="1173" value="27"/>
+<TagChange entity="27" tag="2187" value="0"/>
+<TagChange entity="27" tag="318" value="0"/>
+<TagChange entity="27" tag="1173" value="0"/>
+<TagChange entity="27" tag="318" value="1"/>
+<TagChange entity="27" tag="318" value="0"/>
+<MetaData meta="1" data="1" infoCount="1">
+<Info index="0" entity="27"/>
+</MetaData>
+<TagChange entity="27" tag="18" value="70"/>
+<TagChange entity="27" tag="44" value="1"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="27" tag="38" value="0"/>
+<TagChange entity="70" tag="36" value="0"/>
+</Block>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:50:55.074155-05:00">
+<TagChange entity="3" tag="368" value="1"/>
+<TagChange entity="1" tag="369" value="1"/>
+<TagChange entity="70" tag="1068" value="4"/>
+<TagChange entity="70" tag="1068" value="0"/>
+<TagChange entity="70" tag="43" value="0"/>
+<TagChange entity="70" tag="263" value="0"/>
+<TagChange entity="70" tag="49" value="4"/>
+<TagChange entity="3" tag="398" value="1"/>
+<TagChange entity="3" tag="412" value="3"/>
+<TagChange entity="70" tag="44" value="0"/>
+</Block>
+<TagChange entity="3" tag="291" value="0"/>
+<Block entity="70" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" triggerKeyword="217" ts="2021-12-27T12:50:55.074155-05:00">
+<TagChange entity="3" tag="2166" value="50"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="50" cardID="VAN_EX1_166">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="4"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="4"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="4"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="50"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="3"/>
+<Tag tag="339" value="1"/>
+<Tag tag="443" value="1"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="601"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="601"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="50" tag="263" value="6"/>
+<TagChange entity="3" tag="399" value="3"/>
+<TagChange entity="3" tag="995" value="8"/>
+<TagChange entity="50" tag="1570" value="11"/>
+<TagChange entity="3" tag="467" value="0"/>
+</Block>
+<MetaData meta="20" data="200" infoCount="1">
+<Info index="0" entity="70"/>
+</MetaData>
+<TagChange entity="3" tag="1420" value="1"/>
+<TagChange entity="1" tag="1323" value="20"/>
+<TagChange entity="2" tag="358" value="2"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="27"/>
+</MetaData>
+<Block entity="23" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="111" ts="2021-12-27T12:50:57.352784-05:00">
+<TagChange entity="2" tag="2245" value="6"/>
+<TagChange entity="2" tag="25" value="6"/>
+<TagChange entity="2" tag="418" value="21"/>
+<TagChange entity="2" tag="269" value="1"/>
+<TagChange entity="2" tag="317" value="1"/>
+<TagChange entity="9" tag="263" value="4"/>
+<TagChange entity="15" tag="263" value="3"/>
+<TagChange entity="5" tag="263" value="2"/>
+<TagChange entity="23" tag="263" value="0"/>
+<ShowEntity entity="23" cardID="VAN_EX1_046">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="4"/>
+<Tag tag="479" value="4"/>
+<Tag tag="48" value="4"/>
+<Tag tag="47" value="4"/>
+<Tag tag="45" value="4"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="23"/>
+<Tag tag="201" value="2"/>
+<Tag tag="203" value="1"/>
+<Tag tag="218" value="1"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="267" value="111"/>
+<Tag tag="273" value="2"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="348"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="348"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="6"/>
+</ShowEntity>
+<TagChange entity="23" tag="263" value="1"/>
+<TagChange entity="27" tag="263" value="3"/>
+<TagChange entity="111" tag="263" value="2"/>
+<TagChange entity="23" tag="1196" value="1"/>
+<TagChange entity="23" tag="43" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="23"/>
+</MetaData>
+<Block entity="23" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="111" ts="2021-12-27T12:50:57.352784-05:00">
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="111"/>
+</MetaData>
+<FullEntity id="122">
+<Tag tag="49" value="6"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="122"/>
+</FullEntity>
+<ShowEntity entity="122" cardID="EX1_046e">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="6"/>
+<Tag tag="40" value="111"/>
+<Tag tag="49" value="6"/>
+<Tag tag="53" value="122"/>
+<Tag tag="313" value="23"/>
+<Tag tag="338" value="1"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1284" value="69827"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="111" tag="338" value="1"/>
+<TagChange entity="122" tag="1068" value="1"/>
+<TagChange entity="122" tag="1068" value="0"/>
+<TagChange entity="122" tag="49" value="1"/>
+<TagChange entity="111" tag="479" value="5"/>
+<TagChange entity="111" tag="47" value="5"/>
+</Block>
+<TagChange entity="2" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="21"/>
+<TagChange entity="2" tag="358" value="3"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="23"/>
+</MetaData>
+<TagChange entity="23" tag="1196" value="0"/>
+<Block entity="111" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:50:58.254766-05:00">
+<TagChange entity="2" tag="417" value="2"/>
+<TagChange entity="1" tag="39" value="111"/>
+<TagChange entity="1" tag="37" value="86"/>
+<TagChange entity="111" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="111"/>
+</MetaData>
+<TagChange entity="86" tag="36" value="1"/>
+<TagChange entity="111" tag="297" value="1"/>
+<TagChange entity="111" tag="43" value="1"/>
+<TagChange entity="86" tag="2187" value="111"/>
+<TagChange entity="86" tag="318" value="5"/>
+<TagChange entity="86" tag="1173" value="86"/>
+<TagChange entity="86" tag="2187" value="0"/>
+<TagChange entity="86" tag="318" value="0"/>
+<TagChange entity="86" tag="1173" value="0"/>
+<TagChange entity="86" tag="318" value="5"/>
+<TagChange entity="86" tag="318" value="0"/>
+<MetaData meta="1" data="5" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="44" value="19"/>
+<TagChange entity="3" tag="464" value="5"/>
+<TagChange entity="3" tag="2349" value="5"/>
+<TagChange entity="3" tag="1575" value="1"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="111" tag="38" value="0"/>
+<TagChange entity="86" tag="36" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="22"/>
+<TagChange entity="2" tag="358" value="4"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="111"/>
+</MetaData>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:51:00.941480-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="2" tag="1853" value="6"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:51:00.941480-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="3" tag="1853" value="19"/>
+</Block>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="23" tag="261" value="0"/>
+<TagChange entity="2" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<Block entity="122" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" triggerKeyword="338" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="122" tag="18" value="122"/>
+<TagChange entity="122" tag="1068" value="4"/>
+<TagChange entity="122" tag="1068" value="0"/>
+<TagChange entity="122" tag="49" value="4"/>
+<TagChange entity="111" tag="338" value="0"/>
+<TagChange entity="122" tag="1234" value="111"/>
+<HideEntity entity="122" zone="4" ts="2021-12-27T12:51:00.941480-05:00"/>
+<TagChange entity="111" tag="479" value="3"/>
+<TagChange entity="111" tag="47" value="3"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="2" tag="1292" value="0"/>
+<TagChange entity="3" tag="1292" value="1"/>
+<TagChange entity="2" tag="23" value="0"/>
+<TagChange entity="3" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="12"/>
+<TagChange entity="1" tag="1882" value="11"/>
+<TagChange entity="3" tag="20" value="6"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="1" tag="271" value="12"/>
+<TagChange entity="2" tag="271" value="12"/>
+<TagChange entity="3" tag="271" value="12"/>
+<TagChange entity="84" tag="271" value="12"/>
+<TagChange entity="85" tag="271" value="12"/>
+<TagChange entity="86" tag="271" value="12"/>
+<TagChange entity="87" tag="271" value="12"/>
+<TagChange entity="111" tag="271" value="4"/>
+<TagChange entity="27" tag="271" value="3"/>
+<TagChange entity="23" tag="271" value="1"/>
+<TagChange entity="3" tag="26" value="6"/>
+<TagChange entity="3" tag="25" value="0"/>
+<TagChange entity="3" tag="1420" value="0"/>
+<TagChange entity="111" tag="297" value="0"/>
+<TagChange entity="27" tag="297" value="0"/>
+<TagChange entity="3" tag="269" value="0"/>
+<TagChange entity="3" tag="317" value="0"/>
+<TagChange entity="3" tag="358" value="0"/>
+<TagChange entity="3" tag="430" value="0"/>
+<TagChange entity="3" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="3" tag="398" value="0"/>
+<TagChange entity="3" tag="464" value="0"/>
+<TagChange entity="3" tag="1575" value="0"/>
+<TagChange entity="2" tag="464" value="0"/>
+<TagChange entity="2" tag="1575" value="0"/>
+<TagChange entity="3" tag="368" value="0"/>
+<TagChange entity="2" tag="417" value="0"/>
+<TagChange entity="1" tag="369" value="0"/>
+<TagChange entity="3" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="3" tag="2166" value="83"/>
+<TagChange entity="3" tag="467" value="1"/>
+<ShowEntity entity="83" cardID="VAN_CS2_011">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="3"/>
+<Tag tag="48" value="3"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="3"/>
+<Tag tag="53" value="83"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="2"/>
+<Tag tag="478" value="2"/>
+<Tag tag="858" value="742"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="742"/>
+<Tag tag="1556" value="1"/>
+</ShowEntity>
+<TagChange entity="83" tag="263" value="7"/>
+<TagChange entity="3" tag="399" value="1"/>
+<TagChange entity="3" tag="995" value="9"/>
+<TagChange entity="83" tag="1570" value="12"/>
+<TagChange entity="3" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:00.941480-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Options id="34" ts="2021-12-27T12:51:01.042587-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="47" type="3">
+<SubOption index="0" entity="48"/>
+<SubOption index="1" entity="49"/>
+</Option>
+<Option index="2" entity="77" type="3"/>
+<Option index="3" entity="35" type="3">
+<SubOption index="0" entity="36">
+<Target index="0" entity="84"/>
+<Target index="1" entity="86"/>
+<Target index="2" entity="111"/>
+<Target index="3" entity="27"/>
+<Target index="4" entity="23"/>
+</SubOption>
+<SubOption index="1" entity="37">
+<Target index="0" entity="111"/>
+<Target index="1" entity="27"/>
+<Target index="2" entity="23"/>
+<Target index="3" entity="84" error="1"/>
+<Target index="4" entity="86" error="1"/>
+</SubOption>
+</Option>
+<Option index="4" entity="50" type="3">
+<SubOption index="0" entity="51">
+<Target index="0" entity="84"/>
+<Target index="1" entity="86"/>
+<Target index="2" entity="111"/>
+<Target index="3" entity="27"/>
+<Target index="4" entity="23"/>
+</SubOption>
+<SubOption index="1" entity="52">
+<Target index="0" entity="111"/>
+<Target index="1" entity="27"/>
+<Target index="2" entity="23"/>
+<Target index="3" entity="84" error="1"/>
+<Target index="4" entity="86" error="1"/>
+</SubOption>
+</Option>
+<Option index="5" entity="83" type="3"/>
+<Option index="6" entity="87" type="3"/>
+<Option index="7" entity="79" error="14" type="3"/>
+<Option index="8" entity="61" error="14" type="3"/>
+<Option index="9" entity="84" error="15" type="3"/>
+<Option index="10" entity="85" error="15" type="3"/>
+<Option index="11" entity="86" error="31" type="3"/>
+<Option index="12" entity="111" error="15" type="3"/>
+<Option index="13" entity="27" error="15" type="3"/>
+<Option index="14" entity="23" error="15" type="3"/>
+</Options>
+<SendOption option="2" subOption="-1" target="0" position="0" ts="2021-12-27T12:51:08.641983-05:00"/>
+<Block entity="77" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:08.909934-05:00">
+<TagChange entity="3" tag="2245" value="6"/>
+<TagChange entity="3" tag="25" value="6"/>
+<TagChange entity="3" tag="418" value="19"/>
+<TagChange entity="3" tag="269" value="1"/>
+<TagChange entity="3" tag="430" value="1"/>
+<TagChange entity="77" tag="261" value="1"/>
+<TagChange entity="77" tag="1068" value="1"/>
+<TagChange entity="77" tag="1068" value="0"/>
+<TagChange entity="83" tag="263" value="6"/>
+<TagChange entity="50" tag="263" value="5"/>
+<TagChange entity="61" tag="263" value="4"/>
+<TagChange entity="35" tag="263" value="3"/>
+<TagChange entity="77" tag="1037" value="0"/>
+<TagChange entity="77" tag="263" value="0"/>
+<TagChange entity="77" tag="1556" value="0"/>
+<TagChange entity="77" tag="1556" value="1"/>
+<TagChange entity="77" tag="49" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="77"/>
+</MetaData>
+<TagChange entity="3" tag="1780" value="5"/>
+<Block entity="77" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:08.909934-05:00">
+<FullEntity id="124" cardID="VAN_EX1_tk9b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="1196" value="1"/>
+<Tag tag="466" value="1"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="1"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="2"/>
+<Tag tag="32" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="124"/>
+<Tag tag="197" value="1"/>
+<Tag tag="201" value="3"/>
+<Tag tag="263" value="1"/>
+<Tag tag="313" value="77"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1254" value="77"/>
+<Tag tag="1284" value="70981"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="124"/>
+</MetaData>
+<FullEntity id="125" cardID="VAN_EX1_tk9b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="1196" value="1"/>
+<Tag tag="466" value="1"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="1"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="2"/>
+<Tag tag="32" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="125"/>
+<Tag tag="197" value="1"/>
+<Tag tag="201" value="3"/>
+<Tag tag="263" value="2"/>
+<Tag tag="313" value="77"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1254" value="77"/>
+<Tag tag="1284" value="70981"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="125"/>
+</MetaData>
+<FullEntity id="126" cardID="VAN_EX1_tk9b">
+<Tag tag="50" value="2"/>
+<Tag tag="202" value="4"/>
+<Tag tag="1196" value="1"/>
+<Tag tag="466" value="1"/>
+<Tag tag="479" value="2"/>
+<Tag tag="48" value="1"/>
+<Tag tag="47" value="2"/>
+<Tag tag="45" value="2"/>
+<Tag tag="32" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="126"/>
+<Tag tag="197" value="1"/>
+<Tag tag="201" value="3"/>
+<Tag tag="263" value="3"/>
+<Tag tag="313" value="77"/>
+<Tag tag="1037" value="2"/>
+<Tag tag="1254" value="77"/>
+<Tag tag="1284" value="70981"/>
+<Tag tag="1556" value="1"/>
+</FullEntity>
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="126"/>
+</MetaData>
+</Block>
+<TagChange entity="77" tag="1068" value="4"/>
+<TagChange entity="77" tag="1068" value="0"/>
+<TagChange entity="77" tag="49" value="4"/>
+<TagChange entity="3" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="23"/>
+<TagChange entity="3" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="77"/>
+</MetaData>
+<Options id="35" ts="2021-12-27T12:51:09.045055-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="124" type="3">
+<Target index="0" entity="111"/>
+<Target index="1" entity="86" error="3"/>
+<Target index="2" entity="124" error="3"/>
+<Target index="3" entity="125" error="3"/>
+<Target index="4" entity="126" error="3"/>
+<Target index="5" entity="23" error="27"/>
+<Target index="6" entity="27" error="27"/>
+<Target index="7" entity="84" error="27"/>
+</Option>
+<Option index="2" entity="125" type="3">
+<Target index="0" entity="111"/>
+<Target index="1" entity="86" error="3"/>
+<Target index="2" entity="124" error="3"/>
+<Target index="3" entity="125" error="3"/>
+<Target index="4" entity="126" error="3"/>
+<Target index="5" entity="23" error="27"/>
+<Target index="6" entity="27" error="27"/>
+<Target index="7" entity="84" error="27"/>
+</Option>
+<Option index="3" entity="126" type="3">
+<Target index="0" entity="111"/>
+<Target index="1" entity="86" error="3"/>
+<Target index="2" entity="124" error="3"/>
+<Target index="3" entity="125" error="3"/>
+<Target index="4" entity="126" error="3"/>
+<Target index="5" entity="23" error="27"/>
+<Target index="6" entity="27" error="27"/>
+<Target index="7" entity="84" error="27"/>
+</Option>
+<Option index="4" entity="47" error="14" type="3"/>
+<Option index="5" entity="79" error="14" type="3"/>
+<Option index="6" entity="35" error="14" type="3"/>
+<Option index="7" entity="61" error="14" type="3"/>
+<Option index="8" entity="50" error="14" type="3"/>
+<Option index="9" entity="83" error="14" type="3"/>
+<Option index="10" entity="84" error="15" type="3"/>
+<Option index="11" entity="85" error="15" type="3"/>
+<Option index="12" entity="86" error="31" type="3"/>
+<Option index="13" entity="87" error="14" type="3"/>
+<Option index="14" entity="111" error="15" type="3"/>
+<Option index="15" entity="27" error="15" type="3"/>
+<Option index="16" entity="23" error="15" type="3"/>
+</Options>
+<SendOption option="3" subOption="-1" target="111" position="0" ts="2021-12-27T12:51:12.003293-05:00"/>
+<TagChange entity="124" tag="1196" value="0"/>
+<TagChange entity="125" tag="1196" value="0"/>
+<TagChange entity="126" tag="1196" value="0"/>
+<TagChange entity="126" tag="267" value="111"/>
+<Block entity="126" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="111" ts="2021-12-27T12:51:12.303627-05:00">
+<TagChange entity="126" tag="1715" value="126"/>
+<TagChange entity="111" tag="1715" value="126"/>
+<TagChange entity="3" tag="417" value="1"/>
+<TagChange entity="1" tag="39" value="126"/>
+<TagChange entity="1" tag="37" value="111"/>
+<TagChange entity="126" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="126"/>
+</MetaData>
+<TagChange entity="111" tag="36" value="1"/>
+<TagChange entity="126" tag="297" value="1"/>
+<TagChange entity="126" tag="43" value="1"/>
+<TagChange entity="111" tag="2187" value="126"/>
+<TagChange entity="111" tag="318" value="2"/>
+<TagChange entity="111" tag="1173" value="111"/>
+<TagChange entity="111" tag="2187" value="0"/>
+<TagChange entity="111" tag="318" value="0"/>
+<TagChange entity="111" tag="1173" value="0"/>
+<TagChange entity="111" tag="318" value="2"/>
+<TagChange entity="111" tag="318" value="0"/>
+<MetaData meta="1" data="2" infoCount="1">
+<Info index="0" entity="111"/>
+</MetaData>
+<TagChange entity="111" tag="18" value="126"/>
+<TagChange entity="111" tag="44" value="2"/>
+<TagChange entity="126" tag="2187" value="111"/>
+<TagChange entity="126" tag="318" value="3"/>
+<TagChange entity="126" tag="1173" value="126"/>
+<TagChange entity="126" tag="2187" value="0"/>
+<TagChange entity="126" tag="318" value="0"/>
+<TagChange entity="126" tag="1173" value="0"/>
+<TagChange entity="126" tag="318" value="3"/>
+<TagChange entity="126" tag="318" value="0"/>
+<MetaData meta="1" data="3" infoCount="1">
+<Info index="0" entity="126"/>
+</MetaData>
+<TagChange entity="126" tag="18" value="111"/>
+<TagChange entity="126" tag="44" value="3"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="126" tag="38" value="0"/>
+<TagChange entity="111" tag="36" value="0"/>
+</Block>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:12.303627-05:00">
+<TagChange entity="2" tag="368" value="1"/>
+<TagChange entity="1" tag="369" value="1"/>
+<TagChange entity="111" tag="1068" value="4"/>
+<TagChange entity="111" tag="1068" value="0"/>
+<TagChange entity="111" tag="43" value="0"/>
+<TagChange entity="27" tag="263" value="2"/>
+<TagChange entity="111" tag="1037" value="0"/>
+<TagChange entity="111" tag="263" value="0"/>
+<TagChange entity="111" tag="49" value="4"/>
+<TagChange entity="2" tag="398" value="1"/>
+<TagChange entity="2" tag="412" value="7"/>
+<FullEntity id="128">
+<Tag tag="49" value="6"/>
+<Tag tag="50" value="1"/>
+<Tag tag="53" value="128"/>
+</FullEntity>
+<TagChange entity="128" tag="49" value="1"/>
+<TagChange entity="128" tag="49" value="5"/>
+<TagChange entity="115" tag="1234" value="111"/>
+<HideEntity entity="115" zone="1" ts="2021-12-27T12:51:12.303627-05:00"/>
+<TagChange entity="115" tag="49" value="5"/>
+<TagChange entity="111" tag="44" value="0"/>
+<TagChange entity="3" tag="368" value="1"/>
+<TagChange entity="1" tag="369" value="2"/>
+<TagChange entity="126" tag="1068" value="4"/>
+<TagChange entity="126" tag="1068" value="0"/>
+<TagChange entity="126" tag="43" value="0"/>
+<TagChange entity="126" tag="1037" value="0"/>
+<TagChange entity="126" tag="263" value="0"/>
+<TagChange entity="126" tag="49" value="4"/>
+<TagChange entity="3" tag="398" value="1"/>
+<TagChange entity="3" tag="412" value="4"/>
+<TagChange entity="126" tag="44" value="0"/>
+</Block>
+<TagChange entity="111" tag="45" value="1"/>
+<TagChange entity="111" tag="47" value="2"/>
+<TagChange entity="1" tag="1323" value="24"/>
+<TagChange entity="3" tag="358" value="2"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="126"/>
+</MetaData>
+<Options id="36" ts="2021-12-27T12:51:12.437626-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="124" type="3">
+<Target index="0" entity="84"/>
+<Target index="1" entity="27"/>
+<Target index="2" entity="23"/>
+<Target index="3" entity="86" error="3"/>
+<Target index="4" entity="124" error="3"/>
+<Target index="5" entity="125" error="3"/>
+</Option>
+<Option index="2" entity="125" type="3">
+<Target index="0" entity="84"/>
+<Target index="1" entity="27"/>
+<Target index="2" entity="23"/>
+<Target index="3" entity="86" error="3"/>
+<Target index="4" entity="124" error="3"/>
+<Target index="5" entity="125" error="3"/>
+</Option>
+<Option index="3" entity="47" error="14" type="3"/>
+<Option index="4" entity="79" error="14" type="3"/>
+<Option index="5" entity="35" error="14" type="3"/>
+<Option index="6" entity="61" error="14" type="3"/>
+<Option index="7" entity="50" error="14" type="3"/>
+<Option index="8" entity="83" error="14" type="3"/>
+<Option index="9" entity="84" error="15" type="3"/>
+<Option index="10" entity="85" error="15" type="3"/>
+<Option index="11" entity="86" error="31" type="3"/>
+<Option index="12" entity="87" error="14" type="3"/>
+<Option index="13" entity="27" error="15" type="3"/>
+<Option index="14" entity="23" error="15" type="3"/>
+</Options>
+<SendOption option="2" subOption="-1" target="23" position="0" ts="2021-12-27T12:51:13.429195-05:00"/>
+<TagChange entity="125" tag="267" value="23"/>
+<Block entity="125" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="23" ts="2021-12-27T12:51:13.695632-05:00">
+<TagChange entity="125" tag="1715" value="125"/>
+<TagChange entity="23" tag="1715" value="125"/>
+<TagChange entity="3" tag="417" value="2"/>
+<TagChange entity="1" tag="39" value="125"/>
+<TagChange entity="1" tag="37" value="23"/>
+<TagChange entity="125" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="125"/>
+</MetaData>
+<TagChange entity="23" tag="36" value="1"/>
+<TagChange entity="125" tag="297" value="1"/>
+<TagChange entity="125" tag="43" value="1"/>
+<TagChange entity="23" tag="2187" value="125"/>
+<TagChange entity="23" tag="318" value="2"/>
+<TagChange entity="23" tag="1173" value="23"/>
+<TagChange entity="23" tag="2187" value="0"/>
+<TagChange entity="23" tag="318" value="0"/>
+<TagChange entity="23" tag="1173" value="0"/>
+<TagChange entity="23" tag="318" value="2"/>
+<TagChange entity="23" tag="318" value="0"/>
+<MetaData meta="1" data="2" infoCount="1">
+<Info index="0" entity="23"/>
+</MetaData>
+<TagChange entity="23" tag="18" value="125"/>
+<TagChange entity="23" tag="44" value="2"/>
+<TagChange entity="125" tag="2187" value="23"/>
+<TagChange entity="125" tag="318" value="4"/>
+<TagChange entity="125" tag="1173" value="125"/>
+<TagChange entity="125" tag="2187" value="0"/>
+<TagChange entity="125" tag="318" value="0"/>
+<TagChange entity="125" tag="1173" value="0"/>
+<TagChange entity="125" tag="318" value="4"/>
+<TagChange entity="125" tag="318" value="0"/>
+<MetaData meta="1" data="4" infoCount="1">
+<Info index="0" entity="125"/>
+</MetaData>
+<TagChange entity="125" tag="18" value="23"/>
+<TagChange entity="125" tag="44" value="4"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="125" tag="38" value="0"/>
+<TagChange entity="23" tag="36" value="0"/>
+</Block>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:13.695632-05:00">
+<TagChange entity="3" tag="368" value="2"/>
+<TagChange entity="1" tag="369" value="3"/>
+<TagChange entity="125" tag="1068" value="4"/>
+<TagChange entity="125" tag="1068" value="0"/>
+<TagChange entity="125" tag="43" value="0"/>
+<TagChange entity="125" tag="1037" value="0"/>
+<TagChange entity="125" tag="263" value="0"/>
+<TagChange entity="125" tag="49" value="4"/>
+<TagChange entity="3" tag="398" value="2"/>
+<TagChange entity="3" tag="412" value="5"/>
+<TagChange entity="125" tag="44" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="25"/>
+<TagChange entity="3" tag="358" value="3"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="125"/>
+</MetaData>
+<Options id="37" ts="2021-12-27T12:51:13.830756-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="124" type="3">
+<Target index="0" entity="84"/>
+<Target index="1" entity="27"/>
+<Target index="2" entity="23"/>
+<Target index="3" entity="86" error="3"/>
+<Target index="4" entity="124" error="3"/>
+</Option>
+<Option index="2" entity="47" error="14" type="3"/>
+<Option index="3" entity="79" error="14" type="3"/>
+<Option index="4" entity="35" error="14" type="3"/>
+<Option index="5" entity="61" error="14" type="3"/>
+<Option index="6" entity="50" error="14" type="3"/>
+<Option index="7" entity="83" error="14" type="3"/>
+<Option index="8" entity="84" error="15" type="3"/>
+<Option index="9" entity="85" error="15" type="3"/>
+<Option index="10" entity="86" error="31" type="3"/>
+<Option index="11" entity="87" error="14" type="3"/>
+<Option index="12" entity="27" error="15" type="3"/>
+<Option index="13" entity="23" error="15" type="3"/>
+</Options>
+<SendOption option="1" subOption="-1" target="23" position="0" ts="2021-12-27T12:51:14.468740-05:00"/>
+<TagChange entity="124" tag="267" value="23"/>
+<Block entity="124" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="23" ts="2021-12-27T12:51:14.701827-05:00">
+<TagChange entity="124" tag="1715" value="124"/>
+<TagChange entity="23" tag="1715" value="124"/>
+<TagChange entity="3" tag="417" value="3"/>
+<TagChange entity="1" tag="39" value="124"/>
+<TagChange entity="1" tag="37" value="23"/>
+<TagChange entity="124" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="124"/>
+</MetaData>
+<TagChange entity="23" tag="36" value="1"/>
+<TagChange entity="124" tag="297" value="1"/>
+<TagChange entity="124" tag="43" value="1"/>
+<TagChange entity="23" tag="2187" value="124"/>
+<TagChange entity="23" tag="318" value="2"/>
+<TagChange entity="23" tag="1173" value="23"/>
+<TagChange entity="23" tag="2187" value="0"/>
+<TagChange entity="23" tag="318" value="0"/>
+<TagChange entity="23" tag="1173" value="0"/>
+<TagChange entity="23" tag="318" value="2"/>
+<TagChange entity="23" tag="318" value="0"/>
+<MetaData meta="1" data="2" infoCount="1">
+<Info index="0" entity="23"/>
+</MetaData>
+<TagChange entity="23" tag="18" value="124"/>
+<TagChange entity="23" tag="44" value="4"/>
+<TagChange entity="124" tag="2187" value="23"/>
+<TagChange entity="124" tag="318" value="4"/>
+<TagChange entity="124" tag="1173" value="124"/>
+<TagChange entity="124" tag="2187" value="0"/>
+<TagChange entity="124" tag="318" value="0"/>
+<TagChange entity="124" tag="1173" value="0"/>
+<TagChange entity="124" tag="318" value="4"/>
+<TagChange entity="124" tag="318" value="0"/>
+<MetaData meta="1" data="4" infoCount="1">
+<Info index="0" entity="124"/>
+</MetaData>
+<TagChange entity="124" tag="18" value="23"/>
+<TagChange entity="124" tag="44" value="4"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="124" tag="38" value="0"/>
+<TagChange entity="23" tag="36" value="0"/>
+</Block>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:14.701827-05:00">
+<TagChange entity="2" tag="368" value="2"/>
+<TagChange entity="1" tag="369" value="4"/>
+<TagChange entity="23" tag="1068" value="4"/>
+<TagChange entity="23" tag="1068" value="0"/>
+<TagChange entity="23" tag="43" value="0"/>
+<TagChange entity="27" tag="263" value="1"/>
+<TagChange entity="23" tag="263" value="0"/>
+<TagChange entity="23" tag="49" value="4"/>
+<TagChange entity="2" tag="398" value="2"/>
+<TagChange entity="2" tag="412" value="8"/>
+<TagChange entity="23" tag="44" value="0"/>
+<TagChange entity="3" tag="368" value="3"/>
+<TagChange entity="1" tag="369" value="5"/>
+<TagChange entity="124" tag="1068" value="4"/>
+<TagChange entity="124" tag="1068" value="0"/>
+<TagChange entity="124" tag="43" value="0"/>
+<TagChange entity="124" tag="1037" value="0"/>
+<TagChange entity="124" tag="263" value="0"/>
+<TagChange entity="124" tag="49" value="4"/>
+<TagChange entity="3" tag="398" value="3"/>
+<TagChange entity="3" tag="412" value="6"/>
+<TagChange entity="124" tag="44" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="26"/>
+<TagChange entity="3" tag="358" value="4"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="124"/>
+</MetaData>
+<Options id="38" ts="2021-12-27T12:51:14.836827-05:00">
+<Option index="0" error="-1" type="2"/>
+<Option index="1" entity="47" error="14" type="3"/>
+<Option index="2" entity="79" error="14" type="3"/>
+<Option index="3" entity="35" error="14" type="3"/>
+<Option index="4" entity="61" error="14" type="3"/>
+<Option index="5" entity="50" error="14" type="3"/>
+<Option index="6" entity="83" error="14" type="3"/>
+<Option index="7" entity="84" error="15" type="3"/>
+<Option index="8" entity="85" error="15" type="3"/>
+<Option index="9" entity="86" error="31" type="3"/>
+<Option index="10" entity="87" error="14" type="3"/>
+<Option index="11" entity="27" error="15" type="3"/>
+</Options>
+<SendOption option="0" subOption="-1" target="0" position="0" ts="2021-12-27T12:51:15.908979-05:00"/>
+<TagChange entity="1" tag="19" value="12"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:51:16.782053-05:00"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:16.782053-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:16.782053-05:00">
+<TagChange entity="1" tag="198" value="16"/>
+</Block>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="13" ts="2021-12-27T12:51:16.782053-05:00"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:51:16.782053-05:00"/>
+<TagChange entity="1" tag="19" value="16"/>
+<Block entity="3" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="6" ts="2021-12-27T12:51:16.782053-05:00">
+<TagChange entity="3" tag="266" value="0"/>
+<TagChange entity="1" tag="198" value="13"/>
+</Block>
+<TagChange entity="1" tag="19" value="13"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:16.782053-05:00">
+<TagChange entity="3" tag="1292" value="0"/>
+<TagChange entity="2" tag="1292" value="1"/>
+<TagChange entity="47" tag="273" value="6"/>
+<TagChange entity="79" tag="273" value="5"/>
+<TagChange entity="35" tag="273" value="4"/>
+<TagChange entity="61" tag="273" value="2"/>
+<TagChange entity="50" tag="273" value="1"/>
+<TagChange entity="83" tag="273" value="1"/>
+<TagChange entity="3" tag="23" value="0"/>
+<TagChange entity="2" tag="23" value="1"/>
+<TagChange entity="1" tag="20" value="13"/>
+<TagChange entity="1" tag="1882" value="12"/>
+<TagChange entity="2" tag="20" value="7"/>
+<TagChange entity="1" tag="198" value="6"/>
+</Block>
+<TagChange entity="1" tag="19" value="6"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:16.782053-05:00">
+<TagChange entity="1" tag="271" value="13"/>
+<TagChange entity="2" tag="271" value="13"/>
+<TagChange entity="3" tag="271" value="13"/>
+<TagChange entity="84" tag="271" value="13"/>
+<TagChange entity="85" tag="271" value="13"/>
+<TagChange entity="86" tag="271" value="13"/>
+<TagChange entity="87" tag="271" value="13"/>
+<TagChange entity="27" tag="271" value="4"/>
+<TagChange entity="2" tag="26" value="7"/>
+<TagChange entity="2" tag="25" value="0"/>
+<TagChange entity="2" tag="269" value="0"/>
+<TagChange entity="2" tag="317" value="0"/>
+<TagChange entity="2" tag="358" value="0"/>
+<TagChange entity="85" tag="43" value="0"/>
+<TagChange entity="27" tag="43" value="0"/>
+<TagChange entity="2" tag="399" value="0"/>
+<TagChange entity="1" tag="198" value="17"/>
+<TagChange entity="2" tag="398" value="0"/>
+<TagChange entity="3" tag="398" value="0"/>
+<TagChange entity="3" tag="2349" value="0"/>
+<TagChange entity="2" tag="368" value="0"/>
+<TagChange entity="3" tag="368" value="0"/>
+<TagChange entity="3" tag="417" value="0"/>
+<TagChange entity="1" tag="369" value="0"/>
+<TagChange entity="2" tag="406" value="0"/>
+<TagChange entity="2" tag="1739" value="0"/>
+<TagChange entity="2" tag="2245" value="0"/>
+</Block>
+<TagChange entity="1" tag="19" value="17"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="9" ts="2021-12-27T12:51:16.782053-05:00">
+<TagChange entity="1" tag="198" value="9"/>
+</Block>
+<TagChange entity="1" tag="19" value="9"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:16.782053-05:00">
+<TagChange entity="2" tag="2166" value="10"/>
+<TagChange entity="2" tag="467" value="1"/>
+<TagChange entity="10" tag="49" value="3"/>
+<TagChange entity="10" tag="263" value="5"/>
+<TagChange entity="2" tag="399" value="1"/>
+<TagChange entity="2" tag="995" value="10"/>
+<TagChange entity="2" tag="467" value="0"/>
+<TagChange entity="1" tag="198" value="10"/>
+</Block>
+<TagChange entity="1" tag="19" value="10"/>
+<Block entity="2" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:51:16.782053-05:00">
+<TagChange entity="1" tag="198" value="12"/>
+</Block>
+<Block entity="5" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:52:00.965809-05:00">
+<TagChange entity="2" tag="269" value="1"/>
+<TagChange entity="2" tag="430" value="1"/>
+<TagChange entity="10" tag="263" value="4"/>
+<TagChange entity="9" tag="263" value="3"/>
+<TagChange entity="15" tag="263" value="2"/>
+<TagChange entity="5" tag="263" value="0"/>
+<ShowEntity entity="5" cardID="VAN_EX1_308">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="5"/>
+<Tag tag="12" value="1"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="5"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="2"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="267" value="86"/>
+<Tag tag="273" value="3"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="974"/>
+<Tag tag="890" value="1"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="974"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="6"/>
+</ShowEntity>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="5"/>
+</MetaData>
+<TagChange entity="2" tag="1780" value="1"/>
+<Block entity="5" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:52:00.965809-05:00">
+<MetaData meta="0" data="0" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="2187" value="5"/>
+<TagChange entity="86" tag="318" value="4"/>
+<TagChange entity="86" tag="1173" value="86"/>
+<TagChange entity="86" tag="2187" value="0"/>
+<TagChange entity="86" tag="318" value="0"/>
+<TagChange entity="86" tag="1173" value="0"/>
+<TagChange entity="86" tag="318" value="4"/>
+<TagChange entity="86" tag="318" value="0"/>
+<MetaData meta="1" data="4" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="18" value="5"/>
+<TagChange entity="86" tag="44" value="23"/>
+<TagChange entity="3" tag="464" value="4"/>
+<TagChange entity="3" tag="2349" value="4"/>
+<TagChange entity="3" tag="1575" value="1"/>
+<TagChange entity="10" tag="263" value="0"/>
+<ShowEntity entity="10" cardID="VAN_EX1_008">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="1"/>
+<Tag tag="479" value="1"/>
+<Tag tag="48" value="1"/>
+<Tag tag="47" value="1"/>
+<Tag tag="45" value="1"/>
+<Tag tag="18" value="5"/>
+<Tag tag="49" value="4"/>
+<Tag tag="53" value="10"/>
+<Tag tag="194" value="1"/>
+<Tag tag="201" value="2"/>
+<Tag tag="203" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="757"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="757"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="13"/>
+</ShowEntity>
+</Block>
+<TagChange entity="5" tag="1068" value="4"/>
+<TagChange entity="5" tag="1068" value="0"/>
+<TagChange entity="5" tag="49" value="4"/>
+<TagChange entity="2" tag="266" value="1"/>
+<TagChange entity="1" tag="1323" value="27"/>
+<TagChange entity="2" tag="358" value="1"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="5"/>
+</MetaData>
+<Block entity="15" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:52:04.251854-05:00">
+<TagChange entity="2" tag="2245" value="5"/>
+<TagChange entity="2" tag="25" value="5"/>
+<TagChange entity="2" tag="418" value="26"/>
+<TagChange entity="2" tag="269" value="2"/>
+<TagChange entity="2" tag="317" value="1"/>
+<TagChange entity="9" tag="263" value="2"/>
+<TagChange entity="15" tag="263" value="0"/>
+<ShowEntity entity="15" cardID="VAN_EX1_310">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="5"/>
+<Tag tag="479" value="5"/>
+<Tag tag="48" value="5"/>
+<Tag tag="47" value="5"/>
+<Tag tag="45" value="7"/>
+<Tag tag="49" value="1"/>
+<Tag tag="53" value="15"/>
+<Tag tag="197" value="1"/>
+<Tag tag="200" value="15"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="3"/>
+<Tag tag="218" value="1"/>
+<Tag tag="261" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="273" value="1"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="631"/>
+<Tag tag="890" value="2"/>
+<Tag tag="1037" value="0"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="631"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="11"/>
+</ShowEntity>
+<TagChange entity="15" tag="263" value="1"/>
+<TagChange entity="27" tag="263" value="2"/>
+<TagChange entity="15" tag="1196" value="1"/>
+<MetaData meta="20" data="3000" infoCount="1">
+<Info index="0" entity="15"/>
+</MetaData>
+<Block entity="15" type="3" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:52:04.251854-05:00">
+<TagChange entity="9" tag="263" value="0"/>
+<ShowEntity entity="9" cardID="VAN_EX1_302">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="5"/>
+<Tag tag="466" value="1"/>
+<Tag tag="48" value="1"/>
+<Tag tag="18" value="15"/>
+<Tag tag="49" value="4"/>
+<Tag tag="53" value="9"/>
+<Tag tag="201" value="3"/>
+<Tag tag="203" value="2"/>
+<Tag tag="263" value="0"/>
+<Tag tag="273" value="1"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="1092"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="1092"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="11"/>
+</ShowEntity>
+<TagChange entity="13" tag="263" value="0"/>
+<ShowEntity entity="13" cardID="VAN_EX1_002">
+<Tag tag="50" value="1"/>
+<Tag tag="202" value="4"/>
+<Tag tag="466" value="6"/>
+<Tag tag="479" value="4"/>
+<Tag tag="48" value="6"/>
+<Tag tag="47" value="4"/>
+<Tag tag="45" value="5"/>
+<Tag tag="18" value="15"/>
+<Tag tag="49" value="4"/>
+<Tag tag="53" value="13"/>
+<Tag tag="114" value="1"/>
+<Tag tag="203" value="5"/>
+<Tag tag="218" value="1"/>
+<Tag tag="263" value="0"/>
+<Tag tag="273" value="6"/>
+<Tag tag="478" value="1"/>
+<Tag tag="858" value="1656"/>
+<Tag tag="1037" value="1"/>
+<Tag tag="1043" value="1"/>
+<Tag tag="1068" value="0"/>
+<Tag tag="1413" value="1656"/>
+<Tag tag="1556" value="1"/>
+<Tag tag="1570" value="1"/>
+</ShowEntity>
+</Block>
+<TagChange entity="1" tag="1323" value="28"/>
+<TagChange entity="2" tag="358" value="2"/>
+</Block>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="15"/>
+</MetaData>
+<TagChange entity="15" tag="1196" value="0"/>
+<TagChange entity="27" tag="267" value="86"/>
+<Block entity="27" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:52:05.960591-05:00">
+<TagChange entity="86" tag="1715" value="27"/>
+<TagChange entity="2" tag="417" value="1"/>
+<TagChange entity="1" tag="39" value="27"/>
+<TagChange entity="1" tag="37" value="86"/>
+<TagChange entity="27" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="27"/>
+</MetaData>
+<TagChange entity="86" tag="36" value="1"/>
+<TagChange entity="27" tag="297" value="1"/>
+<TagChange entity="27" tag="43" value="1"/>
+<TagChange entity="86" tag="2187" value="27"/>
+<TagChange entity="86" tag="318" value="2"/>
+<TagChange entity="86" tag="1173" value="86"/>
+<TagChange entity="86" tag="2187" value="0"/>
+<TagChange entity="86" tag="318" value="0"/>
+<TagChange entity="86" tag="1173" value="0"/>
+<TagChange entity="86" tag="318" value="2"/>
+<TagChange entity="86" tag="318" value="0"/>
+<MetaData meta="1" data="2" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="18" value="27"/>
+<TagChange entity="86" tag="44" value="25"/>
+<TagChange entity="3" tag="464" value="6"/>
+<TagChange entity="3" tag="2349" value="6"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="27" tag="38" value="0"/>
+<TagChange entity="86" tag="36" value="0"/>
+</Block>
+<TagChange entity="1" tag="1323" value="29"/>
+<TagChange entity="2" tag="358" value="3"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="27"/>
+</MetaData>
+<TagChange entity="15" tag="267" value="86"/>
+<Block entity="15" type="1" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="86" ts="2021-12-27T12:52:06.966099-05:00">
+<TagChange entity="15" tag="1715" value="15"/>
+<TagChange entity="86" tag="1715" value="15"/>
+<TagChange entity="2" tag="417" value="2"/>
+<TagChange entity="1" tag="39" value="15"/>
+<TagChange entity="1" tag="37" value="86"/>
+<TagChange entity="15" tag="38" value="1"/>
+<MetaData meta="20" data="1200" infoCount="1">
+<Info index="0" entity="15"/>
+</MetaData>
+<TagChange entity="86" tag="36" value="1"/>
+<TagChange entity="15" tag="297" value="1"/>
+<TagChange entity="15" tag="43" value="1"/>
+<TagChange entity="86" tag="2187" value="15"/>
+<TagChange entity="86" tag="318" value="5"/>
+<TagChange entity="86" tag="1173" value="86"/>
+<TagChange entity="86" tag="2187" value="0"/>
+<TagChange entity="86" tag="318" value="0"/>
+<TagChange entity="86" tag="1173" value="0"/>
+<TagChange entity="86" tag="318" value="5"/>
+<TagChange entity="86" tag="318" value="0"/>
+<MetaData meta="1" data="5" infoCount="1">
+<Info index="0" entity="86"/>
+</MetaData>
+<TagChange entity="86" tag="18" value="15"/>
+<TagChange entity="86" tag="44" value="30"/>
+<TagChange entity="3" tag="464" value="11"/>
+<TagChange entity="3" tag="2349" value="11"/>
+<TagChange entity="1" tag="1710" value="1"/>
+<TagChange entity="1" tag="1710" value="0"/>
+<TagChange entity="1" tag="39" value="0"/>
+<TagChange entity="1" tag="37" value="0"/>
+<TagChange entity="15" tag="38" value="0"/>
+<TagChange entity="86" tag="36" value="0"/>
+</Block>
+<Block entity="1" type="6" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" ts="2021-12-27T12:52:06.966099-05:00">
+<TagChange entity="86" tag="1068" value="4"/>
+<TagChange entity="86" tag="1068" value="0"/>
+<TagChange entity="86" tag="49" value="4"/>
+<TagChange entity="3" tag="17" value="3"/>
+</Block>
+<TagChange entity="1" tag="1323" value="30"/>
+<TagChange entity="2" tag="358" value="4"/>
+<MetaData meta="20" data="1000" infoCount="1">
+<Info index="0" entity="15"/>
+</MetaData>
+<TagChange entity="2" tag="17" value="4"/>
+<TagChange entity="3" tag="17" value="5"/>
+<TagChange entity="1" tag="198" value="14"/>
+<TagChange entity="1" tag="19" value="14"/>
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-27T12:52:06.966099-05:00">
+<TagChange entity="1" tag="198" value="15"/>
+</Block>
+<TagChange entity="1" tag="19" value="15"/>
+<TagChange entity="1" tag="204" value="3"/>
+</Game>
+</HSReplay>
+<!--  https://hsreplay.net/replay/XMGwdWcrqzqXmdihUA66rG  -->

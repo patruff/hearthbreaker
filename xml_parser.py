@@ -7,6 +7,8 @@ from deck_helper import get_basic_decks
 
 replay_folder = "C:\\Users\\patru\\PycharmProjects\\hearthbreaker\\hsreplays_xml\\"
 replay_name = "4EUDoPi8WskTsCDJGiLm6G.xml"
+
+replay_name = "GPFAbQzkavyvmYtGJPDrbi.xml"
 path = replay_folder + replay_name
 
 with open(path) as file:
@@ -37,6 +39,14 @@ with open(path) as file:
             print(entity.get("playerID"))
 
             if entity.get("name") == "patruff#11779":
+
+                print('pat is entity id ' + entity.get("id"))
+
+                if entity.get("id") == "2":
+                    print('pat goes first')
+                else:
+                    print('pat goes second')
+
                 # get my deck
                 for deck in entity.findall('Deck'):
                     for card in deck.findall('Card'):
@@ -64,22 +74,6 @@ with open(path) as file:
             
     with open ('hearthstone_cards.json', 'r', encoding="utf8") as jfile:
         data = json.load(jfile)
-
-        # json_i_want = {
-        #        "opponent_name": opponent_name,
-       #         "date_played": new_date_string,
-       #         "replay_id": replay_name,
-       #         "opponent_mulligan_count": number,
-      #          "opponent_opening_cards": [string],
-       #         "pat_won": bool,
-        #        "highest_matched_archetype": enum,
-       #         "match_perc": float precision 2,
-       #         "pat_deck_list": ["Ancient of Lore", "Ancient of Lore", etc],
-       #         "pat_mulligan_count": number,
-        #        "pat_opening_cards": [string],
-        #        "pat_highest_matched_archetype":
-        #            "pat_deck": [string]
-        #}
 
         pat_deck_translated = []
 
@@ -118,6 +112,22 @@ with open(path) as file:
 
         print('highest match for opponent deck name ' + opponent_max_match_name + ' with a match perc of ' + str(opponent_max_match_perc))
         print('highest match for pat deck name ' + pat_max_match_name + ' with a match perc of ' + str(pat_max_match_perc))
+
+        # json_i_want = {
+        #        "opponent_name": opponent_name,
+        #         "date_played": new_date_string,
+        #         "replay_id": replay_name,
+        #         "opponent_mulligan_count": number,
+        #          "opponent_opening_cards": [string],
+        #         "pat_won": bool,
+        #        "highest_matched_archetype": enum,
+        #         "match_perc": float precision 2,
+        #         "pat_deck_list": ["Ancient of Lore", "Ancient of Lore", etc],
+        #         "pat_mulligan_count": number,
+        #        "pat_opening_cards": [string],
+        #        "pat_highest_matched_archetype":
+        #            "pat_deck": [string]
+        # }
     #
 
 

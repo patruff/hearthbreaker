@@ -4,7 +4,7 @@ import re
 count = 0
 id_string_list = []
 
-with open(os.path.join(os.path.dirname(__file__),"latest_replays4.html"), 'r', encoding="utf8") as f:
+with open(os.path.join(os.path.dirname(__file__),"latest_replays5.html"), 'r', encoding="utf8") as f:
     html_text = f.read()
     html_split = html_text.split('a href="/replay/')
 
