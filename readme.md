@@ -69,12 +69,6 @@ then will run download_replay_selenium.py until I have all 400 replays in the fo
 
 ### Pat edits 4
 
-Spent some more time looking into the XML parsing. There is a concept of turns, the XML basically loads up in chronological
-order and so you can know which player is which, which cards were the starting cards, and which cards were mulliganned
-(this will be a bit tricky, need to keep track of the original cards and the cards drawn and see the difference).
-
-My rough notes on this are below:
-
 Hearthstone XML notes (how replays work)
 
 Example matchup is me as Miracle Rogue V. Chris6 as a Druid
@@ -185,6 +179,9 @@ Similarly for the opponent when he plays the Yeti
 You can see entity = 3 but not entity = 2 meaning he played the Yeti
 
 
+
+GAME 2 WHERE I GO 2nd
+
 I checked another replay where I go 2nd and sure enough I am entity id=3 in that one and not entity id = 2
 
 https://hsreplay.net/replay/GPFAbQzkavyvmYtGJPDrbi
@@ -232,6 +229,114 @@ And EVENTUALLY we look at cards drawn V. cards played (
 
 	Entity
 	Turn?
+
+
+So weird thing is once a card is drawn you WILL NOT see it (unless you track it by entity)
+
+So new thing would be to track entities and go from there
+
+
+For example, in the game I played the warrior above, the last 5 cards played look like whirlwind (he drew it and played it same turn), execute, execute, Sunwalker, Kork’ron Elite
+
+Even though I played Fan of Knives and Azure Drake in-between
+
+I think what I need to do is to assign cardID to an entity in the game, that way I can track things
+
+https://github.com/HearthSim/python-hearthstone/blob/master/hearthstone/enums.py and other things are there
+
+Basically, after the player elements are loaded, the Deck element of the known player (me (Pat)) is then loaded with all of the cardIDs associated with the cards
+
+Then there are 63
+
+Game
+Entity 1
+
+Player 1
+Entity 2
+
+Player 2
+Entity 3
+
+Deck 1 (the 1st player’s deck?)
+3-33?
+
+Deck 2 (the 2nd player’s deck?)
+33-63?
+
+Life total?
+Entity 64
+
+Hero Power Player 1 (confirmed, Warrior hero power)
+Entity 65
+
+Hero Power Player 2 (confirmed, Rogue hero power)
+Entity 66
+
+Rogue Weapon (separate from hero power)
+Entity 67
+
+The coin
+Entity 68
+
+Then the game starts
+
+First entity with a cardID is cold blood (entity 59)
+This is the first card in my hand (pre-mulligan), I decided to mulligan it
+
+
+
+Okay I’m dumb, for mulligans we can see them clearly in this early block (found out that tag 305 is the mulligan state)
+
+<Block entity="1" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" ts="2021-12-30T11:01:48.490023-05:00">
+<TagChange entity="2" tag="305" value="1"/>
+<Choices entity="2" id="1" taskList="4" type="1" min="0" max="3" source="1" ts="2021-12-30T11:01:48.518025-05:00">
+<Choice index="0" entity="30"/>
+<Choice index="1" entity="33"/>
+<Choice index="2" entity="20"/>
+</Choices>
+<TagChange entity="3" tag="305" value="1"/>
+<Choices entity="3" id="2" taskList="5" type="1" min="0" max="5" source="1" ts="2021-12-30T11:01:48.584023-05:00">
+<Choice index="0" entity="59"/>
+<Choice index="1" entity="42"/>
+<Choice index="2" entity="36"/>
+<Choice index="3" entity="60"/>
+<Choice index="4" entity="68"/>
+</Choices>
+<ChosenEntities entity="2" id="1" ts="2021-12-30T11:02:18.362974-05:00"/>
+<SendChoices id="2" type="1" ts="2021-12-30T11:02:50.202336-05:00">
+<Choice index="0" entity="42"/>
+<Choice index="1" entity="60"/>
+</SendChoices>
+<ChosenEntities entity="3" id="2" ts="2021-12-30T11:02:50.471395-05:00">
+<Choice index="0" entity="42"/>
+<Choice index="1" entity="60"/>
+</ChosenEntities>
+</Block>
+
+
+ dumb, for mulligans we can see them clearly in this early block (found out that tag 305 is the mulligan st
+This is the game with me going 2nd as rogue (entity 3), you can see I have 5 choices (bug, probably means 4 cards + the coin that you HAVE to keep)
+
+Whereas the warrior opponent only has the mulligan decision for 3 cards (it also shows that his entities are the 3-33 and my deck falls in the 33-63 range, I’m guessing 68 is the coin)
+
+It also shows that I chose to keep (ChosenEntities) my two preparation cards and discard the coldblood (entity 59) and backstab (entity 36)
+
+
+I GET IT NOW!!
+
+The decks for each player are just arrays that are filled in later. Basically each card is given an entity at random. So for example, in my Rogue example I have 2 preparations that I keep, but they were given random entity ids at the beginning (regardless of my deck), so they were assigned id 42 and 60 respectively. It works the same for the warrior I played. He decided to keep NOTHING, so for entity 2 you see he doesn’t have any Chosen Entities (meaning that he mulliganned entity 30, entity 33, and entity 20). So duplicate cards still get different entity ids, that’s one thing. Another is that in the game I EVENTUALLY saw him play the 3 cards that he mulliganed. So I could eventually match cardIDs to the cards that he mulliganned.
+
+So for a given game I can see
+
+Opponent cards mulliganned
+
+Entity IDs (can see all of these)
+Card IDs (can see a subset of these later, or could be the whole thing)
+
+My cards muligganned
+
+(it shows my cards at the beginning, so I can easily find this out)
+
 
 ### Console Application
 

@@ -59,14 +59,30 @@ with open(path) as file:
 
     opponent_cards = []
     opponent_card_names = []
+
     # below gets a list of card IDs for the opponent (30 cards)
     for game in root.findall('Game'):
         for entity in game.findall('Block'):
+            tagchange_entity_list = []
+            is_entity_2 = True
+            entity2_counter = 0
+            entity3_counter = 0
+
+            for tagchange_element in entity.findall('TagChange'):
+                if tagchange_element.get('entity') == '2':
+                    entity2_counter = entity2_counter + 1
+                else:
+                    if tagchange_element.get('entity') == '3':
+                        entity3_counter = entity3_counter + 1
+                tagchange_entity_list.append(tagchange_element.get('entity'))
+
             for subentity in entity.findall('ShowEntity'):
                 if not subentity.get('cardID').startswith('VAN'):
                     print(subentity.get('cardID'))
                     continue
                 else:
+                    print('tagchange entity list for card below is ' + str(tagchange_entity_list))
+                    print('and counts are entity2 ' + str(entity2_counter) + ' and entity3 ' + str(entity3_counter))
                     print(subentity.get('cardID'))
                     opponent_cards.append(subentity.get('cardID'))
 
