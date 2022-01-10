@@ -17,11 +17,34 @@ known_player_cards_played = []
 known_player_cards_played_names = []
 opponent_player_cards_played_names = []
 
+known_player_cards_mulliganned = []
+opponent_player_cards_mulliganned = []
+
+known_player_cards_kept = []
+opponent_player_cards_kept = []
+
+known_player_cards_mulliganned_names = []
+opponent_player_cards_mulliganned_names = []
+
+known_player_cards_kept_names = []
+opponent_player_cards_kept_names = []
+
+known_player_pre_mulligan_hand_names = []
+opponent_player_pre_mulligan_hand_names = []
+
 replay_folder = "C:\\Users\\patru\\PycharmProjects\\hearthbreaker\\hsreplays_xml\\"
 replay_name = "4EUDoPi8WskTsCDJGiLm6G.xml"
 
 replay_name = "GPFAbQzkavyvmYtGJPDrbi.xml"
 path = replay_folder + replay_name
+
+def convert_list_to_string(somelist):
+    string_separated_list = (',').join(somelist)
+
+    if string_separated_list == "":
+        string_separated_list = "none"
+
+    return string_separated_list
 
 with open(path) as file:
     header = next(file)
@@ -94,8 +117,14 @@ with open(path) as file:
     #tag = "271"
     # = "20" / >
 
+    known_player_total_mulligan_entity_list = []
+    opponent_player_total_mulligan_entity_list = []
+
     known_player_mulligan_entity_list = []
-    opponent_mulligan_entity_list = []
+    opponent_player_mulligan_entity_list = []
+
+    known_player_kept_entity_list = []
+    opponent_player_kept_entity_list = []
 
     for game in root.findall('Game'):
         for block in game.findall('Block'):
@@ -107,18 +136,51 @@ with open(path) as file:
                     if who_is_choosing == '3':
                         # if the entity choosing is the 2nd player
                         if coin_holder == known_player:
-                            known_player_mulligan_entity_list.append(mulligan_choice.get('entity'))
+                            known_player_total_mulligan_entity_list.append(mulligan_choice.get('entity'))
                         else:
-                            opponent_mulligan_entity_list.append(mulligan_choice.get('entity'))
+                            opponent_player_total_mulligan_entity_list.append(mulligan_choice.get('entity'))
                     elif who_is_choosing == '2':
                         # if the entity choosing is the first player
                         if coin_holder != known_player:
-                            known_player_mulligan_entity_list.append(mulligan_choice.get('entity'))
+                            known_player_total_mulligan_entity_list.append(mulligan_choice.get('entity'))
                         else:
-                            opponent_mulligan_entity_list.append(mulligan_choice.get('entity'))
+                            opponent_player_total_mulligan_entity_list.append(mulligan_choice.get('entity'))
 
-    print('original mulligan list for known player is ' + str(known_player_mulligan_entity_list))
-    print('original mulligan list for opponent player is ' + str(opponent_mulligan_entity_list))
+    print('original total mulligan list for known player is ' + str(known_player_total_mulligan_entity_list))
+    print('original total mulligan list for opponent player is ' + str(opponent_player_total_mulligan_entity_list))
+
+    for game in root.findall('Game'):
+        for block in game.findall('Block'):
+            for mulligan_choices in block.findall('ChosenEntities'):
+                print('MULLIGAN CHOICES' + str(mulligan_choices))
+                who_is_choosing = mulligan_choices.get('entity')
+                for mulligan_choice in mulligan_choices.findall('Choice'):
+                    print(mulligan_choice.get('entity'))
+                    if who_is_choosing == '3':
+                        # if the entity choosing is the 2nd player
+                        if coin_holder == known_player:
+                            known_player_kept_entity_list.append(mulligan_choice.get('entity'))
+                        else:
+                            opponent_player_kept_entity_list.append(mulligan_choice.get('entity'))
+                    elif who_is_choosing == '2':
+                        # if the entity choosing is the first player
+                        if coin_holder != known_player:
+                            known_player_kept_entity_list.append(mulligan_choice.get('entity'))
+                        else:
+                            opponent_player_kept_entity_list.append(mulligan_choice.get('entity'))
+
+    set_difference = set(known_player_total_mulligan_entity_list) - set(known_player_kept_entity_list)
+    known_player_mulligan_entity_list = list(set_difference)
+
+    set_difference = set(opponent_player_total_mulligan_entity_list) - set(opponent_player_kept_entity_list)
+    opponent_player_mulligan_entity_list = list(set_difference)
+
+    print("print out of the lists")
+    print("known_player_mulligan_entity_list is " + str(known_player_mulligan_entity_list))
+    print("opponent_player_mulligan_entity_list is " + str(opponent_player_mulligan_entity_list))
+
+    print("known_player_kept_entity_list is " + str(known_player_kept_entity_list))
+    print("opponent_player_kept_entity_list is " + str(opponent_player_kept_entity_list))
 
     # below gets the winner
     for game in root.findall('Game'):
@@ -181,10 +243,13 @@ with open(path) as file:
 
                 if owner == known_player:
                     if subentity.get('cardID').startswith('VAN'):
-                        known_player_cards_played.append(subentity.get('cardID'))
+                        dict_to_append = {'cardID': subentity.get('cardID'), 'entity': subentity.get('entity')}
+                        known_player_cards_played.append(dict_to_append)
+
                 else:
                     if subentity.get('cardID').startswith('VAN'):
-                        opponent_player_cards_played.append(subentity.get('cardID'))
+                        dict_to_append = {'cardID': subentity.get('cardID'), 'entity': subentity.get('entity')}
+                        opponent_player_cards_played.append(dict_to_append)
 
             for innerBlock in entity.findall('Block'):
                 for subentity in innerBlock.findall('ShowEntity'):
@@ -205,11 +270,15 @@ with open(path) as file:
                                     owner = opponent_player
 
                     if owner == known_player:
-                        if subentity.get('cardID').startswith('VAN'):
-                            known_player_cards_played.append(subentity.get('cardID'))
+                        if subentity.get('cardID').startswith('VAN') and subentity.get('cardID') != "VAN_EX1_145e":
+                            # VAN_EX1_145e is preparation as a neutral card, basically for the effect
+                            # to avoid duplicates remove this
+                            dict_to_append = {'cardID': subentity.get('cardID'), 'entity': subentity.get('entity')}
+                            known_player_cards_played.append(dict_to_append)
                     else:
-                        if subentity.get('cardID').startswith('VAN'):
-                            opponent_player_cards_played.append(subentity.get('cardID'))
+                        if subentity.get('cardID').startswith('VAN') and subentity.get('cardID') != "VAN_EX1_145e":
+                            dict_to_append = {'cardID': subentity.get('cardID'), 'entity': subentity.get('entity')}
+                            opponent_player_cards_played.append(dict_to_append)
 
 
     print('and the opponent card list looks like' + str(opponent_player_cards_played) + ' and the length is ' + str(len(opponent_player_cards_played)))
@@ -227,21 +296,52 @@ with open(path) as file:
                     known_player_class = card['cardClass'] # "cardClass": "ROGUE"
                     print(known_player_class)
 
-        for card in data:
-            if card['id'] in known_player_cards_played:
-                print('card ' + card['name'] + ' played by known player')
+        entities_used = []
+        for index in range(len(known_player_cards_played)):
+            # print('KNOWN PLAYER CARDS PLAYED LOOKS LIKE ' + str(known_player_cards_played))
+            for card in data:
+                if card['id'] == known_player_cards_played[index]['cardID']:
 
-                known_player_cards_played_names.append(card['name'])
+                    if known_player_cards_played[index]['entity'] in entities_used or int(known_player_cards_played[index]['entity']) > 70:
+                        continue
+                    else:
+                        print('INSIDE DICT card ' + card['name'] + ' played by known player and entity is ' + str(
+                            known_player_cards_played[index]['entity']))
+                        entities_used.append(known_player_cards_played[index]['entity'])
 
-        for card in data:
-            if card['id'] in opponent_player_cards_played:
-                print('card ' + card['name'] + ' is in opponent deck')
+                    known_player_cards_played_names.append(card['name'])
 
-                if card['cardClass'] != "NEUTRAL":
-                    opponent_player_class = card['cardClass']  # "cardClass": "ROGUE"
-                    print(opponent_player_class)
+                    if known_player_cards_played[index]['entity'] in known_player_mulligan_entity_list:
+                        known_player_cards_mulliganned_names.append(card['name'])
+                        # cards are being duplicated so this will handle that
 
-                opponent_player_cards_played_names.append(card['name'])
+
+                    if known_player_cards_played[index]['entity'] in known_player_kept_entity_list:
+                        known_player_cards_kept_names.append(card['name'])
+
+
+        for index in range(len(opponent_player_cards_played)):
+            for card in data:
+                if card['id'] == opponent_player_cards_played[index]['cardID']:
+
+                    if opponent_player_cards_played[index]['entity'] in entities_used or int(opponent_player_cards_played[index]['entity']) > 70:
+                        continue
+                    else:
+                        print('INSIDE DICT card ' + card['name'] + ' played by opponent player and entity is ' + str(
+                            opponent_player_cards_played[index]['entity']))
+                        opponent_player_cards_played_names.append(card['name'])
+
+                    if card['cardClass'] != "NEUTRAL":
+                        opponent_player_class = card['cardClass']  # "cardClass": "ROGUE"
+                        print(opponent_player_class)
+
+                    if opponent_player_cards_played[index]['entity'] in opponent_player_mulligan_entity_list:
+                        opponent_player_cards_mulliganned_names.append(card['name'])
+
+                    if opponent_player_cards_played[index]['entity'] in opponent_player_kept_entity_list:
+                        opponent_player_cards_kept_names.append(card['name'])
+
+
 
         print(get_basic_decks())
 
@@ -272,62 +372,44 @@ with open(path) as file:
         print('known player played these cards ' + str(known_player_cards_played_names))
         print('opponent player played these cards ' + str(opponent_player_cards_played_names))
 
-        # json_i_have = {
-        #
-        #        "known_player": known_player,
-        #        "opponent_player": opponent_name,
-        #        "coin_holder": coin_holder,
-        #        "winner": winner,
-        #         "date_played": new_date_string,
-        #         "replay_id": replay_name,
-        #         "known_player_class": known_player_class,
-        #         "opponent_player_class": opponent_player_class,
-        #         "known_player_archetype": known_player_max_match_name,
-        #         "opponent_player_archetype": opponent_max_match_name,
-        #         "known_player_archetype_match_perc": known_player_max_match_perc,
-        #         "opponent_player_archetype_match_perc": opponent_max_match_perc,
-        #         "known_player_mulligan_count": number,
-        #         "opponent_mulligan_count": number,
-        #         "known_player_cards_mulliganned": [],
-        #         "cards_played_mulliganned": [],
-        #         "known_player_cards_kept": [],
-        #         "opponent_player_cards_kept": [],
-        #         "known_player_deck_list": known_player_deck_translated,
-        #         "opponent_player_deck_list": ["Ancient of Lore", "Ancient of Lore", etc],
-        # }
-        #
+        print('known player mulliganned these cards ' + str(known_player_cards_mulliganned_names))
+        print('opponent player mulliganned these cards ' + str(opponent_player_cards_mulliganned_names))
 
-        # json_i_want = {
-        #        "turns_taken": int,
-        #        "known_player": bnet id,
-        #        "opponent_player": bnet id,
-        #        "coin_holder": bnet id,
-        #        "winner": bnet id,
-        #         "date_played": new_date_string,
-        #         "replay_id": replay_name,
-        #         "known_player_class": string,
-        #         "opponent_player_class": string,
-        #         "known_player_archetype": string,
-        #         "opponent_player_archetype": string,
-        #         "known_player_archetype_match_perc": float,
-        #         "opponent_player_archetype_match_perc: float,
-        #         "known_player_mulligan_count": number,
-        #         "opponent_mulligan_count": number,
-        #         "known_player_cards_mulliganned": [],
-        #         "cards_played_mulliganned": [],
-        #         "known_player_cards_kept": [],
-        #         "opponent_player_cards_kept": [],
-        #         "known_player_deck_list": ["Ancient of Lore", "Ancient of Lore", etc],
-        #         "opponent_player_deck_list": ["Ancient of Lore", "Ancient of Lore", etc],
-        # }
-    #
+        print('known player kept these cards ' + str(known_player_cards_kept_names))
+        print('opponent player kept these cards ' + str(opponent_player_cards_kept_names))
 
+        known_player_pre_mulligan_hand_names = known_player_cards_mulliganned_names + known_player_cards_kept_names
+        opponent_player_pre_mulligan_hand_names = opponent_player_cards_mulliganned_names + opponent_player_cards_kept_names
 
-# so need to find out which playerID is which
-# in the example game the playerID is 2
-# <ShowEntity entity="96" cardID="VAN_EX1_571">
-# <Tag tag="50" value="2"/>
+        # for mongodb, it can't take arrays for values
+        # also it can't take nulls so replace "" with "none"
 
-# so tag 50 is the controller, in this case the player
-# so player 1 is represented by 1, player 2
-# playerID="2" is the value to get
+        game_json = {
+            "turns_taken": final_turn,
+            "known_player": known_player,
+            "opponent_player": opponent_player,
+            "coin_holder": coin_holder,
+            "winner": winner,
+            "date_played": new_date_string,
+            "_id": replay_name,
+            "known_player_class": known_player_class,
+            "opponent_player_class": opponent_player_class,
+            "known_player_archetype": known_player_max_match_name,
+            "opponent_player_archetype": opponent_max_match_name,
+            "known_player_archetype_match_perc": str(known_player_max_match_perc),
+            "opponent_player_archetype_match_perc": str(opponent_max_match_perc),
+            "known_player_cards_mulliganned": convert_list_to_string(known_player_cards_mulliganned_names),
+            "opponent_player_cards_mulliganned": convert_list_to_string(opponent_player_cards_mulliganned_names),
+            "known_player_cards_kept": convert_list_to_string(known_player_cards_kept_names),
+            "opponent_player_cards_kept": convert_list_to_string(opponent_player_cards_kept_names),
+            "known_player_premulligan_cards": convert_list_to_string(known_player_pre_mulligan_hand_names),
+            "opponent_player_premulligan_cards": convert_list_to_string(opponent_player_pre_mulligan_hand_names),
+            "known_player_decklist": convert_list_to_string(known_player_cards_played_names),
+            "opponent_player_decklist": convert_list_to_string(opponent_player_cards_played_names),
+        }
+
+        print('game JSON below')
+        print(game_json)
+
+        with open('test_replay_db_entry.json', 'w', encoding='utf-8') as f:
+            json.dump(game_json, f, ensure_ascii=False, indent=4)

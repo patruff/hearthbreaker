@@ -338,6 +338,187 @@ My cards muligganned
 (it shows my cards at the beginning, so I can easily find this out)
 
 
+
+For number of turns this is tracked with tag 271, and it increments each turn (so counts each players’ turns). 
+
+<TagChange entity="1" tag="271" value="21"/>
+<TagChange entity="2" tag="271" value="21"/>
+<TagChange entity="3" tag="271" value="21"/>
+<TagChange entity="64" tag="271" value="21"/>
+<TagChange entity="65" tag="271" value="21"/>
+<TagChange entity="66" tag="271" value="21"/>
+<TagChange entity="67" tag="271" value="21"/>
+<TagChange entity="144" tag="271" value="3"/>
+<TagChange entity="22" tag="271" value="2"/>
+<TagChange entity="43" tag="271" value="1"/>
+
+
+Can also see the final player to act
+
+Like, final card played by will be there (not clear what HP total is though)
+
+Can assume for now final actor is the winner
+	So for that game, the final action was playing Kork’ron elite, entity 2 played it, so that player won (if entity 3 had played a card and the game ended you could assume they won)
+
+	This 
+
+Actually can see concede as Game (entity 1), Playstate (tag 17) being set to CONCEDE (value 8) (again this comes from https://github.com/HearthSim/python-hearthstone/blob/master/hearthstone/enums.py)
+
+And in the actual game, where I concede, you can see
+
+<TagChange entity="3" tag="17" value="8"/>
+
+
+So it looks like certain cards are missing like Azure Drake
+
+Ah, I see, some cards are just buried in another Block inside of the original Block 
+
+<Block entity="36" type="7" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" target="31" ts="2021-12-30T11:05:12.014448-05:00">
+			<TagChange entity="3" tag="269" value="2"/>
+			<TagChange entity="3" tag="430" value="1"/>
+			<TagChange entity="36" tag="267" value="31"/>
+			<TagChange entity="36" tag="261" value="1"/>
+			<TagChange entity="36" tag="1068" value="1"/>
+			<TagChange entity="36" tag="1068" value="0"/>
+			<TagChange entity="58" tag="263" value="7"/>
+			<TagChange entity="53" tag="263" value="6"/>
+			<TagChange entity="51" tag="263" value="5"/>
+			<TagChange entity="36" tag="1037" value="0"/>
+			<TagChange entity="36" tag="263" value="0"/>
+			<TagChange entity="36" tag="1556" value="1"/>
+			<TagChange entity="36" tag="49" value="1"/>
+			<MetaData meta="20" data="3000" infoCount="1">
+				<Info index="0" entity="36"/>
+			</MetaData>
+			<Block entity="55" type="5" effectCardId="System.Collections.Generic.List`1[System.String]" effectIndex="0" triggerKeyword="32" ts="2021-12-30T11:05:12.014448-05:00">
+				<TagChange entity="3" tag="2166" value="43"/>
+				<TagChange entity="3" tag="467" value="1"/>
+				<ShowEntity entity="43" cardID="VAN_EX1_284">
+					<Tag tag="50" value="2"/>
+
+
+Number of cards BEFORE checking 1 more level down
+
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_073
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_072
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_124
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_128
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_278
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_072
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_074
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_398
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_128
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_096
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_604
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_072
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_012
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_604
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_603
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_233
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_007
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_278
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_603
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_407
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_116
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_606
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_410
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_007
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_134
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_400
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_032
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_108
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_108
+inside ShowEntity, before tag ownership, card looks like VAN_NEW1_011
+
+
+WAY more
+
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_073
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_072
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_124
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_128
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_278
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_072
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_096
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_074
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_398
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_128
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_096
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_604
+inside ShowEntity, before tag ownership, card looks like EX1_604o
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_072
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_012
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_604
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_603
+inside ShowEntity, before tag ownership, card looks like EX1_603e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_095
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_233
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_284
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_581
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145o
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_129
+inside ShowEntity, before tag ownership, card looks like CS2_074e
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_073
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145o
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_145e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_144
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_095
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_073
+inside ShowEntity, before tag ownership, card looks like CS2_073e2
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_117
+inside ShowEntity, before tag ownership, card looks like EX1_128e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_007
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_278
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_613
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_074
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_124
+inside ShowEntity, before tag ownership, card looks like CS2_073e2
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_144
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_129
+inside ShowEntity, before tag ownership, card looks like EX1_128e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_603
+inside ShowEntity, before tag ownership, card looks like EX1_603e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_407
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_116
+inside ShowEntity, before tag ownership, card looks like CS2_074e
+inside ShowEntity, before tag ownership, card looks like EX1_613e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_606
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_410
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_007
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_134
+inside ShowEntity, before tag ownership, card looks like GBL_002e
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_400
+inside ShowEntity, before tag ownership, card looks like VAN_EX1_032
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_108
+inside ShowEntity, before tag ownership, card looks like VAN_CS2_108
+inside ShowEntity, before tag ownership, card looks like VAN_NEW1_011
+
+But also some EX1 or GBL…
+
+It seems like the order of play is screwed up, this method gets more cards, but there are things like “cost-2” as a cardID which is dumb/weird. Different effects are being counted here. VanCleef’s Vengeance (the stat bonus VanCleaf has) or “Whipped Into Shape” (the stats you get after playing berserk)
+
+So certain things are not “cards” but effects. Taking out non “VAN” may solve this
+
+Yes, only keep cards that start with “VAN” in their cardID has fixed the problem (no more weird effect “cards”)
+
+
 ### Console Application
 
 ![Console Screenshot](http://danielyule.github.io/hearthbreaker/_static/console_screenshot.png)

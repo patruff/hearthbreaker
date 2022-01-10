@@ -9,7 +9,7 @@ class MongoAPI:
     def __init__(self, data):
         log.basicConfig(level=log.DEBUG, format='%(asctime)s %(levelname)s:\n%(message)s\n')
         # self.client = MongoClient("mongodb://localhost:27017/")  # When only Mongo DB is running on Docker.
-        self.client = MongoClient("mongodb://mymongo_1:27017/")     # When both Mongo and This application is running on
+        self.client = MongoClient("mongodb://mymongo_1_1:27017/")     # When both Mongo and This application is running on
                                                                     # Docker and we are using Docker Compose
 
         database = data['database']
@@ -113,13 +113,31 @@ def mongo_delete():
 #if __name__ == '__main__':
 #    app.run(debug=True, port=5001, host='0.0.0.0')
 if __name__ == '__main__':
-    app.run(debug=True, port=5001, host='0.0.0.0')
-    data = {
-        "database": "IshmeetDB",
-        "collection": "people",
-    }
-    mongo_write(data)
+    # Pat thinks we should not run the flask app YET
+    # app.run(debug=False, port=5001, host='0.0.0.0')
+
+    # get JSON of replay to insert
+    # Opening JSON file
+    f = open('../test_replay_db_entry.json')
+
+    # returns JSON object as
+    # a dictionary
+    data = json.load(f)
+
+    #data = {
+    #    "database": "IshmeetDB",
+    #    "collection": "people",
+    #}
+
+    data['database'] = "HearthstoneDB"
+    data['collection'] = "replays"
+
+    print(data)
+
+    # mongo_write(data)
     mongo_obj = MongoAPI(data)
     print(json.dumps(mongo_obj.read(), indent=4))
+
+    f.close()
 
 
