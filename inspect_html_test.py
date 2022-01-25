@@ -1,14 +1,18 @@
 import os
-
-from selenium import webdriver
 import time
 
-# options = webdriver.ChromeOptions()
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+
 # options.add_argument("--user-data-dir=C:/Users/patru/AppData/Local/Google/Chrome/User Data/Profile {#}/")
 # options.add_argument("--user-data-dir=C:/Users/patru/AppData/Local/Google/Chrome/User Data/Default/")
 
 # browser = webdriver.Chrome("C:/bin/chromedriver.exe", chrome_options=options)
-browser = webdriver.Chrome(executable_path='chromedriver') # , chrome_options=options)
+# browser = webdriver.Chrome(executable_path='chromedriver') # , chrome_options=options)
+
+browser = webdriver.Chrome(options=chrome_options)
 
 browser.get('https://hsreplay.net/account/login/?next=/games/mine/')
 browser.find_element_by_xpath('//button[@type="submit"]').click()
