@@ -2,9 +2,10 @@
 name: Trigger Site Rebuild on a CRON Schedule
 
 on:
-  schedule:
+ workflow_dispatch:
+  #schedule:
     # Runs "at minute 55 past every hour" (see https://crontab.guru)
-    - cron: '20 * * * *'
+  #  - cron: '20 * * * *'
 jobs:
   build:
     name: Get Latest Replays
@@ -19,7 +20,7 @@ jobs:
               python-version: 3.8 #install the python needed
           - name: execute py script # run the build script .py in the main directory
             run: |
-              python get_replay_build.py
+              python inspect_html_test.py
             env:
               BLIZZARD_USERNAME: ${{ secrets.BLIZZARD_USERNAME }} # if run.py requires passwords..etc, set it as secrets
               BLIZZARD_PASSWORD: ${{ secrets.BLIZZARD_PASSWORD }}
