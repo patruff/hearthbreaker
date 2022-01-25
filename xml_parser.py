@@ -4,6 +4,7 @@ import json
 from datetime import datetime
 from dateutil import parser
 from deck_helper import get_basic_decks
+import sys
 
 known_player = "patruff#11779"
 opponent_player = ""
@@ -33,9 +34,11 @@ known_player_pre_mulligan_hand_names = []
 opponent_player_pre_mulligan_hand_names = []
 
 replay_folder = "C:\\Users\\patru\\PycharmProjects\\hearthbreaker\\hsreplays_xml\\"
-replay_name = "4EUDoPi8WskTsCDJGiLm6G.xml"
+#replay_name = "4EUDoPi8WskTsCDJGiLm6G.xml"
 
 replay_name = "GPFAbQzkavyvmYtGJPDrbi.xml"
+
+replay_name = sys.argv[1]
 path = replay_folder + replay_name
 
 def convert_list_to_string(somelist):
@@ -345,7 +348,15 @@ with open(path) as file:
 
         print(get_basic_decks())
 
+        # return a list of "basic" classic
+        # archetypes, like miracle rogue
+        # of the format {'name': short_deck_name, 'deck_list': load_deck(deck)}
+        # where deck_list looks like a list of card names ['leper_gnome', 'leper_gnome', etc.]
         basic_decks = get_basic_decks()
+
+        # match percent is dumb, it should be based on
+        # cards played so will change it, still a good approximation
+        # and identifies the archetype
 
         opponent_max_match_perc = 0
         opponent_max_match_name = ""
@@ -353,11 +364,14 @@ with open(path) as file:
         known_player_max_match_perc = 0
         known_player_max_match_name = ""
 
+        opponent_archetype_deck = []
+
         for basic_deck in basic_decks:
             opponent_match_perc = len(set(opponent_player_cards_played_names) & set(basic_deck['deck_list'])) / float(len(set(opponent_player_cards_played_names) | set(basic_deck['deck_list']))) * 100
             if opponent_match_perc > opponent_max_match_perc:
                 opponent_max_match_perc = opponent_match_perc
                 opponent_max_match_name = basic_deck['name']
+                opponent_archetype_deck = basic_deck['deck_list']
 
         for basic_deck in basic_decks:
             pat_match_perc = len(set(known_player_cards_played_names) & set(basic_deck['deck_list'])) / float(len(set(known_player_cards_played_names) | set(basic_deck['deck_list']))) * 100
@@ -381,6 +395,19 @@ with open(path) as file:
         known_player_pre_mulligan_hand_names = known_player_cards_mulliganned_names + known_player_cards_kept_names
         opponent_player_pre_mulligan_hand_names = opponent_player_cards_mulliganned_names + opponent_player_cards_kept_names
 
+        print('opponent archetype deck looks like ' + str(opponent_archetype_deck))
+
+        opponent_player_outliers = []
+
+        # get outlier cards
+        for opponent_card in opponent_player_cards_played_names:
+            if opponent_card in opponent_archetype_deck:
+                continue
+            else:
+                opponent_player_outliers.append(opponent_card)
+
+        print('opponent outliers are ' + str(opponent_player_outliers))
+
         # for mongodb, it can't take arrays for values
         # also it can't take nulls so replace "" with "none"
 
@@ -394,6 +421,7 @@ with open(path) as file:
             "_id": replay_name,
             "known_player_class": known_player_class,
             "opponent_player_class": opponent_player_class,
+            "opponent_outlier_cards": convert_list_to_string(opponent_player_outliers),
             "known_player_archetype": known_player_max_match_name,
             "opponent_player_archetype": opponent_max_match_name,
             "known_player_archetype_match_perc": str(known_player_max_match_perc),
@@ -408,8 +436,27 @@ with open(path) as file:
             "opponent_player_decklist": convert_list_to_string(opponent_player_cards_played_names),
         }
 
-        print('game JSON below')
-        print(game_json)
+        import pymongo
 
-        with open('test_replay_db_entry.json', 'w', encoding='utf-8') as f:
-            json.dump(game_json, f, ensure_ascii=False, indent=4)
+        # runing MongoDB in docker
+        myclient = pymongo.MongoClient("mongodb://localhost:5000/")
+        mydb = myclient["HearthstoneDB"]
+        mycol = mydb["replays"]
+
+        mydict = game_json
+
+        replay_in_db = mycol.find({'_id': game_json['_id']}).count()
+
+        if replay_in_db != 0:
+            print('found the replay ' + game_json['_id'] + ' already in mongoDB')
+        else:
+            x = mycol.insert_one(mydict)
+            print('uploaded replay ' + game_json['_id'] + ' to mongoDB')
+
+            with open('xmls_uploaded.txt', 'a') as f:
+                f.write(game_json['_id'] + '\n')
+
+        #with open('test_replay_db_entry.json', 'w', encoding='utf-8') as f:
+        #    json.dump(game_json, f, ensure_ascii=False, indent=4)
+
+

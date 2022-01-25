@@ -1,0 +1,26 @@
+# .github/workflows/get_replays_chron.yml
+name: Trigger Site Rebuild on a CRON Schedule
+
+on:
+  schedule:
+    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    - cron: '20 * * * *'
+jobs:
+  build:
+    name: Get Latest Replays
+    runs-on: ubuntu-latest
+
+    steps:
+          - name: checkout repo content
+            uses: actions/checkout@v2 # checkout the repository content to github runner.
+          - name: setup python
+            uses: actions/setup-python@v2
+            with:
+              python-version: 3.8 #install the python needed
+          - name: execute py script # run the build script .py in the main directory
+            run: |
+              python get_replay_build.py
+            env:
+              BLIZZARD_USERNAME: ${{ secrets.BLIZZARD_USERNAME }} # if run.py requires passwords..etc, set it as secrets
+              BLIZZARD_PASSWORD: ${{ secrets.BLIZZARD_PASSWORD }}
+          - name: export index

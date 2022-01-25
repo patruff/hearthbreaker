@@ -129,8 +129,9 @@ if __name__ == '__main__':
     #    "collection": "people",
     #}
 
-    data['database'] = "HearthstoneDB"
-    data['collection'] = "replays"
+    for thing in data:
+        thing['database'] = "HearthstoneDB"
+        thing['collection'] = "replaysTest"
 
     print(data)
 
