@@ -25,8 +25,8 @@ jobs:
               python-version: 3.8 #install the python needed
           - name: execute py script # run the build script .py in the main directory
             run: |
-              python3 -m pip3 install --upgrade pip
-              pip3 install selenium
+              python3 -m pip install --upgrade pip
+              pip install selenium
               python3 inspect_html_test.py
             env:
               BLIZZARD_USERNAME: ${{ secrets.BLIZZARD_USERNAME }} # if run.py requires passwords..etc, set it as secrets
