@@ -8,7 +8,7 @@ import time
 # options.add_argument("--user-data-dir=C:/Users/patru/AppData/Local/Google/Chrome/User Data/Default/")
 
 # browser = webdriver.Chrome("C:/bin/chromedriver.exe", chrome_options=options)
-browser = webdriver.Chrome(executable_path='C:/Users/patru/PycharmProjects/hearthbreaker/chromedriver.exe') # , chrome_options=options)
+browser = webdriver.Chrome(executable_path='chromedriver.exe') # , chrome_options=options)
 
 browser.get('https://hsreplay.net/account/login/?next=/games/mine/')
 browser.find_element_by_xpath('//button[@type="submit"]').click()
