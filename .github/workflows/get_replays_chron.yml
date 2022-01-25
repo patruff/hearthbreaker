@@ -31,4 +31,3 @@ jobs:
             env:
               BLIZZARD_USERNAME: ${{ secrets.BLIZZARD_USERNAME }} # if run.py requires passwords..etc, set it as secrets
               BLIZZARD_PASSWORD: ${{ secrets.BLIZZARD_PASSWORD }}
-          - name: export index
