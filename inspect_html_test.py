@@ -3,6 +3,11 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
+
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 

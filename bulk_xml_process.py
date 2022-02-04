@@ -14,7 +14,7 @@ for filename in filenames:
     with open('xmls_uploaded.txt', 'r') as f:
         found = False
         for x in f.readlines():
-            if x == filename or x is filename + "\n":
+            if x == filename: #or x is filename + "\n":
                 found = True
 
         if found == True:

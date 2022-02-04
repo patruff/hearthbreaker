@@ -449,6 +449,8 @@ with open(path) as file:
 
         if replay_in_db != 0:
             print('found the replay ' + game_json['_id'] + ' already in mongoDB')
+            with open('xmls_uploaded.txt', 'a') as f:
+                f.write(game_json['_id'] + '\n')
         else:
             x = mycol.insert_one(mydict)
             print('uploaded replay ' + game_json['_id'] + ' to mongoDB')

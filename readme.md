@@ -518,6 +518,10 @@ So certain things are not “cards” but effects. Taking out non “VAN” may 
 
 Yes, only keep cards that start with “VAN” in their cardID has fixed the problem (no more weird effect “cards”)
 
+## Pat Edits continued
+
+Captain's log stardate January 31st, 2022. Have completed more or less the NoSQL database of matchups
+based on my games (of which there are several )
 
 ### Console Application
 
