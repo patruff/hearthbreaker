@@ -1,0 +1,434 @@
+1645539872144	geckodriver	INFO	Listening on 127.0.0.1:64500
+1645539875226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64501" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofile1ZsQ91"
+1645539875441	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofile1ZsQ91\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64501/devtools/browser/44b6597b-2496-4a40-9763-772da2023510
+1645539876970	Marionette	INFO	Listening on port 64507
+1645539877288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645540272400	Marionette	INFO	Stopped listening on port 64507
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilereyrmb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64605/devtools/browser/d5ce71f5-06ac-444c-ad82-b9edb805aace
+1645539939566	Marionette	INFO	Listening on port 64613
+1645539939969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645540272403	Marionette	INFO	Stopped listening on port 64613
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 4200, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+ers\\patru\\AppData\\Local\\Temp\\rust_mozprofilewlhYF7"
+1645540059162	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilewlhYF7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64751/devtools/browser/648e33e9-2184-4a2c-9a27-a8e255b29ee4
+1645540060632	Marionette	INFO	Listening on port 64758
+1645540060999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645540272403	Marionette	INFO	Stopped listening on port 64758
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 2492, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+ers\\patru\\AppData\\Local\\Temp\\rust_mozprofileUCjMcL"
+1645540151626	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileUCjMcL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64874/devtools/browser/ade7cbd7-9d88-45a3-8f23-55a4edcd108f
+1645540153132	Marionette	INFO	Listening on port 64884
+1645540153481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645540272403	Marionette	INFO	Stopped listening on port 64884
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 16440, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+540215491	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilel0UZsa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64975/devtools/browser/417a01ba-4d75-45fb-9e89-0b9a5dff009a
+1645540217005	Marionette	INFO	Listening on port 64985
+1645540217331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval line 5505 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620 line 1 > eval line 4388 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 1 > eval line 6581 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645540243555	Marionette	INFO	Stopped listening on port 64985
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645540251186	geckodriver	INFO	Listening on 127.0.0.1:65094
+1645540254265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65095" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofile0XUtOF"
+1645540254470	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofile0XUtOF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65095/devtools/browser/30a12ae4-d661-410a-9a30-c353e5f1fe47
+1645540255944	Marionette	INFO	Listening on port 65101
+1645540256327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645540269616	Marionette	INFO	Stopped listening on port 65101
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645540275903	geckodriver	INFO	Listening on 127.0.0.1:65184
+1645540278980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65185" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilecmDjwm"
+1645540279186	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilecmDjwm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65185/devtools/browser/74cc5433-fbc7-4106-94be-9af706ccc06e
+1645540280663	Marionette	INFO	Listening on port 65191
+1645540281040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645540306346	Marionette	INFO	Stopped listening on port 65191
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645540316754	geckodriver	INFO	Listening on 127.0.0.1:65260
+1645540319820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65261" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofile7M2gwn"
+1645540320028	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofile7M2gwn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65261/devtools/browser/ac0732fc-1140-4b8f-b40a-cf53c9193469
+1645540321492	Marionette	INFO	Listening on port 65267
+1645540321888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645540328875	Marionette	INFO	Stopped listening on port 65267
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645540388630	geckodriver	INFO	Listening on 127.0.0.1:65365
+1645540391722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65366" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileBIYexu"
+1645540391932	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileBIYexu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65366/devtools/browser/77acb174-ac9b-4692-bebc-6e474c94ac92
+1645540393406	Marionette	INFO	Listening on port 65375
+1645540393766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:65462
+1645540436727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65463" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilepYlwYu"
+1645540436935	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilepYlwYu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65463/devtools/browser/2419da29-bdef-4322-abee-c649b117225b
+1645540438398	Marionette	INFO	Listening on port 65470
+1645540438786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 20940, MediaDecoderStateMachine #1] WARNING: 2378b746660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 879 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #1] WARNING: 2378f8e2740 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://hsreplay.net"
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://us.battle.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://us.battle.net"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://us.battle.net"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+[Child 20940, MediaDecoderStateMachine #1] WARNING: 2378b7e1d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 4261 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #1] WARNING: 2378f8402e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 20940, MediaDecoderStateMachine #1] WARNING: 2378d466ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 20940, MediaDecoderStateMachine #1] WARNING: 2378f815c80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.vindicosuite.com/uploads_sm/html5/us/Choose_New_Jersey/113021/728x90/index.html?Click=https%3A%2F%2Fevents-us-east-1.ipredictive.com%2Fd%2Ftrack%2Fclick%3Fzid%3Drubicon_1_0_1%26sid%3D87d068a5-93ec-11ec-b2d6-1fbfbb0aa8a2-1%26crid%3D21630069%26adid%3D75676%26oid%3D1592338%26cid%3D309412%26spid%3D286%26pubid%3D48%26site_id%3D3016111376%26auid%3D3106246%26algid%3D4%26algrev%3D1%26offpc%3D0.926%26maxbid%3D1.000%26optpc%3D-1.000%26cstpc%3D0.926%26xts%3D1645626864%26pbap%3DCgY3Mjh4OTAQBhoBZiIBNSoHTW96aWxsYTIHRmlyZWZveDoHV2luZG93c0ICMTBSAmVuWhFQRVJTT05BTF9DT01QVVRFUmAAagZCQU5ORVKKAQItNZABAJoBIDFiZTM3M2UwNDgxNWExMTMxZDg0MzkyNDdiM2QyNDAwpQEAAAAArQEAAAAAsgEFMTc0ODfAAQDIAQLSAQZQVUJMSUPaAS0KCVJQLUFQLTMxMRF7FK5H4Xq0PxoFRklSU1QiBTY1NjM1MAA5AAAAAAAAAADaAS0KCVJQLUFQLTI0NRF7FK5H4Xq0PxoFRklSU1QiBTE3NDg3MAA5AAAAAAAAAADqAQRJQUIx-gEgYTliMTcwN2NmNGMxOGE4OGUxNThkMTg5NzhhYjRlNzOCAig0NzczYjE2ZmJiMWUyMjZhZjhlZDBhNzVmMDdlMGI1MTQ5ZWEwZGU3igIDUFVCkgIMMTAwLjEuMTQ5Ljc5mgIDRTJFoAIAsAIB8gJOTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6OTcuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC85Ny4w-gIPRmlyZWZveCBEZXNrdG9wggMFMDcwMzCKAwdIb2Jva2VukgMDNTAxmgMCTkqiAwJVU6oDAjEwsQN7FK5H4Xq0P7oDBzUwOTkxMzPCAwM1MDHKAwxWZXJpem9uIEZpb3PSAwR3aWZp2gMMaHNyZXBsYXkubmV06gMoZDE4Nzg1NjEyNTEwOTlmMmI3NmMzNDlmMWRlM2M5NGVmYTllZjNiOPoDFjconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.firefox.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.firefox.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645540534940	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+1645540534940	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1529:18) JS Stack trace: _error@FxAccounts.jsm:1529:18
+withSessionToken@FxAccounts.jsm:788:18
+console.info: "Skipping device list refresh; not signed in"
+1645540534941	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+1645540534941	FirefoxAccouJavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/stackadaptdisplay515602019759/moatad.js#moatClientLevel1=17555&moatClientLevel2=203490&moatClientLevel3=1689770&moatClientLevel4=/13326244/HSR0728x0090_1_D&moatClientSlicer1=116&moatClientSlicer2=hsreplay.net&moatClientSlicer3=2719019867620450718&zMoatIMP=7169009022748953223&zMoatMAID=&zMoatAuction=1-4194-164554058458996605804060-1, line 247: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #2] WARNING: 2378d4a13c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.yieldmo.com/ym.0.js, line 2: TypeError: this.topWindow() is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 6430 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #3] WARNING: 23798268660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStreJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+lesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 3183 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/ix/talon-1.0.39.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 5504 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_rJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+moved. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 7426 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/verizonmediasspvideo234910527399/moatvideo.js#_moatApi88696219, line 254: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #4] WARNING: 23798248120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:3JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ror when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://static.yieldmo.com/ym.0.js, line 2: TypeError: this.topWindow() is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 5301 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/verizonmediasspvideo234910527399/moatvideo.js#_moatApi64229557, line 254: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #5] WARNING: 237JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+lds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 1825 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/foxdealerdbmvpaid852137206095/moatvideo.js#_moatApi85732643, line 254: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #6] WARNJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ile /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 4440 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://cdn.vindicosuite.com/uploads_sm/html5/us/Choose_New_Jersey/113021/728x90/index.html?Click=https%3A%2F%2Fevents-us-east-1.ipredictive.com%2Fd%2Ftrack%2Fclick%3Fzid%3Drubicon_1_0_1%26sid%3D3544717f-93ee-11ec-aed9-8f7745052612-1%26crid%3D21630069%26adid%3D75676%26oid%3D1592338%26cid%3D309412%26spid%3D286%26pubid%3D48%26site_id%3D3016111376%26auid%3D3106246%26algid%3D1%26algrev%3D1%26offpc%3D0.926%26maxbid%3D1.000%26optpc%3D-1.000%26cstpc%3D0.926%26xts%3D1645627584%26pbap%3DCgY3Mjh4OTAQBRoBbSIBNSoHTW96aWxsYTIHRmlyZWZveDoHV2luZG93c0ICMTBSAmVuWhFQRVJTT05BTF9DT01QVVRFUmAAagZCQU5ORVKKAQItNZABAJoBIDFiZTM3M2UwNDgxNWExMTMxZDg0MzkyNDdiM2QyNDAwpQEAAAAArQEAAAAAsgEFMTc0ODfAAQDIAQLSAQZQVUJMSUPaAS0KCVJQLUFQLTI0NRF7FK5H4Xq0PxoFRklSU1QiBTE3NDg3MAA5AAAAAAAAAADaAS0KCVJQLUFQLTMxMRF7FK5H4Xq0PxoFRklSU1QiBTY1NjM1MAA5AAAAAAAAAADqAQRJQUIx-gEgYTliMTcwN2NmNGMxOGE4OGUxNThkMTg5NzhhYjRlNzOCAig0NzczYjE2ZmJiMWUyMjZhZjhlZDBhNzVmMDdlMGI1MTQ5ZWEwZGU3igIDUFVCkgIMMTAwLjEuMTQ5Ljc5mgIDRTJFoAIAsAIB8gJOTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6OTcuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC85Ny4w-gIPRmlyZWZveCBEZXNrdG9wggMFMDcwMzCKAwdIb2Jva2VukgMDNTAxmgMCTkqiAwJVU6oDAjEwsQN7FK5H4Xq0P7oDBzUwOTkxMzPCAwM1MDHKAwxWZXJpem9uIEZpb3PSAwR3aWZp2gMMaHNyZXBsYXkubmV06gMoOTQxNjhjMjA2NWQ0YWZkMDY2OTUyMzEwNGQ1ZTgxMTAyYzQ0NGQ5ZvoDFjBiZmQ2NmQ1MjlhNTU4MDc6MTcyNzKCBAc0Nix4IzQ2qQQAAACgiUNZP7EE_Knx0k1iUD_KBA84MzAsIDkzMCwgOTIwMzDhBAAAAECvlMU_6gQCOTfyBAdGaXJlZm94-gQCTkqCBQQxWU5OkgUFMTcyNzKaBQlSUC1BUC0yNDXKBQEx0gUqcnViaWNvbi13LWViNDQ0NTIyZDJjYWRkY2U3YmE0MmI3NTQ1NDRmOGYw2gUMMTAwLjEuMTQ5Ljc58AUA%26ez_p%3D%26rd%3Dhttps%3A%2F%2Fx.vindicosuite.com%2Fclick%2F%3Fv%3D5%3Bm%3D3%3Bl%3D558263%3Bc%3D1133719%3Bb%3D5187795%3Ba%3D401775%3Bts%3D%24%7BADELPHIC_CACHE_BUSTER%7D%3Bpc%3D1%3Bad%3DCLeJIhDu4Q0YuTMgESgEMP2hATiJhwJAloMWSM2WIVCXmUVY09G8AmDvwhhotKswcAJ4AYgBAJABAZgBAaIBEzU4NDY3Mjk0ODY3NzYwNTM0MjSyAQVWSURFT7gBAcABAMgBANABANgBAOgBwt2an8Mv%3Bep%3D1%3Bdct%3Dhttps%3A%2F%2Fbs.serving-sys.com%2FServing%2FadServer.bs%3Fcn%3Dtrd%26pli%3D1077376880%26gdpr%3D%24%7BGDPR%7D%26gdpr_consent%3D%24%7BGDPR_CONSENT_68%7D%26adid%3D1085614043%26ord%3D%24%7BADELPHIC_CACHE_BUSTER%7D, line 939: SyntaxError: illegal character U+201C
+JavaScript warning: https://z.moatads.com/foxdealerdbmvpaid852137206095/moatvideo.js#_moatApi62168648, line 254: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #7] WARNING: 23798248580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 701 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 5067 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/yahoodisplay873773666324/moatad.js#moatClientLevel1=Yahoo!&moatClientLevel2=361078&moatClientLevel3=1879299&moatClientLevel4=4235810&moatClientSlicer1=3&moatClientSlicer2=0&zMoatAuctionID=3167746379713685878:1645541305421&zMoatAdReqDomain=hsreplay.net, line 247: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/foxdealerdbmvpaid852137206095/moatvideo.js#_moatApi83349339, line 254: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #8] WARNING: 237959fe580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 7566 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 3190 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/foxdealerdbmvpaid852137206095/moatvideo.js#_moatApi62723519, line 254: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #9] WARNING: 23797b4ee40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 2049 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 20940, MediaDecoderStateMachine #10] WARNING: 2379a728f20 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 20940, MediaDecoderStateMachine #11] WARNING: 23795dfe4a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 3181 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ost:53509/devtools/browser/5efedcb3-38a3-45dd-b6ab-ef7d5f9fbee3
+1645541526320	Marionette	INFO	Listening on port 53515
+1645541526661	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1645541585025	geckodriver	INFO	Listening on 127.0.0.1:53647
+1645541588122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53648" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileDmoNdo"
+1645541588335	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileDmoNdo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53648/devtools/browser/d8c5cefc-310e-4d92-a64b-771b9ce42e24
+1645541589907	Marionette	INFO	Listening on port 53658
+1645541590184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1645541867310	geckodriver	INFO	Listening on 127.0.0.1:53938
+1645541870378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53939" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofile9OzRNe"
+1645541870592	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofile9OzRNe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53939/devtools/browser/355d128e-03ec-46b3-a761-0fe27ecfaef1
+1645541872168	Marionette	INFO	Listening on port 53945
+1645541872445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1645615344303	geckodriver	INFO	Listening on 127.0.0.1:64985
+1645615347357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64986" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilexwMGbe"
+1645615347606	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilexwMGbe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64986/devtools/browser/a7f22172-28f5-4566-8b52-d76b47539a06
+1645615349172	Marionette	INFO	Listening on port 64993
+1645615349428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1645617032878	geckodriver	INFO	Listening on 127.0.0.1:50225
+1645617035926	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50226" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileC8J69v"
+1645617036132	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileC8J69v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50226/devtools/browser/346e50e1-dbb4-468c-b26e-2da4f896d181
+1645617037585	Marionette	INFO	Listening on port 50233
+1645617037976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1645618837167	geckodriver	INFO	Listening on 127.0.0.1:49599
+1645618840235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49600" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileO5OPaq"
+1645618840451	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileO5OPaq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49600/devtools/browser/b28c4745-f3b5-4e41-b9cb-664f2dd03d98
+1645618842116	Marionette	INFO	Listening on port 49607
+1645618842303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645618854600	Marionette	INFO	Stopped listening on port 49607
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1647008944490	geckodriver	INFO	Listening on 127.0.0.1:59692
+1647008947543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59693" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileo8rprH"
+1647008947920	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofileo8rprH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59693/devtools/browser/57c029fd-7203-46f3-a376-380b980a0999
+1647008950155	Marionette	INFO	Listening on port 59701
+1647008950224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pjpxxb74db4zmstba.ay.delivery/ivt/pjpXXB74dB4zmStba/ivt.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 18456, MediaDecoderStateMachine #1] WARNING: 1d15a0f4ba0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xt8fZ__SaXi8rLOjRFpxOtLjv0mS66MIGtFrZKZOLkM.js line 1 > eval line 1975 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xt8fZ__SaXi8rLOjRFpxOtLjv0mS66MIGtFrZKZOLkM.js line 1 > eval line 1256 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 18456, MediaDecoderStateMachine #1] WARNING: 1d15b770d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xt8fZ__SaXi8rLOjRFpxOtLjv0mS66MIGtFrZKZOLkM.js line 1 > eval line 4275 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xt8fZ__SaXi8rLOjRFpxOtLjv0mS66MIGtFrZKZOLkM.js line 1 > eval line 5983 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 18456, MediaDecoderStateMachine #1] WARNING: 1d15e42d2e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+1647008973804	geckodriver	INFO	Listening on 127.0.0.1:51523
+1647008976868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51524" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilepVj3WK"
+1647008977124	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilepVj3WK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51524/devtools/browser/527a1a4e-b282-4120-80c9-8fa05a2ce023
+1647008978647	Marionette	INFO	Listening on port 51531
+1647008978960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pjpxxb74db4zmstba.ay.delivery/ivt/pjpXXB74dB4zmStba/ivt.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 15560, MediaDecoderStateMachine #1] WARNING: 26d78585580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://hsreplay.net"
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://us.battle.net"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://us.battle.net"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://us.battle.net"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://hsreplay.net/ line 2 > injectedScript, line 1: ReferenceError: nulldocument is not defined
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-TNWZ7LM, line 36: uncaught exception: [object Object]
+JavaScript error: https://hsreplay.net/ line 319 > injectedScript, line 2: ReferenceError: __tcfapi is not defined
+[Child 15560, MediaDecoderStateMachine #1] WARNING: 26d78585660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 15560, MediaDecoderStateMachine #1] WARNING: 26d7c57a660 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+[Child 15560, MediaDecoderStateMachine #1] WARNING: 26d7c57a200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+1647009055631	geckodriver	INFO	Listening on 127.0.0.1:57201
+1647009058679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57202" "-no-remote" "-profile" "C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilel7URR2"
+1647009058942	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\patru\\AppData\\Local\\Temp\\rust_mozprofilel7URR2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57202/devtools/browser/eadb7897-28a2-4f3b-a5af-f4c47ca4290c
+1647009060527	Marionette	INFO	Listening on port 57219
+1647009060751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.

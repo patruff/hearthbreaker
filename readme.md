@@ -32,7 +32,8 @@ From there you just run ```python download_latest_hsnet_replays.py``` to scrape 
 Then with the replay IDs I can use Selenium to grab the XMLs by running ```python download_replay_selenium.py``` which works
 off of the file created by the other script. One troubleshooting step is that I was getting an error from my PyCharm IDE
 (something like a unicode error, so just go into File->Settings->Editor and make sure the Encodings for the Project 
-and globally are just UTF-8).
+and globally are just UTF-8). After running these 2 there are XML files to process. You can process all the XML
+and add it to MongoDB by running ```bulk_xml_process.py```
 
 ### Pat edits 2
 

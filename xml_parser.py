@@ -35,8 +35,8 @@ opponent_player_pre_mulligan_hand_names = []
 
 replay_folder = "C:\\Users\\patru\\PycharmProjects\\hearthbreaker\\hsreplays_xml\\"
 #replay_name = "4EUDoPi8WskTsCDJGiLm6G.xml"
-
-replay_name = "GPFAbQzkavyvmYtGJPDrbi.xml"
+#replay_name = "GPFAbQzkavyvmYtGJPDrbi.xml"
+replay_name = "Uwb3onx3yKvTdYTturX7PF.xml"
 
 replay_name = sys.argv[1]
 path = replay_folder + replay_name

@@ -18,6 +18,7 @@ for filename in filenames:
                 found = True
 
         if found == True:
+            found = False
             continue
         else:
             replay_name = filename.strip()

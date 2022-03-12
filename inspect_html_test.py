@@ -4,9 +4,12 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from dotenv import load_dotenv, find_dotenv
+from dotenv import load_dotenv
 
-load_dotenv(find_dotenv())
+load_dotenv()
+
+BLIZZARD_USERNAME = os.environ.get("BLIZZARD_USERNAME")
+BLIZZARD_PASSWORD = os.environ.get("BLIZZARD_PASSWORD")
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -30,8 +33,8 @@ time.sleep(10)
 username = browser.find_element_by_id("accountName")
 password = browser.find_element_by_id("password")
 
-mybnetuser = os.environ['BLIZZARD_USERNAME']
-mybnetpassword = os.environ['BLIZZARD_PASSWORD']
+mybnetuser = BLIZZARD_USERNAME
+mybnetpassword = BLIZZARD_PASSWORD
 
 username.send_keys(mybnetuser)
 password.send_keys(mybnetpassword)
